@@ -1,0 +1,343 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'yo',
+1 verbose cli   'grunt-cli',
+1 verbose cli   'bower' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'yo', null ]
+7 verbose cache add name=undefined spec="yo" args=["yo",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'yo',
+8 verbose parsed url   path: 'yo',
+8 verbose parsed url   href: 'yo' }
+9 verbose cache add [ 'grunt-cli', null ]
+10 verbose cache add name=undefined spec="grunt-cli" args=["grunt-cli",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'grunt-cli',
+11 verbose parsed url   path: 'grunt-cli',
+11 verbose parsed url   href: 'grunt-cli' }
+12 verbose cache add [ 'bower', null ]
+13 verbose cache add name=undefined spec="bower" args=["bower",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'bower',
+14 verbose parsed url   path: 'bower',
+14 verbose parsed url   href: 'bower' }
+15 silly lockFile c41975d1-yo yo
+16 verbose lock yo /Users/oakley/.npm/c41975d1-yo.lock
+17 silly lockFile 671ef8ac-grunt-cli grunt-cli
+18 verbose lock grunt-cli /Users/oakley/.npm/671ef8ac-grunt-cli.lock
+19 silly lockFile 206e3ce5-bower bower
+20 verbose lock bower /Users/oakley/.npm/206e3ce5-bower.lock
+21 silly lockFile c41975d1-yo yo
+22 silly lockFile c41975d1-yo yo
+23 silly lockFile 671ef8ac-grunt-cli grunt-cli
+24 silly lockFile 671ef8ac-grunt-cli grunt-cli
+25 silly lockFile 206e3ce5-bower bower
+26 silly lockFile 206e3ce5-bower bower
+27 verbose addNamed [ 'yo', '' ]
+28 verbose addNamed [ null, '' ]
+29 silly lockFile d937c28e-yo yo@
+30 verbose lock yo@ /Users/oakley/.npm/d937c28e-yo.lock
+31 verbose addNamed [ 'grunt-cli', '' ]
+32 verbose addNamed [ null, '' ]
+33 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+34 verbose lock grunt-cli@ /Users/oakley/.npm/d63f3d0b-grunt-cli.lock
+35 verbose addNamed [ 'bower', '' ]
+36 verbose addNamed [ null, '' ]
+37 silly lockFile 1240aab1-bower bower@
+38 verbose lock bower@ /Users/oakley/.npm/1240aab1-bower.lock
+39 silly addNameRange { name: 'yo', range: '', hasData: false }
+40 silly addNameRange { name: 'grunt-cli', range: '', hasData: false }
+41 silly addNameRange { name: 'bower', range: '', hasData: false }
+42 verbose url raw yo
+43 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+44 verbose url resolved https://registry.npmjs.org/yo
+45 info trying registry request attempt 1 at 17:50:46
+46 verbose etag "12EOAWZC9SJHQT5HO8IEY1B25"
+47 http GET https://registry.npmjs.org/yo
+48 verbose url raw grunt-cli
+49 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-cli' ]
+50 verbose url resolved https://registry.npmjs.org/grunt-cli
+51 info trying registry request attempt 1 at 17:50:46
+52 verbose etag "4XH5AA8HYKI9MKUSK6W2GRMC7"
+53 http GET https://registry.npmjs.org/grunt-cli
+54 verbose url raw bower
+55 verbose url resolving [ 'https://registry.npmjs.org/', './bower' ]
+56 verbose url resolved https://registry.npmjs.org/bower
+57 info trying registry request attempt 1 at 17:50:46
+58 verbose etag "75REDA9KH34YSVN3IB1EVHI26"
+59 http GET https://registry.npmjs.org/bower
+60 http 304 https://registry.npmjs.org/yo
+61 silly registry.get cb [ 304,
+61 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+61 silly registry.get     etag: '"12EOAWZC9SJHQT5HO8IEY1B25"',
+61 silly registry.get     date: 'Sun, 14 Apr 2013 21:50:46 GMT',
+61 silly registry.get     'content-length': '0' } ]
+62 verbose etag yo from cache
+63 http 304 https://registry.npmjs.org/grunt-cli
+64 silly registry.get cb [ 304,
+64 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+64 silly registry.get     etag: '"4XH5AA8HYKI9MKUSK6W2GRMC7"',
+64 silly registry.get     date: 'Sun, 14 Apr 2013 21:50:46 GMT',
+64 silly registry.get     'content-length': '0' } ]
+65 verbose etag grunt-cli from cache
+66 silly addNameRange number 2 { name: 'yo', range: '', hasData: true }
+67 silly addNameRange versions [ 'yo',
+67 silly addNameRange   [ '1.0.0-beta.1', '1.0.0-beta.2', '1.0.0-beta.3', '1.0.0-beta.4' ] ]
+68 verbose addNamed [ 'yo', '1.0.0-beta.4' ]
+69 verbose addNamed [ '1.0.0-beta.4', '1.0.0-beta.4' ]
+70 silly lockFile 96aa0531-yo-1-0-0-beta-4 yo@1.0.0-beta.4
+71 verbose lock yo@1.0.0-beta.4 /Users/oakley/.npm/96aa0531-yo-1-0-0-beta-4.lock
+72 silly addNameRange number 2 { name: 'grunt-cli', range: '', hasData: true }
+73 silly addNameRange versions [ 'grunt-cli',
+73 silly addNameRange   [ '0.1.0',
+73 silly addNameRange     '0.1.1',
+73 silly addNameRange     '0.1.2',
+73 silly addNameRange     '0.1.3',
+73 silly addNameRange     '0.1.4',
+73 silly addNameRange     '0.1.5',
+73 silly addNameRange     '0.1.6',
+73 silly addNameRange     '0.1.7' ] ]
+74 verbose addNamed [ 'grunt-cli', '0.1.7' ]
+75 verbose addNamed [ '0.1.7', '0.1.7' ]
+76 silly lockFile 7b53af87-grunt-cli-0-1-7 grunt-cli@0.1.7
+77 verbose lock grunt-cli@0.1.7 /Users/oakley/.npm/7b53af87-grunt-cli-0-1-7.lock
+78 verbose read json /Users/oakley/.npm/yo/1.0.0-beta.4/package/package.json
+79 verbose read json /Users/oakley/.npm/grunt-cli/0.1.7/package/package.json
+80 http 304 https://registry.npmjs.org/bower
+81 silly registry.get cb [ 304,
+81 silly registry.get   { server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+81 silly registry.get     etag: '"75REDA9KH34YSVN3IB1EVHI26"',
+81 silly registry.get     date: 'Sun, 14 Apr 2013 21:50:46 GMT',
+81 silly registry.get     'content-length': '0' } ]
+82 verbose etag bower from cache
+83 silly lockFile 7b53af87-grunt-cli-0-1-7 grunt-cli@0.1.7
+84 silly lockFile 7b53af87-grunt-cli-0-1-7 grunt-cli@0.1.7
+85 silly lockFile 96aa0531-yo-1-0-0-beta-4 yo@1.0.0-beta.4
+86 silly lockFile 96aa0531-yo-1-0-0-beta-4 yo@1.0.0-beta.4
+87 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+88 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+89 silly lockFile d937c28e-yo yo@
+90 silly lockFile d937c28e-yo yo@
+91 silly addNameRange number 2 { name: 'bower', range: '', hasData: true }
+92 silly addNameRange versions [ 'bower',
+92 silly addNameRange   [ '0.1.0',
+92 silly addNameRange     '0.1.2',
+92 silly addNameRange     '0.1.3',
+92 silly addNameRange     '0.2.0',
+92 silly addNameRange     '0.3.0',
+92 silly addNameRange     '0.3.1',
+92 silly addNameRange     '0.3.2',
+92 silly addNameRange     '0.4.0',
+92 silly addNameRange     '0.5.0',
+92 silly addNameRange     '0.5.1',
+92 silly addNameRange     '0.6.0',
+92 silly addNameRange     '0.6.1',
+92 silly addNameRange     '0.6.2',
+92 silly addNameRange     '0.6.3',
+92 silly addNameRange     '0.6.4',
+92 silly addNameRange     '0.6.5',
+92 silly addNameRange     '0.6.6',
+92 silly addNameRange     '0.6.7',
+92 silly addNameRange     '0.6.8',
+92 silly addNameRange     '0.7.0',
+92 silly addNameRange     '0.7.1',
+92 silly addNameRange     '0.8.0',
+92 silly addNameRange     '0.8.1',
+92 silly addNameRange     '0.8.2',
+92 silly addNameRange     '0.8.3',
+92 silly addNameRange     '0.8.4',
+92 silly addNameRange     '0.8.5',
+92 silly addNameRange     '0.8.6' ] ]
+93 verbose addNamed [ 'bower', '0.8.6' ]
+94 verbose addNamed [ '0.8.6', '0.8.6' ]
+95 silly lockFile cbe2951b-bower-0-8-6 bower@0.8.6
+96 verbose lock bower@0.8.6 /Users/oakley/.npm/cbe2951b-bower-0-8-6.lock
+97 verbose read json /Users/oakley/.npm/bower/0.8.6/package/package.json
+98 silly lockFile cbe2951b-bower-0-8-6 bower@0.8.6
+99 silly lockFile cbe2951b-bower-0-8-6 bower@0.8.6
+100 silly lockFile 1240aab1-bower bower@
+101 silly lockFile 1240aab1-bower bower@
+102 silly resolved [ { name: 'grunt-cli',
+102 silly resolved     description: 'The grunt command line interface.',
+102 silly resolved     version: '0.1.7',
+102 silly resolved     author: { name: 'Grunt Team' },
+102 silly resolved     homepage: 'http://gruntjs.com/',
+102 silly resolved     repository: { type: 'git', url: 'git://github.com/gruntjs/grunt-cli.git' },
+102 silly resolved     bugs: { url: 'http://github.com/gruntjs/grunt-cli/issues' },
+102 silly resolved     licenses: [ [Object] ],
+102 silly resolved     bin: { grunt: 'bin/grunt' },
+102 silly resolved     engines: { node: '>= 0.8.0' },
+102 silly resolved     scripts: { test: './bin/grunt test' },
+102 silly resolved     preferGlobal: true,
+102 silly resolved     dependencies: { nopt: '~1.0.10', 'findup-sync': '~0.1.0', resolve: '~0.3.1' },
+102 silly resolved     devDependencies: { grunt: '~0.4.0', 'grunt-contrib-jshint': '~0.2.0' },
+102 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+102 silly resolved     readme: '# grunt-cli [![Build Status](https://secure.travis-ci.org/gruntjs/grunt-cli.png?branch=master)](http://travis-ci.org/gruntjs/grunt-cli)\n> The grunt command line interface.\n\nInstall this globally and you\'ll have access to the `grunt` command anywhere on your system.\n\n```shell\nnpm install -g grunt-cli\n```\n\n**Note:** The job of the `grunt` command is to load and run the version of grunt you have installed locally to your project, irrespective of its version.  Starting with grunt v0.4, you should never install grunt itself globally.  For more information about why, [please read this](http://blog.nodejs.org/2011/03/23/npm-1-0-global-vs-local-installation).\n\nSee the grunt [Getting Started](http://gruntjs.com/getting-started) guide for more information.\n\n## Shell tab auto-completion\nTo enable bash tab auto-completion for grunt, add the following line to your `~/.bashrc` file. Currently, the only supported shell is bash.\n\n```bash\neval "$(grunt --completion=bash)"\n```\n\n## Installing grunt-cli locally\nIf you don\'t have administrator rights, you may need to install grunt-cli locally to your project using `npm install grunt-cli --save-dev`.  Unfortunately, this will not put the `grunt` executable in your PATH.  You\'ll need to specify its explicit location when executing it, eg: `./node_modules/.bin/grunt`,\n\nNote: Using grunt-cli in this way is unsupported.',
+102 silly resolved     readmeFilename: 'README.md',
+102 silly resolved     _id: 'grunt-cli@0.1.7',
+102 silly resolved     _from: 'grunt-cli@' },
+102 silly resolved   { name: 'yo',
+102 silly resolved     version: '1.0.0-beta.4',
+102 silly resolved     description: 'CLI tool for scaffolding out Yeoman projects',
+102 silly resolved     keywords:
+102 silly resolved      [ 'front-end',
+102 silly resolved        'development',
+102 silly resolved        'dev',
+102 silly resolved        'build',
+102 silly resolved        'web',
+102 silly resolved        'tool',
+102 silly resolved        'cli',
+102 silly resolved        'scaffold',
+102 silly resolved        'stack' ],
+102 silly resolved     homepage: 'http://yeoman.io',
+102 silly resolved     bugs: 'https://github.com/yeoman/yo/issues',
+102 silly resolved     author: { name: 'Chrome Developer Relations' },
+102 silly resolved     bin: { yo: 'bin/yo' },
+102 silly resolved     repository: { type: 'git', url: 'git://github.com/yeoman/yo.git' },
+102 silly resolved     scripts: { test: 'mocha test/test.js' },
+102 silly resolved     dependencies:
+102 silly resolved      { 'yeoman-generator': '~0.10.4',
+102 silly resolved        'generator-webapp': '~0.1.6',
+102 silly resolved        'generator-mocha': '~0.1.1',
+102 silly resolved        colors: '~0.6.0',
+102 silly resolved        nopt: '~2.1.1',
+102 silly resolved        lodash: '~1.1.1',
+102 silly resolved        'update-notifier': '~0.1.3',
+102 silly resolved        insight: '~0.1.0' },
+102 silly resolved     devDependencies: { mocha: '~1.9.0', ronn: '~0.4.0', grunt: '~0.4.1' },
+102 silly resolved     engines: { node: '>=0.8.0' },
+102 silly resolved     preferGlobal: true,
+102 silly resolved     licenses: [ [Object] ],
+102 silly resolved     readme: '# Yo [![Build Status](https://secure.travis-ci.org/yeoman/yo.png?branch=master)](http://travis-ci.org/yeoman/yo)\n\nCLI tool for scaffolding out [Yeoman](https://github.com/yeoman/yeoman) projects\n\n## [Documentation](https://github.com/yeoman/yeoman/wiki)\n\n\n## Contribute\n\nSee the [contributing docs](https://github.com/yeoman/yeoman/blob/master/contributing.md)\n\n\n## License\n\n[BSD license](http://opensource.org/licenses/bsd-license.php) and copyright Google\n',
+102 silly resolved     readmeFilename: 'readme.md',
+102 silly resolved     _id: 'yo@1.0.0-beta.4',
+102 silly resolved     _from: 'yo@' },
+102 silly resolved   { name: 'bower',
+102 silly resolved     description: 'The browser package manager.',
+102 silly resolved     version: '0.8.6',
+102 silly resolved     author: { name: 'Twitter' },
+102 silly resolved     licenses: [ [Object] ],
+102 silly resolved     main: 'lib',
+102 silly resolved     homepage: 'http://twitter.github.com/bower',
+102 silly resolved     engines: { node: '>=0.8.0' },
+102 silly resolved     dependencies:
+102 silly resolved      { tmp: '~0.0.16',
+102 silly resolved        glob: '~3.1.14',
+102 silly resolved        nopt: '~2.0.0',
+102 silly resolved        archy: '~0.0.2',
+102 silly resolved        async: '~0.2.5',
+102 silly resolved        colors: '~0.6.0-1',
+102 silly resolved        rimraf: '~2.0.3',
+102 silly resolved        mkdirp: '~0.3.4',
+102 silly resolved        semver: '~1.1.0',
+102 silly resolved        request: '~2.11.4',
+102 silly resolved        fstream: '~0.1.19',
+102 silly resolved        'hogan.js': '~2.0.0',
+102 silly resolved        lodash: '~1.0.1',
+102 silly resolved        'read-package-json': '~0.1.8',
+102 silly resolved        stable: '~0.1.2',
+102 silly resolved        rc: '~0.0.6',
+102 silly resolved        unzip: '0.1.4',
+102 silly resolved        tar: '~0.1.13',
+102 silly resolved        promptly: '~0.1.0' },
+102 silly resolved     scripts: { test: 'mocha --reporter spec --timeout 40000' },
+102 silly resolved     devDependencies: { mocha: '~1.8.1', nock: '~0.13.5' },
+102 silly resolved     bin: { bower: 'bin/bower' },
+102 silly resolved     preferGlobal: true,
+102 silly resolved     readme: 'BOWER [![Build Status](https://secure.travis-ci.org/twitter/bower.png)](http://travis-ci.org/twitter/bower)\n=====\n\n### Introduction\n\nBower is a package manager for the web. Bower lets you easily install assets such as images, CSS and JavaScript, and manages dependencies for you.\n\nFor example, to install a package, run:\n\n    bower install jquery\n\nThis will download jQuery to `./components/jquery`. That\'s it. The idea is that Bower does package management and package management only.\n\n### Installing Bower\n\nBower is installed using [Node](http://nodejs.org/) and [npm](http://npmjs.org/) (oh my, how meta).\n\n    npm install bower -g\n\n### Usage\n\nYour best friend at this stage is probably `bower --help`.\n\nTo install a package:\n\n    bower install jquery\n    bower install git://github.com/components/jquery.git\n    bower install components/jquery (same as above)\n    bower install http://foo.com/jquery.awesome-plugin.js\n    bower install ./repos/jquery\n\nAs you can see, packages can be installed by name, Git endpoint, GitHub shorthand, URL or local path.\nIf you install from a URL that points to a zip or tar file, bower will automatically extract its contents.\nWhen tags are available in the endpoint, you can specify a [semver](http://semver.org/) tag to fetch concrete versions:\n\n    bower install jquery#1.8.1\n    bower install git://github.com/components/jquery.git#~1.8.1\n    bower install components/jquery#1.8.x\n\nBower also works with private Git repositories. Simply reference them by their SSH endpoint:\n\n    bower install git@github.com:user/private-package.git\n\n[View all packages available through Bower\'s registry](http://sindresorhus.com/bower-components/).\n\nDuring install you can have Bower add an entry to your component.json as well:\n\n    bower install --save jquery\n\nTo update a package, reference it by name:\n\n    bower update jquery-ui\n\nTo list installed packages:\n\n    bower list\n\nTo search for packages:\n\n    bower search [name]\n\nTo list all the available packages, just call `bower search` without specifying a name.\n\nTo clean the cache:\n\n    bower cache-clean [name]\n\nSeveral packages can be cleaned at the same time.\nTo clean the entire cache, just call `bower cache-clean` without any names.\nAlso, both the install and update commands have a `--force` flag that tells bower to bypass the cache and always fetch remote sources.\n\nYou can disable colors by using the `--no-color` flag.\n\n### Bower Configuration\n\nBower can be configured by creating a .bowerrc file in your home folder (usually ~/.bowerrc) with one or all of the following configuration parameters. You can also configure Bower on a per-project basis by creating a .bowerrc file in the project directory, Bower will merge this configuration with the configuration found in your home directory. This allows you to version your project specific Bower configuration with the rest of your code base.\n\n```json\n{\n  "directory" : "components",\n  "json"      : "component.json",\n  "endpoint"  : "https://bower.herokuapp.com"\n}\n```\n\nTo run your own Bower Endpoint for custom components/packages that are behind a firewall you can use a simple implementation of bower server at https://github.com/twitter/bower-server.\n\nThe __searchpath__ array provides additional URLs of read-only Bower registries that should be consulted to look up components.  This is most typically used if your business wishes to\nhouse some components internally while still taking advantage of public Bower registries.  For example, you might configure the following:\n\n```json\n{\n  "directory"  : "components",\n  "json"       : "component.json",\n  "endpoint"   : "http://bower.mycompany.com",\n  "searchpath" : ["https://bower.herokuapp.com"]\n}\n```\n\nBower will first look to **http://bower.mycompany.com** while trying to find your components.  If not found, the main registry at **https://bower.herokuapp.com** will be consulted to see if a copy of the resource can be retrieved.\n\n\n### Defining a package\n\nYou can create a `component.json` file in your project\'s root, specifying all of its dependencies. This is similar to Node\'s `package.json`, or Ruby\'s `Gemfile`, and is useful for locking down a project\'s dependencies.\n\n```json\n{\n  "name": "myProject",\n  "version": "1.0.0",\n  "main": "./path/to/main.css",\n  "dependencies": {\n    "jquery": "~1.7.2"\n  }\n}\n```\n\nPut this under your project\'s root, listing all of your dependencies. When you run `bower install`, Bower will read this `component.json` file, resolve all the relevant dependencies and install them.\n\nFor now, `name`, `version`, `main`, `dependencies`, `devDependencies`, and `ignore` are the only properties that are used by Bower. If you have several files you\'re distributing as part of your package, pass an array to `main` like this:\n\n```json\n{\n  "name": "myProject",\n  "version": "1.0.0",\n  "main": ["./path/to/app.css", "./path/to/app.js", "./path/to/sprite.img"],\n  "dependencies": {\n    "jquery": "~1.7.2"\n  }\n}\n```\n\nBower only recognizes versions that follow the [semver](http://semver.org/) specification.\nThere should only be at most one file per file type in the `main` list. So only one `.js` or `.css`.\n\nYou can also point to packages by adding their URL or file path in the dependency\'s property.\n\n```json\n{\n  "dependencies": {\n    "eventEmitter": "Wolfy87/EventEmitter", // GitHub short URL\n    "eventEmitter": "Wolfy87/EventEmitter#>=3", // with version\n    "eventEmitter": "git://github.com/Wolfy87/EventEmitter",\n    "eventEmitter": "git@github.com:Wolfy87/EventEmitter.git"\n  }\n}\n```\n\nChances are you have a bunch of extra stuff in the repo that are not needed in production. List these non-necessary file paths in `ignore`.\n\n```json\n{\n  "ignore": [\n    "tests/",\n    "**/*.txt"\n  ]\n}\n```\n\nYou may add non-essential packages in `devDependencies`. This is useful for packages aren\'t required to support the package, but that are used in your project, i.e. to build documentation, run a demo, or run tests.\n\n```json\n{\n  "devDependencies": [\n    "qunit": "~1"\n  ]\n}\n```\n\n### Installing dependencies\n\nDependencies are installed locally via the `bower install` command. First they’re resolved to find conflicts. Then they’re downloaded and unpacked in a local subdirectory called `./components`, for example:\n\n\n```\n/component.json\n/components/jquery/index.js\n/components/jquery/component.json\n```\n\nYou can also install packages one at a time `bower install git://my/git/thing`\n\nThere are no system wide dependencies, no dependencies are shared between different apps, and the dependency tree is flat.\n\n### Deploying\n\nThe easiest approach is to use Bower statically, just reference the packages manually from a script tag:\n\n    <script src="components/jquery/index.js"></script>\n\nFor more complex projects, you\'ll probably want to concatenate your scripts. Bower is just a package manager, but there are lots of awesome libraries out there to help you do this, such as [Sprockets](https://github.com/sstephenson/sprockets) and [RequireJS](http://requirejs.org/).\n\nFor example, to use Sprockets:\n\n```ruby\nenvironment = Sprockets::Environment.new\nenvironment.append_path \'components\'\nenvironment.append_path \'public\'\nrun environment\n```\n\n### Package Consumption\n\nBower also makes available a source mapping – this can be used by build tools to easily consume Bower components.\n\nIf you pass the option `--map` to bower\'s `list` command, it will generate a JSON with dependency objects. Alternatively, you can pass the `--paths` flag to the `list` command to get a simple path to name mapping:\n\n```json\n{\n  "backbone": "components/backbone/index.js",\n  "jquery": "components/jquery/index.js",\n  "underscore": "components/underscore/index.js"\n}\n```\n\n### Authoring packages\n\nTo register a new package, it\'s as simple as specifying a `component.json`, pushing the package to a Git endpoint, say GitHub, and running:\n\n    bower register myawesomepackagename git://github.com/maccmans/face\n\nThere\'s no authentication or user management. It\'s on a first come, first served basis. Think of it like a URL shortener. Now anyone can run `bower install myawesomepackagename`, and get your library installed.\n\nThere is no direct way to unregister a package yet. Meanwhile you can request it [here](https://github.com/twitter/bower/issues/120).\n\n### Philosophy\n\nCurrently, people are managing dependencies, such as JavaScript libraries, manually. This sucks, and we want to change it.\n\nIn a nutshell, Bower is a generic tool which will resolve dependencies and lock packages down to a version. It runs over Git, and is package-agnostic. A package may contain JavaScript, CSS, images, etc., and doesn\'t rely on any particular transport (AMD, CommonJS, etc.).\n\nBower then makes available a simple programmatic API which exposes the package dependency model, so that existing build tools (like Sprockets, LoadBuilder, curls.js, Ender, etc.) can consume it and build files accordingly.\n\n\n### Programmatic API\n\nBower provides a pretty powerful programmatic api. All commands can be accessed through the `bower.commands` object.\n\n```js\nvar bower = require(\'bower\');\n\nbower.commands\n  .install(paths, options)\n  .on(\'end\', function (data) {\n    data && console.log(data);\n  });\n\nbower.commands\n  .search(\'jquery\', {})\n  .on(\'packages\', function(packages) {\n    /* `packages` is a list of packages returned by searching for \'jquery\' */\n  });\n  \n```\n\nCommands emit four types of events: `data`, `end`, `result`, and `error`. `error` will only be emitted if something goes wrong. Not all commands emit all events; for a detailed look, check out the code in `lib/commands`. `data` is typically a colorized string, ready to show to an end user. `search` and `lookup` emit `packages` and `package`, respectively. Those events contain a json representation of the result of the command.\n\nFor a better of idea how this works, you may want to check out [our bin file](https://github.com/twitter/bower/blob/master/bin/bower).\n\nFor the install command, there is an additional `package` event that is emitted for each installed/uninstalled package.\n\n\n### Completion\n\n**experimental**\n\nBased on the completion feature and fantastic work done in\n[npm](https://npmjs.org/doc/completion.html), Bower now has an experimental\n`completion` command that works similarly.\n\nThis command will output a Bash / ZSH script to put into your `~/.bashrc`, `~/.bash_profile` or `~/.zshrc` file.\n\n```\nbower completion >> ~/.bash_profile\n```\n\n*This doesn\'t work for Windows user, even with Cygwin.*\n\n\n### Windows users\n\nA lot of people are experiencing problems using bower on windows because [msysgit](http://code.google.com/p/msysgit/) must be installed correctly.\nBe sure to check the option shown above, otherwise it will simply not work:\n\n![msysgit](http://f.cl.ly/items/2V2O3i1p3R2F1r2v0a12/mysgit.png)\n\n\n### FAQ\n\n**What distinguishes Bower from Jam, Volo or Ender? What does it do better?**\n\nBower is a lower level component than Jam, Volo, or Ender. These managers could consume Bower as a dependency.\n\nBower\'s aim is simply to install Git paths, resolve dependencies from a `component.json`, check versions, and then provide an API which reports on these things. Nothing more. This is a major diversion from past attempts at browser package management.\n\nBower is working under the assumption that there is a single, common problem in frontend application development: dependency resolution. Past attempts (Jam, Volo, Ender) try to tackle this problem in such a way that they actually end up alienating and further segregating the JavaScript community around transports (Sprockets, CommonJS, RequireJS, regular script tags).\n\nBower offers a generic, unopinionated solution to the problem of package management, while exposing an API that can be consumed by a more opinionated build stack.\n\n**Volo is an arguably more established project and works with the GitHub search API. Will it take long for Bower to contain a decent number of packages?**\n\nBower (being a Git powered package manager) should, in theory, be capable of consuming every package that Volo does, with the additional benefit of supporting internal networks and other Git repositories not hosted on GitHub.\n\n**We recently saw what happened when the main NPM registry went down. Is a single point of failure possible for Bower and if so, do you have redundancy planned?**\n\nThere\'s no redundancy planned at the moment, as Bower just installs Git URLs. It\'s up to the URL provider to establish redundancy.\n\n**Isn\'t having a `package.json` file going to conflict with my npm\'s `package.json`? Will this be a problem?**\n\nDon\'t use a `package.json` – use a `component.json`.\n\n**Bower is an open-source Twitter project. How well can we expect it to be maintained in the future?**\n\nTwitter is in the process of migrating its frontend architecture onto Bower, so it\'s fairly safe to say it will be maintained and invested in going forward.\n\n\n### Contact\n\nHave a question?\n\n- [StackOverflow](http://stackoverflow.com/questions/tagged/bower)\n- [Mailinglist](http://groups.google.com/group/twitter-bower) - twitter-bower@googlegroups.com\n- [\\#bower](http://webchat.freenode.net/?channels=bower) on Freenode\n\n\n### Authors\n\n+ [@fat](http://github.com/fat)\n+ [@maccman](http://github.com/maccman)\n+ [@satazor](http://github.com/satazor)\n\nThanks for assistance and contributions:\n\n+ [@addyosmani](http://github.com/addyosmani)\n+ [@angus-c](http://github.com/angus-c)\n+ [@borismus](http://github.com/borismus)\n+ [@chriseppstein](http://github.com/chriseppstein)\n+ [@danwrong](http://github.com/danwrong)\n+ [@desandro](http://github.com/desandro)\n+ [@isaacs](http://github.com/isaacs)\n+ [@josh](http://github.com/josh)\n+ [@jrburke](http://github.com/jrburke)\n+ [@mklabs](http://github.com/mklabs)\n+ [@paulirish](http://github.com/paulirish)\n+ [@rvagg](http://github.com/rvagg)\n+ [@sindresorhus](http://github.com/sindresorhus)\n+ [@SlexAxton](http://github.com/SlexAxton)\n+ [@sstephenson](http://github.com/sstephenson)\n+ [@tomdale](http://github.com/tomdale)\n+ [@uzquiano](http://github.com/uzquiano)\n+ [@visionmedia](http://github.com/visionmedia)\n+ [@wagenet](http://github.com/wagenet)\n+ [@wycats](http://github.com/wycats)\n+ [@sindresorhus](http://github.com/sindresorhus)\n+ [@hemanth](http://github.com/hemanth)\n+ [@wibblymat](http://github.com/wibblymat)\n+ [@marcelombc](http://github.com/marcelombc)\n\n## License\n\nCopyright 2012 Twitter, Inc.\n\nLicensed under the MIT License\n',
+102 silly resolved     readmeFilename: 'README.md',
+102 silly resolved     _id: 'bower@0.8.6',
+102 silly resolved     _from: 'bower@' } ]
+103 info install grunt-cli@0.1.7 into /usr/local/lib
+104 info install yo@1.0.0-beta.4 into /usr/local/lib
+105 info install bower@0.8.6 into /usr/local/lib
+106 info installOne grunt-cli@0.1.7
+107 info installOne yo@1.0.0-beta.4
+108 info installOne bower@0.8.6
+109 verbose from cache /Users/oakley/.npm/grunt-cli/0.1.7/package/package.json
+110 info /usr/local/lib/node_modules/grunt-cli unbuild
+111 verbose read json /usr/local/lib/node_modules/grunt-cli/package.json
+112 verbose from cache /Users/oakley/.npm/yo/1.0.0-beta.4/package/package.json
+113 info /usr/local/lib/node_modules/yo unbuild
+114 verbose read json /usr/local/lib/node_modules/yo/package.json
+115 verbose from cache /Users/oakley/.npm/bower/0.8.6/package/package.json
+116 info /usr/local/lib/node_modules/bower unbuild
+117 verbose read json /usr/local/lib/node_modules/bower/package.json
+118 verbose tar unpack /Users/oakley/.npm/grunt-cli/0.1.7/package.tgz
+119 silly lockFile 58f484da-local-lib-node-modules-grunt-cli /usr/local/lib/node_modules/grunt-cli
+120 verbose lock /usr/local/lib/node_modules/grunt-cli /Users/oakley/.npm/58f484da-local-lib-node-modules-grunt-cli.lock
+121 silly lockFile 3505778c--npm-grunt-cli-0-1-7-package-tgz /Users/oakley/.npm/grunt-cli/0.1.7/package.tgz
+122 verbose lock /Users/oakley/.npm/grunt-cli/0.1.7/package.tgz /Users/oakley/.npm/3505778c--npm-grunt-cli-0-1-7-package-tgz.lock
+123 verbose tar unpack /Users/oakley/.npm/yo/1.0.0-beta.4/package.tgz
+124 silly lockFile c80abb7e-usr-local-lib-node-modules-yo /usr/local/lib/node_modules/yo
+125 verbose lock /usr/local/lib/node_modules/yo /Users/oakley/.npm/c80abb7e-usr-local-lib-node-modules-yo.lock
+126 silly lockFile b884d773--npm-yo-1-0-0-beta-4-package-tgz /Users/oakley/.npm/yo/1.0.0-beta.4/package.tgz
+127 verbose lock /Users/oakley/.npm/yo/1.0.0-beta.4/package.tgz /Users/oakley/.npm/b884d773--npm-yo-1-0-0-beta-4-package-tgz.lock
+128 verbose tar unpack /Users/oakley/.npm/bower/0.8.6/package.tgz
+129 silly lockFile e8debc54-usr-local-lib-node-modules-bower /usr/local/lib/node_modules/bower
+130 verbose lock /usr/local/lib/node_modules/bower /Users/oakley/.npm/e8debc54-usr-local-lib-node-modules-bower.lock
+131 silly lockFile 027e4994-kley-npm-bower-0-8-6-package-tgz /Users/oakley/.npm/bower/0.8.6/package.tgz
+132 verbose lock /Users/oakley/.npm/bower/0.8.6/package.tgz /Users/oakley/.npm/027e4994-kley-npm-bower-0-8-6-package-tgz.lock
+133 silly gunzTarPerm modes [ '755', '644' ]
+134 silly gunzTarPerm modes [ '755', '644' ]
+135 silly gunzTarPerm modes [ '755', '644' ]
+136 error Error: EACCES, mkdir '/usr/local/lib/node_modules/yo'
+136 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/yo']
+136 error   errno: 3,
+136 error   code: 'EACCES',
+136 error   path: '/usr/local/lib/node_modules/yo',
+136 error   fstream_type: 'Directory',
+136 error   fstream_path: '/usr/local/lib/node_modules/yo',
+136 error   fstream_class: 'DirWriter',
+136 error   fstream_stack:
+136 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+136 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+136 error      'Object.oncomplete (fs.js:107:15)' ] }
+137 error Please try running this command again as root/Administrator.
+138 error System Darwin 12.3.0
+139 error command "node" "/usr/local/bin/npm" "install" "-g" "yo" "grunt-cli" "bower"
+140 error cwd /Users/oakley/Documents/projects/CityRunningToursSpace/CRT/assets
+141 error node -v v0.10.4
+142 error npm -v 1.2.18
+143 error path /usr/local/lib/node_modules/yo
+144 error fstream_path /usr/local/lib/node_modules/yo
+145 error fstream_type Directory
+146 error fstream_class DirWriter
+147 error code EACCES
+148 error errno 3
+149 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/yo'
+150 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+150 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+150 error fstream_stack Object.oncomplete (fs.js:107:15)
+151 verbose exit [ 3, true ]
