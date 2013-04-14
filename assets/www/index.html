@@ -17,26 +17,59 @@
     specific language governing permissions and limitations
     under the License.
 -->
-<html>
+<html ng-app>
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+        <link rel="stylesheet" type="text/css" href="css/crt.css" />
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+        <script src="angular.min.js"></script>
+        <script src="crt.js"></script> 
+        <title>City Running Tours</title>
     </head>
-    <body>
-        <div class="app">
+    <body >
+        
+        <div ng-controller="CityCtrl">
+            <h2>We serve {{cities.length}} cities.</h2>
+            <ul class='unstyled'>
+                <li ng-repeat="city in cities">
+                    <input type="checkbox" ng-model="city.visted">
+                    <span class="done-{{city.visted}}">{{city.text}}</span>
+                </li>
+            </ul>
+            <form class="form-horizontal"> 
+                <input type="text" ng-model="formCityText" ng-model-instant>
+                <button class="btn1" ng-click="addCity()"><i class="icon-plus"></i>Add City</button>
+            </form>
+        </div>
+
+        <H1>HELLO CORDOVA!</H1>
+
+
+
+
+
+
+
+        <!-- <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
             </div>
-        </div>
+        </div> -->
+        
+
+
         <script type="text/javascript" src="cordova-2.6.0.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>
+
+
+       
     </body>
 </html>
