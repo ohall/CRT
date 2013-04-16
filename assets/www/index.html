@@ -32,20 +32,49 @@
     <body >
         
         <div ng-controller="CityCtrl">
+            
+            <form ng-class="form-horizontal">
+
             <h2>We serve {{cities.length}} cities.</h2>
-            <ul class='unstyled'>
-                <li ng-repeat="city in cities">
-                    <input type="checkbox" ng-model="city.visted">
-                    <span class="done-{{city.visted}}">{{city.text}}</span>
-                </li>
-            </ul>
-            <form class="form-horizontal"> 
+            <div class="dropdown" ng-class="{open: open}">
+                <a class="btn dropdown-toggle" href="#" ng-click="open=!open">Cities<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                    <li ng-repeat="city in cities" ng-click="selectCity(city.text)" >
+                        <a tabindex="-1" href="#"  >{{city.text}}</a>
+                    </li>
+                </ul>
+            </div>
+
+
+           <!--  <div class="dropdown" ng-class="{open: open}" >
+            <a class="btn dropdown-toggle" href="#" ng-click="open=!open" ng-model="selectedCity"></a>  -->
+                <ul class="unstyled">
+                    <li ng-repeat="route in getSelectedCity().routes">
+                        <span>{{route.name}}</span>
+                    </li>
+                </ul>
+<!--                 <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                    <li ng-repeat="route in getSelectedCity()routes">
+                         <span>{{route}}</span>
+                    </li>
+                </ul> -->
+
+            <!-- </div> -->
+            </form>
+
+
+
+            <!-- <form class="form-horizontal"> 
                 <input type="text" ng-model="formCityText" ng-model-instant>
                 <button class="btn1" ng-click="addCity()"><i class="icon-plus"></i>Add City</button>
-            </form>
+            </form> -->
+
         </div>
 
-        <H1>HELLO CORDOVA!</H1>
+
+       <!--  <markdownn>
+            <div>HELLO CORDOVA!</div>
+        </markdownn>    --> 
 
 
 
