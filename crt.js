@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-var app = angular.module('CRTApp', ['ui.bootstrap']);
+var app = angular.module('CRTApp', ['ui.bootstrap','$strap.directives']);
 function IntroCtrl($scope, $timeout, sharedProperties) {
     $scope.oneAtATime = true;
 
@@ -132,6 +132,13 @@ function IntroCtrl($scope, $timeout, sharedProperties) {
     };
     $scope.toggleMin();
 
+    // Datepicker directive
+    $scope.datepicker = {date: new Date("2012-09-01T00:00:00.000Z")};
+
+    $scope.regClick = function(){
+        window.location = "http://www.active.com/running-membership/washington-dc/city-running-tours---washington-dc-personalized-running-tours-2017";
+    };
+
 
 }
 
@@ -146,6 +153,13 @@ app.directive('onTap', function () {
                 });
         };
     });
+
+app.value('$strap.config', {
+    datepicker: {
+        language: 'en',
+        format: 'MM dd, yyyy'
+    }
+});
 
 
 app.service('sharedProperties', function() {

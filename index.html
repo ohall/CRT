@@ -46,16 +46,25 @@
                         </li></ul>
                     </accordion-group>
                     <accordion-group heading="Date of run" class="runDate">
-                        <datepicker ng-model="dt"
-                                    starting-day="1" show-weeks="showWeeks"
-                                    min="minDate" max="'2015-06-22'"></datepicker>
+                        <form class="form-horizontal well">
+                            <div class="control-group input-append">
+                                <input id="inputDatepicker" readonly="readonly"
+                                       class="input-small" type="text"
+                                       ng-model="datepicker.date"
+                                       data-date-format="mm/dd/yyyy" bs-datepicker>
+                                <button type="button" class="btn" data-toggle="datepicker">
+                                    <i class="icon-calendar"></i>
+                                </button>
+                            </div>
+                        </form>
                     </accordion-group>
 
                 </accordion>
             </div>
             <!--REGISTRATION TAB-->
             <div class="tab-pane" id="register">
-                STUFF
+
+               <input type="button" class="btn-large" on-tap="regClick()">
             </div>
         </div>
     </div>
@@ -69,8 +78,13 @@
 <script src="js/bootstrap.js"></script>
 <script src="js/hammer.min.js"></script>
 <script src="js/jquery.hammer.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/angular-strap.min.js"></script>
 <script src="crt.js"></script>
 <link href="css/crt.css"  rel="stylesheet">
+
+<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
 <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 
 </body>
