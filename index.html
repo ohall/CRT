@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html ng-app="CRTApp" ng-controller="IntroCtrl">
+<div class="splashDiv" ng-show="splashVis">
+    <img class="splashLogo" src="img/crt-logo.png">
+</div>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body >
+
+<img src="img/crt-logo_m2.png"/>
+
+<div class="container" >
+
+    <div class="tabbable">
+        <h3>{{ myRun.city.name }} {{ myRun.type }}</h3>
+        <ul class="nav nav-pills">
+            <li class="active"><a href="#chooseRun"
+                                  data-toggle="tab">Choose your run</a></li>
+            <li class=""><a href="#register"
+                            data-toggle="tab">Register</a></li>
+        </ul>
+        <div class="tab-content">
+            <!--CHOOSE RUN TAB-->
+            <div class="tab-pane active"  id="chooseRun">
+
+                <accordion close-others="oneAtATime" >
+                    <accordion-group heading="Choose your city" class="cityList"
+                                     is-open="cityList.open" >
+                        <ul>
+                        <li ng-repeat="city in cityList.cities">
+                            <img   class="cityImage"
+                                   ng-src="img/{{ city.image }}.jpg"
+                                   on-tap="citySelect(city.name)"
+                                   value="{{ city.name }}" />
+                        </li>
+                        </ul>
+                    </accordion-group>
+                    <accordion-group heading="Type of run" class="runList"
+                                     is-open="runType.open">
+                        <ul><li ng-repeat="city in runType.names">
+                            <input type="button"
+                                   on-tap="runSelect(city)"
+                                   class="btn btn-large" value="{{ city }}" />
+                        </li></ul>
+                    </accordion-group>
+                    <accordion-group heading="Date of run" class="runDate">
+                        <datepicker ng-model="dt"
+                                    starting-day="1" show-weeks="showWeeks"
+                                    min="minDate" max="'2015-06-22'"></datepicker>
+                    </accordion-group>
+
+                </accordion>
+            </div>
+            <!--REGISTRATION TAB-->
+            <div class="tab-pane" id="register">
+                STUFF
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/ui-bootstrap-tpls-0.4.0.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/hammer.min.js"></script>
+<script src="js/jquery.hammer.min.js"></script>
+<script src="crt.js"></script>
+<link href="css/crt.css"  rel="stylesheet">
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+
+</body>
+</html>

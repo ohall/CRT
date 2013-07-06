@@ -1,0 +1,61 @@
+@import "bootstrap.min.css";
+
+body{
+    background-color: #ef921e;
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+ul{
+    list-style-type: none;
+    list-style: none;
+    list-style-image: none;
+}
+
+.cityList{
+
+}
+
+.runList{
+
+}
+
+.cityList .btn{
+    width: 80%;
+}
+
+.runList .btn{
+    width: 80%;
+}
+
+.cityImage{
+    margin: 20px;
+}
+
+.cityImage:active{
+    opacity: 0.5;
+}
+
+.splashDiv{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.splashLogo{
+    max-width: 90%;
+    position: relative;
+    margin: 20px;
+}
+
+.accordion-group{
+    color: #000000;
+}
