@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-hdpi-landscape.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-hdpi-landscape.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-hdpi-portrait.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-hdpi-portrait.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-ipad-landscape-2x.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-ipad-landscape-2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-ipad-landscape.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-ipad-landscape.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-ipad-portrait-2x.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-ipad-portrait-2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-ipad-portrait.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-ipad-portrait.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-iphone-landscape-2x.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-iphone-landscape-2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-iphone-landscape.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-iphone-landscape.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-iphone-portrait-2x.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-iphone-portrait-2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-iphone-portrait-568h-2x.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-iphone-portrait-568h-2x.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-iphone-portrait.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-iphone-portrait.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-ldpi-landscape.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-ldpi-landscape.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-ldpi-portrait.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-ldpi-portrait.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-mdpi-landscape.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-mdpi-landscape.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-mdpi-portrait.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-mdpi-portrait.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-xhdpi-landscape.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-xhdpi-landscape.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-xhdpi-portrait.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-xhdpi-portrait.png" />
     </list>
     <ignored path="CRT_App.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -127,7 +143,7 @@
           <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="19" selection-start="529" selection-end="529" vertical-scroll-proportion="-0.94170403">
+                <state line="15" column="19" selection-start="529" selection-end="529" vertical-scroll-proportion="-0.71748877">
                   <folding />
                 </state>
               </provider>
@@ -528,7 +544,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="529" selection-end="529" vertical-scroll-proportion="-0.94170403">
+        <state line="15" column="19" selection-start="529" selection-end="529" vertical-scroll-proportion="-0.71748877">
           <folding />
         </state>
       </provider>
