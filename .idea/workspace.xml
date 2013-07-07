@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-hdpi-landscape.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-hdpi-landscape.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-hdpi-portrait.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-hdpi-portrait.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-ipad-landscape-2x.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-ipad-landscape-2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-ipad-landscape.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-ipad-landscape.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-ipad-portrait-2x.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-ipad-portrait-2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-ipad-portrait.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-ipad-portrait.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-iphone-landscape-2x.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-iphone-landscape-2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-iphone-landscape.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-iphone-landscape.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-iphone-portrait-2x.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-iphone-portrait-2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-iphone-portrait-568h-2x.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-iphone-portrait-568h-2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/ios/screen-iphone-portrait.png" afterPath="$PROJECT_DIR$/res/screen/ios/screen-iphone-portrait.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-ldpi-landscape.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-ldpi-landscape.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-ldpi-portrait.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-ldpi-portrait.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-mdpi-landscape.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-mdpi-landscape.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-mdpi-portrait.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-mdpi-portrait.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-xhdpi-landscape.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-xhdpi-landscape.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/screen/android/screen-xhdpi-portrait.png" afterPath="$PROJECT_DIR$/res/screen/android/screen-xhdpi-portrait.png" />
-    </list>
+    <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="" />
     <ignored path="CRT_App.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373162968115" ignored="false" />
