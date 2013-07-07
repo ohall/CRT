@@ -7,10 +7,8 @@
  */
 
 var app = angular.module('CRTApp', ['ui.bootstrap','$strap.directives']);
-function IntroCtrl($scope, $timeout, sharedProperties) {
+function IntroCtrl($scope) {
     $scope.oneAtATime = true;
-
-    //$scope.splashVis = true;
 
     $scope.citySelect = function(pVal){
         $scope.myRun.city = pVal;
@@ -21,6 +19,8 @@ function IntroCtrl($scope, $timeout, sharedProperties) {
     $scope.runSelect = function(pVal){
         $scope.myRun.type = pVal;
         $scope.runType.open = false;
+        $scope.datepicker.open = true;
+
     }
 
     $scope.myRun = {
@@ -29,14 +29,7 @@ function IntroCtrl($scope, $timeout, sharedProperties) {
         type:""
     }
 
-
-//    var splashOff = function() {
-//        $scope.splashVis = false;
-//    }
-
-   // $timeout(splashOff, 500);
-
-    $scope.cityList  ={
+    $scope.cityList = {
         cities:[
             {
                 name:"New York",
@@ -108,32 +101,12 @@ function IntroCtrl($scope, $timeout, sharedProperties) {
         open:false};
 
 
-    $scope.today = function() {
-        $scope.dt = new Date();
-    };
-    $scope.today();
+    $scope.datepicker = {date:"",
+                         open:false};
 
-    $scope.showWeeks = true;
-    $scope.toggleWeeks = function () {
-        $scope.showWeeks = ! $scope.showWeeks;
-    };
-
-    $scope.clear = function () {
-        $scope.dt = null;
-    };
-
-    // Disable weekend selection
-    $scope.disabled = function(date, mode) {
-        return ( mode === 'day' && ( date.getDay() === 0 || date.getDay() === 6 ) );
-    };
-
-    $scope.toggleMin = function() {
-        $scope.minDate = ( $scope.minDate ) ? null : new Date();
-    };
-    $scope.toggleMin();
-
-    // Datepicker directive
-    $scope.datepicker = {date: new Date("2012-09-01T00:00:00.000Z")};
+    $scope.$watch('datepicker', function() {
+       // $('#register').tab('show');
+    });
 
     $scope.regClick = function(){
         window.location = "http://www.active.com/running-membership/washington-dc/city-running-tours---washington-dc-personalized-running-tours-2017";
@@ -161,18 +134,6 @@ app.value('$strap.config', {
     }
 });
 
-
-app.service('sharedProperties', function() {
-
-    var cityList
-
-
-    return{
-        getCities : function(){
-            return cityList.cities;
-        }
-    };
-});
 
 //-----Start
 //1. Welcome Screen (CRT Logo for brief pause)

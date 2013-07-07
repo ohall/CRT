@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="" />
+    <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crt.js" afterPath="$PROJECT_DIR$/crt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="CRT_App.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373162968115" ignored="false" />
+    <file path="/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373168895033" ignored="false" />
     <file path="/crt.css" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373163374007" ignored="false" />
-    <file path="/crt.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373145915604" ignored="false" />
+    <file path="/crt.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373168449882" ignored="false" />
     <file path="/Dummy.txt" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373136466016" ignored="false" />
-    <file path="/config.xml" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373163937763" ignored="false" />
+    <file path="/config.xml" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373167016998" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,56 +31,15 @@
     <favorites_list name="CRT_App" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.28679723">
+    <splitter split-orientation="horizontal" split-proportion="0.4178758">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="98" column="21" selection-start="3904" selection-end="3904" vertical-scroll-proportion="-5.9066668">
+                <state line="46" column="74" selection-start="1970" selection-end="1970" vertical-scroll-proportion="0.5673401">
                   <folding />
                 </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/index.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="44" column="17" selection-start="1933" selection-end="1944" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5962" column="19" selection-start="124283" selection-end="124283" vertical-scroll-proportion="-11.56">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="bootstrap-responsive.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/bootstrap-responsive.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="102" column="18" selection-start="1599" selection-end="1599" vertical-scroll-proportion="53.8">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="crt-logo_m2.png" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/img/crt-logo_m2.png">
-              <provider selected="true" editor-type-id="images">
-                <state />
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="crtmsp0.jpg" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/img/crtmsp0.jpg">
-              <provider selected="true" editor-type-id="images">
-                <state />
               </provider>
             </entry>
           </file>
@@ -84,30 +47,13 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="student.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/student.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="0" selection-start="913" selection-end="1562" vertical-scroll-proportion="109.25">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="lexile_large.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/css/lexile_large.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="0" selection-start="60" selection-end="261" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="crt.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/crt.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="32" selection-start="905" selection-end="905" vertical-scroll-proportion="-21.0">
+                <state line="107" column="9" selection-start="2373" selection-end="2373" vertical-scroll-proportion="0.69875777">
                   <folding>
                     <element signature="e#0#158#0" expanded="false" />
+                    <element signature="e#723#2121#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -122,10 +68,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="19" selection-start="529" selection-end="529" vertical-scroll-proportion="-0.71748877">
+                <state line="41" column="61" selection-start="2620" selection-end="2620" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -152,11 +98,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/asd/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/crt.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/css/crt.css" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/crt.js" />
       </list>
     </option>
   </component>
@@ -344,7 +290,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16376123" sideWeight="0.75692964" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.089804545" sideWeight="0.75692964" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24307036" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24307036" sideWeight="0.5002641" order="7" side_tool="true" content_ui="tabs" />
@@ -418,43 +364,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/crt.js</url>
-          <line>22</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/crt.js</url>
-          <line>15</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/css/lexile_large.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="60" selection-end="261" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5962" column="19" selection-start="124283" selection-end="124283" vertical-scroll-proportion="-11.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap-responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="18" selection-start="1599" selection-end="1599" vertical-scroll-proportion="53.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="525" column="61" selection-start="14960" selection-end="14967" vertical-scroll-proportion="0.33229813">
@@ -465,41 +378,6 @@
     <entry file="file://$PROJECT_DIR$/img/crtdc00.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="21" selection-start="3904" selection-end="3904" vertical-scroll-proportion="-5.9066668">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="17" selection-start="1933" selection-end="1944" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/student.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="913" selection-end="1562" vertical-scroll-proportion="109.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/crt-logo_m2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="32" selection-start="905" selection-end="905" vertical-scroll-proportion="-21.0">
-          <folding>
-            <element signature="e#0#158#0" expanded="false" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/screen/android/screen-hdpi-portrait.png">
@@ -517,6 +395,46 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/crt-logo_m2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap-responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="199" column="23" selection-start="2933" selection-end="2933" vertical-scroll-proportion="0.45031056">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5962" column="19" selection-start="124283" selection-end="124283" vertical-scroll-proportion="0.44875777">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="17" selection-start="1933" selection-end="1944" vertical-scroll-proportion="0.8744395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/css/lexile_large.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="60" selection-end="261" vertical-scroll-proportion="0.08797654">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/student.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="913" selection-end="1562" vertical-scroll-proportion="-3.9848025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/crt.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="0" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0">
@@ -526,8 +444,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="529" selection-end="529" vertical-scroll-proportion="-0.71748877">
+        <state line="41" column="61" selection-start="2620" selection-end="2620" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="74" selection-start="1970" selection-end="1970" vertical-scroll-proportion="0.5673401">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="9" selection-start="2373" selection-end="2373" vertical-scroll-proportion="0.69875777">
+          <folding>
+            <element signature="e#0#158#0" expanded="false" />
+            <element signature="e#723#2121#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
