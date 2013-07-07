@@ -10,7 +10,7 @@ var app = angular.module('CRTApp', ['ui.bootstrap','$strap.directives']);
 function IntroCtrl($scope, $timeout, sharedProperties) {
     $scope.oneAtATime = true;
 
-    $scope.splashVis = true;
+    //$scope.splashVis = true;
 
     $scope.citySelect = function(pVal){
         $scope.myRun.city = pVal;
@@ -30,11 +30,11 @@ function IntroCtrl($scope, $timeout, sharedProperties) {
     }
 
 
-    var splashOff = function() {
-        $scope.splashVis = false;
-    }
+//    var splashOff = function() {
+//        $scope.splashVis = false;
+//    }
 
-    $timeout(splashOff, 500);
+   // $timeout(splashOff, 500);
 
     $scope.cityList  ={
         cities:[

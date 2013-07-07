@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html ng-app="CRTApp" ng-controller="IntroCtrl">
-<div class="splashDiv" ng-show="splashVis">
-    <img class="splashLogo" src="img/crt-logo.png">
+<!--<div class="splashDiv" ng-show="splashVis">-->
+    <!--<img class="splashLogo" src="img/crt-logo.png">-->
 </div>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body >
+<script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
+<script type="text/javascript" charset="utf-8">
 
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        navigator.splashscreen.show();
+    }
+</script>
 <img src="img/crt-logo_m2.png"/>
 
 <div class="container" >
@@ -81,7 +93,10 @@
 <script src="js/bootstrap-datepicker.js"></script>
 <script src="js/angular-strap.min.js"></script>
 <script src="crt.js"></script>
+<script src="js/index.js"></script>
+
 <link href="css/crt.css"  rel="stylesheet">
+<link href="css/index.css"  rel="stylesheet">
 
 <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 
