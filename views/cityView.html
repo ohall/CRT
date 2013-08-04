@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <div class="fragment {{transitionState}}" id="cityList">
     <div class="row-fluid">
-        <div    class="flip-container cityImage" on-tap="citySelect(city)"
+        <div    class="flip-container cityImage"
                 ontouchstart="this.classList.toggle('hover');"
-                ng-repeat="city in cityList.cities1">
+                ng-repeat="city in cityList.cities1"
+                on-tap="citySelect(city)">
             <div class="flipper">
                 <div class="front">
                     <img    ng-src="img/{{ city.image }}_sm.jpg"

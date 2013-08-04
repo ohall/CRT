@@ -9,10 +9,7 @@ html{
 
 body{
     /*background-color: #ef921e;*/
-    width: 100%;
-    margin-top: 100px;
     padding-top: 100px;
-    margin: 0px;
     cursor: default;
     overflow-x: hidden;
     -webkit-touch-callout: none;
@@ -162,6 +159,8 @@ body{
 /*HTML fragment transition animation*/
 
 .fragmentWrapper {
+    text-align: center;
+    padding-top: 100px;
     margin-right: auto;
     margin-left: auto;
     overflow: hidden;

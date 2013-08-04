@@ -8,7 +8,9 @@
 
 var app = angular.module('CRTApp', ['ui.bootstrap','$strap.directives']);
 
-function CRTCtrl($scope,$location) {
+function CRTCtrl($scope,$location, getRunPaths) {
+
+    $scope.city = "";
 
     $scope.$on("$routeChangeSuccess", function (scope, next, current) {
         $scope.transitionState = "active"
@@ -21,24 +23,38 @@ function CRTCtrl($scope,$location) {
     }
 
     $scope.citySelect = function(pVal){
-        $scope.myRun.city = pVal;
+        $scope.city = pVal.name;
         $location.path('runTypeView');
-        $("#cityList").hide(300).delay(900);
-        $("#runList").show(300).delay(900);
+//        $("#cityList").hide(300).delay(900);
+//        $("#runList").show(300).delay(900);
     }
 
     $scope.runSelect = function(pVal){
-        $scope.myRun.type = pVal;
+        var paths = getRunPaths.paths();
+
+        var indy;
+
+        for(var i=0;i<paths.length;i++){
+            if(paths[i].type.toLowerCase() == pVal.toLowerCase()){
+                indy = paths[i];
+            }
+        }
+
+        var runs;
+
+        for(var i=0;i<indy.cities.length;i++){
+            if(indy.cities[i].city.toLowerCase() == $scope.city.toLowerCase()){
+                runs = indy.cities[i].runs;
+                break;
+            }
+        }
+
+
+        var therun = runs['indy'];
+
+        window.location = therun;
 
     }
-
-    $scope.myRun = {
-        city:{},
-        date:"",
-        type:""
-    }
-
-
 
     $scope.cityList = {
         cities1:[
@@ -78,7 +94,7 @@ function CRTCtrl($scope,$location) {
 
             },
             {
-                name:"San Fransisco",
+                name:"San Francisco",
                 manager:"Karl",
                 routes:[],
                 image:"crtsf00"
@@ -86,7 +102,7 @@ function CRTCtrl($scope,$location) {
             }],
         cities3:[
             {
-                name:"Washington D.C.",
+                name:"Washington DC",
                 manager:"Karl",
                 routes:[],
                 image:"crtdc00"
@@ -106,23 +122,6 @@ function CRTCtrl($scope,$location) {
                 image:"crtbos0"
             }],
         open:false
-    };
-
-    $scope.runType =
-    {names:["Individual Run",
-        "Group Run"],
-        open:false};
-
-
-    $scope.datepicker = {date:"",
-                         open:false};
-
-    $scope.$watch('datepicker', function() {
-       // $('#register').tab('show');
-    });
-
-    $scope.regClick = function(){
-        window.location = "http://www.active.com/running-membership/washington-dc/city-running-tours---washington-dc-personalized-running-tours-2017";
     };
 
 }
@@ -162,11 +161,9 @@ app.config(function ($routeProvider){ //, $locationProvider) {
     $routeProvider
         .when('/',{
             templateUrl:'views/cityView.html',
-            controller: 'CRTCtrl'
         })
         .when('/runTypeView',{
             templateUrl:'views/runTypeView.html',
-            controller: 'CRTCtrl'
         })
         .otherwise({
             redirectTo: '/'
