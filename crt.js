@@ -157,7 +157,7 @@ app.value('$strap.config', {
     }
 });
 
-app.config(function ($routeProvider){ //, $locationProvider) {
+app.config(function ($routeProvider, $compileProvider){ //, $locationProvider) {
     $routeProvider
         .when('/',{
             templateUrl:'views/cityView.html',
@@ -168,5 +168,7 @@ app.config(function ($routeProvider){ //, $locationProvider) {
         .otherwise({
             redirectTo: '/'
         });
+    $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
+
     // $locationProvider.html5Mode(true);
 });
