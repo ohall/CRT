@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<div class="fragment {{transitionState}}" id="cityList">
+    <div class="row-fluid">
+        <div    class="flip-container cityImage" on-tap="citySelect(city)"
+                ontouchstart="this.classList.toggle('hover');"
+                ng-repeat="city in cityList.cities1">
+            <div class="flipper">
+                <div class="front">
+                    <img    ng-src="img/{{ city.image }}_sm.jpg"
+                            value="{{ city.name }}" />
+                </div>
+                <div class="back">
+                    BACK!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row-fluid">
+        <div class="flip-container cityImage"
+             ontouchstart="this.classList.toggle('hover');"
+             ng-repeat="city in cityList.cities2">
+            <div class="flipper">
+                <div class="front">
+                    <img    ng-src="img/{{ city.image }}_sm.jpg"
+                            on-tap="citySelect(city)"
+                            value="{{ city.name }}" />
+                </div>
+                <div class="back">
+                    BACK!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row-fluid">
+        <div class="flip-container cityImage"
+             ontouchstart="this.classList.toggle('hover');"
+             ng-repeat="city in cityList.cities3">
+            <div class="flipper">
+                <div class="front">
+                    <img    ng-src="img/{{ city.image }}_sm.jpg"
+                            on-tap="citySelect(city)"
+                            value="{{ city.name }}" />
+                </div>
+                <div class="back">
+                    BACK!
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

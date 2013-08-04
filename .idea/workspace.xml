@@ -2,25 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/cityView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/runTypeView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/crtaus0.jpg" afterPath="$PROJECT_DIR$/img/crtaus0.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/crt.css" afterPath="$PROJECT_DIR$/css/crt.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crt.js" afterPath="$PROJECT_DIR$/crt.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CRT_App.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373812774649" ignored="false" />
-    <file path="/crt.css" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373163374007" ignored="false" />
-    <file path="/crt.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373168449882" ignored="false" />
-    <file path="/Dummy.txt" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374094089785" ignored="false" />
+    <file path="/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375642563985" ignored="false" />
+    <file path="/crt.css" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375644101874" ignored="false" />
+    <file path="/crt.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375636315393" ignored="false" />
+    <file path="/Dummy.txt" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375635757000" ignored="false" />
     <file path="/config.xml" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373167016998" ignored="false" />
     <file path="$PROJECT_DIR$/../wedding_site/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373233014910" ignored="false" />
     <file path="$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/js/student.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374095867367" ignored="false" />
     <file path="$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/views/student/tabViews/readingList.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374095046954" ignored="false" />
-    <file path="$PROJECT_DIR$/../slz-sri-international/atlassian-ide-plugin.xml" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374095776476" ignored="false" />
+    <file path="$PROJECT_DIR$/../slz-sri-international/atlassian-ide-plugin.xml" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375644108352" ignored="false" />
     <file path="$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/student.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374094867964" ignored="false" />
     <file path="/student.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374094865019" ignored="false" />
     <file path="/readingList.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374095005327" ignored="false" />
     <file path="/student.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374095637750" ignored="false" />
+    <file path="/runTypeView.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375639744680" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +44,54 @@
     <favorites_list name="CRT_App" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.37202555">
+    <splitter split-orientation="horizontal" split-proportion="0.47215346">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="80" column="40" selection-start="3418" selection-end="3418" vertical-scroll-proportion="0.39900866">
+                <state line="22" column="43" selection-start="676" selection-end="676" vertical-scroll-proportion="0.44534412">
                   <folding />
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="runTypeView.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/views/runTypeView.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="-7.5">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cityView.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/views/cityView.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1" column="40" selection-start="56" selection-end="56" vertical-scroll-proportion="-0.625">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="crtaus0_sm.jpg" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/img/crtaus0_sm.jpg">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="crt-logo_m2.png" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/img/crt-logo_m2.png">
+              <provider selected="true" editor-type-id="images">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="crtch0.jpg" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/img/crtch0.jpg">
+              <provider selected="true" editor-type-id="images">
+                <state />
               </provider>
             </entry>
           </file>
@@ -55,19 +99,24 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/crt.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="117" column="0" selection-start="2608" selection-end="2966" vertical-scroll-proportion="0.2166065">
-                  <folding />
+                <state line="33" column="0" selection-start="839" selection-end="839" vertical-scroll-proportion="8.16">
+                  <folding>
+                    <element signature="e#942#2422#0" expanded="false" />
+                    <element signature="e#2917#3238#0" expanded="false" />
+                    <element signature="e#3280#3556#0" expanded="false" />
+                    <element signature="e#3587#3668#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="crt.css" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="crt.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/crt.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="15" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+                <state line="26" column="23" selection-start="477" selection-end="477" vertical-scroll-proportion="0.5277402">
                   <folding />
                 </state>
               </provider>
@@ -106,16 +155,18 @@
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/crt.js" />
-        <option value="$PROJECT_DIR$/css/crt.css" />
+        <option value="$PROJECT_DIR$/views/cityView.html" />
+        <option value="$PROJECT_DIR$/views/runTypeView.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/crt.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1028" />
+    <option name="x" value="-1" />
     <option name="y" value="22" />
-    <option name="width" value="883" />
-    <option name="height" value="1178" />
+    <option name="width" value="1916" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -124,7 +175,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -143,6 +194,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -171,7 +223,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -185,25 +237,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.main.proportions" value="0.14057143" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="web.server" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../slz-sri-international" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PublishConfig" serverName="CRT_App" serverId="50415a35-2cb5-4617-ad60-9b78ae00a805" autoUpload="true" autoUploadExternalChanges="true">
+    <servers>
+      <server id="50415a35-2cb5-4617-ad60-9b78ae00a805">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="9276c3e2-e397-41b8-9aab-9a43e6c0039c">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp" web="/" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="da9987bd-a353-4d78-b0f3-e1e5be676e77">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -222,6 +298,13 @@
       <option name="filePath" />
       <option name="scope" value="ALL" />
       <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -270,18 +353,39 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1028" y="22" width="883" height="1178" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1" y="22" width="1916" height="1058" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42324093" sideWeight="0.49973586" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3304904" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5383721" sideWeight="0.8425121" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21447368" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14632858" sideWeight="0.8720682" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12793177" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15748793" sideWeight="0.5002641" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12793177" sideWeight="0.5002641" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -352,7 +456,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="atlassian-ide-plugin-workspace">
@@ -375,39 +479,12 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="61" selection-start="2620" selection-end="2620" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="525" column="61" selection-start="14960" selection-end="14967" vertical-scroll-proportion="0.33229813" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/crtdc00.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/screen/android/screen-hdpi-portrait.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/screen/android/screen-hdpi-landscape.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/crtmsp0.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/crt-logo_m2.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -429,16 +506,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/css/lexile_large.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="60" selection-end="261" vertical-scroll-proportion="0.08797654">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="60" selection-end="261" vertical-scroll-proportion="0.08797654" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/student.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="913" selection-end="1562" vertical-scroll-proportion="-3.9848025">
-          <folding />
-        </state>
+        <state line="27" column="0" selection-start="913" selection-end="1562" vertical-scroll-proportion="-3.9848025" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
@@ -448,23 +521,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/crt.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="15" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/img/crt-logo_m2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/crtch0.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/crtaus0_sm.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="0" selection-start="2608" selection-end="2966" vertical-scroll-proportion="0.2166065">
+        <state line="33" column="0" selection-start="839" selection-end="839" vertical-scroll-proportion="8.16">
+          <folding>
+            <element signature="e#942#2422#0" expanded="false" />
+            <element signature="e#2917#3238#0" expanded="false" />
+            <element signature="e#3280#3556#0" expanded="false" />
+            <element signature="e#3587#3668#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/runTypeView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/cityView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="40" selection-start="56" selection-end="56" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="40" selection-start="3418" selection-end="3418" vertical-scroll-proportion="0.39900866">
+        <state line="22" column="43" selection-start="676" selection-end="676" vertical-scroll-proportion="0.44534412">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/crt.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="23" selection-start="477" selection-end="477" vertical-scroll-proportion="0.5277402">
           <folding />
         </state>
       </provider>

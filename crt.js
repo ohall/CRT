@@ -7,19 +7,28 @@
  */
 
 var app = angular.module('CRTApp', ['ui.bootstrap','$strap.directives']);
-function IntroCtrl($scope) {
-    $scope.oneAtATime = true;
+
+function CRTCtrl($scope,$location) {
+
+    $scope.$on("$routeChangeSuccess", function (scope, next, current) {
+        $scope.transitionState = "active"
+    });
+
+    document.addEventListener("backbutton", $scope.backButtonPressed, false);
+
+    $scope.backButtonPressed = function(){
+         alert("back!");
+    }
 
     $scope.citySelect = function(pVal){
         $scope.myRun.city = pVal;
-        $scope.cityList.open = false;
-        $scope.runType.open = true;
+        $location.path('runTypeView');
+        $("#cityList").hide(300).delay(900);
+        $("#runList").show(300).delay(900);
     }
 
     $scope.runSelect = function(pVal){
         $scope.myRun.type = pVal;
-        $scope.runType.open = false;
-        $scope.datepicker.open = true;
 
     }
 
@@ -29,8 +38,10 @@ function IntroCtrl($scope) {
         type:""
     }
 
+
+
     $scope.cityList = {
-        cities:[
+        cities1:[
             {
                 name:"New York",
                 manager:"Karl",
@@ -50,7 +61,8 @@ function IntroCtrl($scope) {
                 routes:[],
                 image:"crtch0"
 
-            },
+            }],
+        cities2:[
             {
                 name:"Minneapolis",
                 manager:"Karl",
@@ -71,7 +83,8 @@ function IntroCtrl($scope) {
                 routes:[],
                 image:"crtsf00"
 
-            },
+            }],
+        cities3:[
             {
                 name:"Washington D.C.",
                 manager:"Karl",
@@ -112,7 +125,6 @@ function IntroCtrl($scope) {
         window.location = "http://www.active.com/running-membership/washington-dc/city-running-tours---washington-dc-personalized-running-tours-2017";
     };
 
-
 }
 
 app.directive('onTap', function () {
@@ -127,6 +139,18 @@ app.directive('onTap', function () {
         };
     });
 
+app.directive('animateMe', function() {
+    return function(scope, element, attrs) {
+        scope.$watch(attrs.animateMe, function() {
+            if(element[0].hidden){
+                element.show(300).delay(900);
+            }else{
+                element.hide(300).delay(900);
+            }
+        })
+    }
+});
+
 app.value('$strap.config', {
     datepicker: {
         language: 'en',
@@ -134,29 +158,18 @@ app.value('$strap.config', {
     }
 });
 
-
-//-----Start
-//1. Welcome Screen (CRT Logo for brief pause)
-//2. Open Screen Select City (Drop down menu of cities) -->
-// Select Group Run or Individualized Run
-//
-//A. If Indy Run
-//1. User selects from one of five pre-selected routes (hard coded, do not change)
-//2. User selects date of run
-//3. Then to C
-//
-//B. If Group Run
-//1. User selects date
-//2. User selects group runs on that date
-//3. Then to C
-//
-//C. Run Registration
-//1.1 User is taken directly to registration page in web browser for this run
-//2.1 Finish/Confirmation Page
-//--OR--
-//1.2 User is prompted to enter phone number and email address and email is sent to
-// City Manager notifying them of a run request. (Manager follows up via phone to get payment info
-//2.2 Finish
-//--OR--
-//1.3 Incorporate Square API to process payment in app
-//2.3 Finish
+app.config(function ($routeProvider){ //, $locationProvider) {
+    $routeProvider
+        .when('/',{
+            templateUrl:'views/cityView.html',
+            controller: 'CRTCtrl'
+        })
+        .when('/runTypeView',{
+            templateUrl:'views/runTypeView.html',
+            controller: 'CRTCtrl'
+        })
+        .otherwise({
+            redirectTo: '/'
+        });
+    // $locationProvider.html5Mode(true);
+});

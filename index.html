@@ -1,109 +1,52 @@
 <!DOCTYPE html>
-<html ng-app="CRTApp" ng-controller="IntroCtrl">
+<html ng-app="CRTApp" ng-controller="CRTCtrl">
 <!--<div class="splashDiv" ng-show="splashVis">-->
     <!--<img class="splashLogo" src="img/crt-logo.png">-->
+
+<div class="banner" >
+    <img class="banner-left" src="img/crt_banner_left.png"/>
+    <img class="banner-right" src="img/crt_banner_right.png"/>
 </div>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
-<body >
 
-<img src="img/crt-logo_m.png"/>
+<body>
 
-<div class="container" >
+    <div class="fragmentWrapper" ng-view></div>
 
-    <div class="tabbable">
-        <ul class="nav nav-pills">
-            <li class="active"><a href="#chooseRun"
-                                  data-toggle="tab">Choose your run</a></li>
-            <li class=""><a href="#register"
-                            data-toggle="tab">Register</a></li>
-        </ul>
-        <div class="tab-content" id="myTab">
-            <!--CHOOSE RUN TAB-->
-            <div class="tab-pane active"  id="chooseRun">
 
-                <accordion close-others="oneAtATime" >
-                    <accordion-group heading="Choose your city" class="cityList"
-                                     is-open="cityList.open" >
-                        <ul>
-                        <li ng-repeat="city in cityList.cities">
-                            <img   class="cityImage"
-                                   ng-src="img/{{ city.image }}.jpg"
-                                   on-tap="citySelect(city)"
-                                   value="{{ city.name }}" />
-                        </li>
-                        </ul>
-                    </accordion-group>
-                    <accordion-group heading="Type of run" class="runList"
-                                     is-open="runType.open">
-                        <ul><li ng-repeat="city in runType.names">
-                            <input type="button"
-                                   on-tap="runSelect(city)"
-                                   class="btn btn-large" value="{{ city }}" />
-                        </li></ul>
-                    </accordion-group>
-                    <accordion-group heading="Date of run" class="runDate"
-                                     is-open="datepicker.open">
-                        <form class="form-horizontal well">
-                            <div class="control-group input-append">
-                                <input id="inputDatepicker" readonly="readonly"
-                                       class="input-small" type="text"
-                                       ng-model="datepicker.date"
-                                       data-date-format="mm/dd/yyyy" bs-datepicker>
-                                <button type="button" class="btn" data-toggle="datepicker">
-                                    <i class="icon-calendar"></i>
-                                </button>
-                            </div>
-                        </form>
-                    </accordion-group>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/ui-bootstrap-tpls-0.4.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/hammer.min.js"></script>
+    <script src="js/jquery.hammer.min.js"></script>
+    <script src="js/angular-strap.min.js"></script>
+    <script src="crt.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
 
-                </accordion>
-            </div>
-            <!--REGISTRATION TAB-->
-            <div class="tab-pane" id="register">
+        // Wait for device API libraries to load
+        //
+        document.addEventListener("deviceready", onDeviceReady, false);
 
-               <input type="button" class="btn-large" on-tap="regClick()"
-                      value="DC Run Registration"></input>
-            </div>
-        </div>
-        <h3>{{ myRun.city.name }} {{ myRun.type }} {{ datepicker.date| date:'MM/dd/yyyy' }}</h3>
-    </div>
-    
 
-</div>
+        // device APIs are available
+        //
+        function onDeviceReady() {
+            navigator.splashscreen.show();
+        }
+    </script>
 
-<script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/angular.min.js"></script>
-<script src="js/ui-bootstrap-tpls-0.4.0.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/hammer.min.js"></script>
-<script src="js/jquery.hammer.min.js"></script>
-<script src="js/bootstrap-datepicker.js"></script>
-<script src="js/angular-strap.min.js"></script>
-<script src="crt.js"></script>
-<script src="js/index.js"></script>
-<script type="text/javascript" charset="utf-8" src="js/cordova.js"></script>
-<script type="text/javascript" charset="utf-8">
+    <link href="css/crt.css"  rel="stylesheet">
+    <link href="css/index.css"  rel="stylesheet">
 
-    // Wait for device API libraries to load
-    //
-    document.addEventListener("deviceready", onDeviceReady, false);
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
 
-    // device APIs are available
-    //
-    function onDeviceReady() {
-        navigator.splashscreen.show();
-    }
-</script>
-
-<link href="css/crt.css"  rel="stylesheet">
-<link href="css/index.css"  rel="stylesheet">
-
-<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
-
-<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
 
 </body>
 </html>
