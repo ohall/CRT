@@ -9,7 +9,11 @@
 </div>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no,
+    initial-scale=1, maximum-scale=1, minimum-scale=1,
+    width=device-width, height=device-height,
+    target-densitydpi=device-dpi" />
+
 </head>
 
 <body>
@@ -39,11 +43,11 @@
         //
         function onDeviceReady() {
             navigator.splashscreen.show();
-            console.log('start');
-            angular.module('ngView', [], function($routeProvider, $locationProvider) {
-
-            });
-            angular.bootstrap(document, ['ngView']);
+//            console.log('start');
+//            angular.module('ngView', [], function($routeProvider, $locationProvider) {
+//
+//            });
+//            angular.bootstrap(document, ['ngView']);
         }
 
 
