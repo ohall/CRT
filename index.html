@@ -39,7 +39,14 @@
         //
         function onDeviceReady() {
             navigator.splashscreen.show();
+            console.log('start');
+            angular.module('ngView', [], function($routeProvider, $locationProvider) {
+
+            });
+            angular.bootstrap(document, ['ngView']);
         }
+
+
     </script>
 
     <link href="css/crt.css"  rel="stylesheet">

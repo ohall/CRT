@@ -2,30 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/cityView.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/runTypeView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/crtaus0.jpg" afterPath="$PROJECT_DIR$/img/crtaus0.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/crt.css" afterPath="$PROJECT_DIR$/css/crt.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crt.js" afterPath="$PROJECT_DIR$/crt.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CRT_App.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375642563985" ignored="false" />
-    <file path="/crt.css" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375644101874" ignored="false" />
-    <file path="/crt.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375636315393" ignored="false" />
+    <file path="/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375660807939" ignored="false" />
+    <file path="/crt.css" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375644399275" ignored="false" />
+    <file path="/crt.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375653776728" ignored="false" />
     <file path="/Dummy.txt" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375635757000" ignored="false" />
     <file path="/config.xml" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373167016998" ignored="false" />
     <file path="$PROJECT_DIR$/../wedding_site/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373233014910" ignored="false" />
     <file path="$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/js/student.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374095867367" ignored="false" />
     <file path="$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/views/student/tabViews/readingList.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374095046954" ignored="false" />
-    <file path="$PROJECT_DIR$/../slz-sri-international/atlassian-ide-plugin.xml" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375644108352" ignored="false" />
-    <file path="$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/student.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374094867964" ignored="false" />
+    <file path="$PROJECT_DIR$/../slz-sri-international/atlassian-ide-plugin.xml" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375660938940" ignored="false" />
     <file path="/student.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374094865019" ignored="false" />
     <file path="/readingList.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374095005327" ignored="false" />
     <file path="/student.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374095637750" ignored="false" />
-    <file path="/runTypeView.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375639744680" ignored="false" />
+    <file path="/runTypeView.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375648781104" ignored="false" />
+    <file path="/runs.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1375651335952" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +40,13 @@
     <favorites_list name="CRT_App" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47215346">
+    <splitter split-orientation="horizontal" split-proportion="0.54551125">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="43" selection-start="676" selection-end="676" vertical-scroll-proportion="0.44534412">
+                <state line="47" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="-10.918367">
                   <folding />
                 </state>
               </provider>
@@ -59,7 +55,7 @@
           <file leaf-file-name="runTypeView.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/runTypeView.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="-7.5">
+                <state line="3" column="39" selection-start="137" selection-end="137" vertical-scroll-proportion="-1.875">
                   <folding />
                 </state>
               </provider>
@@ -68,7 +64,7 @@
           <file leaf-file-name="cityView.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/cityView.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="40" selection-start="56" selection-end="56" vertical-scroll-proportion="-0.625">
+                <state line="6" column="39" selection-start="305" selection-end="305" vertical-scroll-proportion="-3.75">
                   <folding />
                 </state>
               </provider>
@@ -95,28 +91,37 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="crt.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/crt.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="0" selection-start="839" selection-end="839" vertical-scroll-proportion="8.16">
+                <state line="172" column="4" selection-start="4097" selection-end="4097" vertical-scroll-proportion="0.85694826">
                   <folding>
-                    <element signature="e#942#2422#0" expanded="false" />
-                    <element signature="e#2917#3238#0" expanded="false" />
-                    <element signature="e#3280#3556#0" expanded="false" />
-                    <element signature="e#3587#3668#0" expanded="false" />
+                    <element signature="e#1403#2881#0" expanded="false" />
+                    <element signature="e#2922#3243#0" expanded="false" />
+                    <element signature="e#3285#3561#0" expanded="false" />
+                    <element signature="e#3592#3673#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="crt.css" pinned="false" current="true" current-in-tab="true">
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="runs.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/runs.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="50" column="35" selection-start="2018" selection-end="2031" vertical-scroll-proportion="1.119403">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="crt.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/crt.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="23" selection-start="477" selection-end="477" vertical-scroll-proportion="0.5277402">
+                <state line="163" column="0" selection-start="2606" selection-end="2606" vertical-scroll-proportion="-41.2549">
                   <folding />
                 </state>
               </provider>
@@ -154,11 +159,12 @@
         <option value="$PROJECT_DIR$/asd/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/crt.js" />
-        <option value="$PROJECT_DIR$/views/cityView.html" />
-        <option value="$PROJECT_DIR$/views/runTypeView.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/crt.css" />
+        <option value="$PROJECT_DIR$/views/runTypeView.html" />
+        <option value="$PROJECT_DIR$/views/cityView.html" />
+        <option value="$PROJECT_DIR$/runs.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/crt.js" />
       </list>
     </option>
   </component>
@@ -227,20 +233,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRT_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRT_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -291,7 +283,7 @@
       <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.CRTLocal">
+  <component name="RunManager" selected="JavaScript Debug.CRT_on_b2d2">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -323,8 +315,23 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="CRT_on_b2d2" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="chrome" />
+        <option name="fileUrl" value="http://www.bizarr2d2.com/CRT_App" />
+        <mapping url="http://www.bizarr2d2.com/CRT_App/index.html" local-file="$PROJECT_DIR$/index.html" />
+        <mapping url="http://www.bizarr2d2.com/CRT_App/run.js" local-file="$PROJECT_DIR$/runs.js" />
+        <mapping url="http://www.bizarr2d2.com/CRT_App/crt.js" local-file="$PROJECT_DIR$/crt.js" />
+        <mapping url="http://www.bizarr2d2.com/CRT_App/views/runTypeView.html" local-file="$PROJECT_DIR$/views/runTypeView.html" />
+        <mapping url="http://www.bizarr2d2.com/CRT_App/views/cityView.html" local-file="$PROJECT_DIR$/views/cityView.html" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.CRTLocal" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.CRT_on_b2d2" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -382,10 +389,10 @@
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14632858" sideWeight="0.8720682" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12793177" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15266772" sideWeight="0.8123667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18763326" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12793177" sideWeight="0.5002641" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12793177" sideWeight="0.5002641" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -456,7 +463,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="32" />
     </breakpoint-manager>
   </component>
   <component name="atlassian-ide-plugin-workspace">
@@ -479,11 +486,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/screen/android/screen-hdpi-landscape.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/crtmsp0.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -497,11 +499,6 @@
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5962" column="19" selection-start="124283" selection-end="124283" vertical-scroll-proportion="0.44875777" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="17" selection-start="1933" selection-end="1944" vertical-scroll-proportion="0.8744395" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/css/lexile_large.css">
@@ -536,43 +533,57 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crt.js">
+    <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="839" selection-end="839" vertical-scroll-proportion="8.16">
-          <folding>
-            <element signature="e#942#2422#0" expanded="false" />
-            <element signature="e#2917#3238#0" expanded="false" />
-            <element signature="e#3280#3556#0" expanded="false" />
-            <element signature="e#3587#3668#0" expanded="false" />
-          </folding>
+        <state line="44" column="17" selection-start="1933" selection-end="1944" vertical-scroll-proportion="0.72527474">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/runTypeView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="-7.5">
+        <state line="3" column="39" selection-start="137" selection-end="137" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/cityView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="40" selection-start="56" selection-end="56" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="43" selection-start="676" selection-end="676" vertical-scroll-proportion="0.44534412">
+        <state line="6" column="39" selection-start="305" selection-end="305" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/crt.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="477" selection-end="477" vertical-scroll-proportion="0.5277402">
+        <state line="163" column="0" selection-start="2606" selection-end="2606" vertical-scroll-proportion="-41.2549">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="-10.918367">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="35" selection-start="2018" selection-end="2031" vertical-scroll-proportion="1.119403">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="4" selection-start="4097" selection-end="4097" vertical-scroll-proportion="0.85694826">
+          <folding>
+            <element signature="e#1403#2881#0" expanded="false" />
+            <element signature="e#2922#3243#0" expanded="false" />
+            <element signature="e#3285#3561#0" expanded="false" />
+            <element signature="e#3592#3673#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

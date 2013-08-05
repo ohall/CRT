@@ -170,5 +170,5 @@ app.config(function ($routeProvider, $compileProvider){ //, $locationProvider) {
         });
     $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
 
-    // $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(true);
 });
