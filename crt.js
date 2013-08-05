@@ -163,10 +163,10 @@ app.config(function ($compileProvider, $routeProvider ){ //, $locationProvider) 
 
     $routeProvider
         .when('/',{
-            templateUrl:'views/cityView.html',
+            templateUrl:'cityView.html'
         })
         .when('/runTypeView',{
-            templateUrl:'views/runTypeView.html',
+            templateUrl:'runTypeView.html'
         })
         .otherwise({
             redirectTo: '/'
