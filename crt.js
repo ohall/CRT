@@ -50,9 +50,13 @@ function CRTCtrl($scope,$location, getRunPaths) {
         }
 
 
-        var therun = runs['indy'];
-
-        window.location = therun;
+        if(pVal === 'Individual'){
+            var therun = runs['indy'];
+            window.location = therun;
+        }else{
+            $scope.runs = runs;
+            $location.path('groupRun');
+        }
 
     }
 
@@ -167,6 +171,9 @@ app.config(function ($compileProvider, $routeProvider ){ //, $locationProvider) 
         })
         .when('/runTypeView',{
             templateUrl:'runTypeView.html'
+        })
+        .when('/groupRun',{
+            templateUrl:'groupRunList.html'
         })
         .otherwise({
             redirectTo: '/'

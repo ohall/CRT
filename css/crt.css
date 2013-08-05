@@ -87,7 +87,9 @@ body{
     margin: 20px;
 }
 
-
+.cityLabel{
+    padding-top: 80px;
+}
 
 
 
@@ -147,6 +149,7 @@ body{
 
 /* back, initially hidden pane */
 .back {
+    background-color: #FF8A36;
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     transform: rotateY(180deg);
@@ -162,7 +165,7 @@ body{
 
 .fragmentWrapper {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
     margin-right: auto;
     margin-left: auto;
     overflow: hidden;
