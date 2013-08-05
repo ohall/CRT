@@ -159,7 +159,7 @@ app.value('$strap.config', {
 
 app.config(function ($compileProvider, $routeProvider ){ //, $locationProvider) {
 
-    $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
+   // $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|tel):/);
 
     $routeProvider
         .when('/',{
