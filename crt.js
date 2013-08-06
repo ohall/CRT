@@ -10,6 +10,9 @@ var app = angular.module('CRTApp', ['ui.bootstrap','$strap.directives']);
 
 function CRTCtrl($scope,$location, getRunPaths) {
 
+    $scope.selectedIndex = -1;
+    $scope.runType = "";
+
     $scope.city = "";
 
     $scope.$on("$routeChangeSuccess", function (scope, next, current) {
@@ -30,6 +33,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
     }
 
     $scope.runSelect = function(pVal){
+        $scope.runType = pVal;
         var paths = getRunPaths.paths();
 
         var indy;
@@ -58,6 +62,12 @@ function CRTCtrl($scope,$location, getRunPaths) {
             $location.path('groupRun');
         }
 
+    }
+
+
+    $scope.groupRunSelected = function(pRun, pIndex){
+        $scope.selectedIndex = pIndex;
+        window.location = pRun.url;
     }
 
     $scope.cityList = {

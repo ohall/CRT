@@ -91,8 +91,39 @@ body{
     padding-top: 80px;
 }
 
+.groupRunLabel{
 
+}
 
+.groupRunLabel:active{
+    color: #FF8A36;
+}
+
+.groupRunLabel:hover{
+    color: #a55326;
+}
+
+.listRow-false{
+    color: #ffffff;
+    margin-bottom: 10px;
+    background-color: #000000;
+    opacity: 0.3;
+}
+
+.listRow-true{
+    color: #FF8A36;
+    margin-bottom: 10px;
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+.listRow:active{
+    opacity: 1.0;
+}
+
+.listRow:hover{
+    opacity: .75;
+}
 
 /*Image flip animation*/
 

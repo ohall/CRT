@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <div class="fragment {{transitionState}}">
-    <div class="row" ng-repeat="run in runs">
-        <h1>{{ run.name }}</h1>
+    <div class="row listRow-{{ $index==selectedIndex }}"
+         ng-repeat="run in runs"
+         on-tap="groupRunSelected(run,$index)">
+        <h1 class="groupRunLabel">{{ run.name }}</h1>
     </div>
 
 </div>

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <div class="fragment {{transitionState}} runList" id="runList">
-<div class="row">
-    <a ng-click="runSelect('Individual')"
-       class="btn btn-warning btn-large span12">
-        <i class="icon-user">
-        </i> Individual Run
-    </a>
-    <a ng-click="runSelect('Group')"
-       class="btn btn-warning btn-large  span12">
-        <i class="icon-road"></i> Group Run
-    </a>
-</div>
+
+    <div class="row listRow-{{ runType=='Individual' }}"
+         on-tap="runSelect('Individual')">
+        <h1 class="groupRunLabel">Individual Run</h1>
+    </div>
+
+    <div class="row listRow-{{ runType=='Group' }}"
+         on-tap="runSelect('Group')">
+        <h1 class="groupRunLabel">Group Run</h1>
+    </div>
+
 </div>
