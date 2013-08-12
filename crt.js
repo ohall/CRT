@@ -9,7 +9,7 @@
 var app = angular.module('CRTApp', ['ui.bootstrap','$strap.directives']);
 
 function CRTCtrl($scope,$location, getRunPaths) {
-
+    $scope.mouseDown = false;
     $scope.selectedIndex = -1;
     $scope.runType = "";
 
@@ -64,80 +64,92 @@ function CRTCtrl($scope,$location, getRunPaths) {
 
     }
 
+    $scope.getContacts = function(){
+        $location.path('contacts');
+    }
 
     $scope.groupRunSelected = function(pRun, pIndex){
         $scope.selectedIndex = pIndex;
         window.location = pRun.url;
     }
 
-    $scope.cityList = {
-        cities1:[
+    $scope.email ="Runners@CityRunningTours.com";
+    $scope.crtPhone ="877.415.0058";
+
+    $scope.cityList = [
             {
                 name:"New York",
                 manager:"Karl",
-                routes:[],
+                ext:"11",
                 image:"crtnyc00"
             },
             {
                 name:"Austin",
                 manager:"Karl",
-                routes:[],
+                ext:"19",
                 image:"crtaus0"
 
             },
             {
                 name:"Chicago",
                 manager:"Karl",
-                routes:[],
+                ext:"12",
                 image:"crtch0"
 
-            }],
-        cities2:[
+            },
             {
                 name:"Minneapolis",
                 manager:"Karl",
-                routes:[],
+                ext:"18",
                 image:"crtmsp0"
 
             },
             {
                 name:"Philadelphia",
                 manager:"Karl",
-                routes:[],
+                ext:"14",
                 image:"crtph0"
 
             },
             {
                 name:"San Francisco",
                 manager:"Karl",
-                routes:[],
+                ext:"15",
                 image:"crtsf00"
 
-            }],
-        cities3:[
+            },
             {
                 name:"Washington DC",
                 manager:"Karl",
-                routes:[],
+                ext:"13",
                 image:"crtdc00"
 
             },
             {
                 name:"Portland",
                 manager:"Karl",
-                routes:[],
+                ext:"20",
                 image:"crtpor3"
 
             },
             {
                 name:"Boston",
                 manager:"Karl",
-                routes:[],
+                ext:"16",
                 image:"crtbos0"
-            }],
-        open:false
-    };
-
+            },
+            {
+                name:"Seattle",
+                manager:"Karl",
+                ext:"17",
+                image:"crtsea0"
+            },
+            {
+                name:"Denver",
+                manager:"Karl",
+                ext:"21",
+                image:"crtden0"
+            }];
 }
 
 app.directive('onTap', function () {
@@ -184,6 +196,9 @@ app.config(function ($compileProvider, $routeProvider ){ //, $locationProvider) 
         })
         .when('/groupRun',{
             templateUrl:'groupRunList.html'
+        })
+        .when('/contacts',{
+            templateUrl:'contacts.html'
         })
         .otherwise({
             redirectTo: '/'
