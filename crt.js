@@ -12,18 +12,15 @@ function CRTCtrl($scope,$location, getRunPaths) {
     $scope.mouseDown = false;
     $scope.selectedIndex = -1;
     $scope.runType = "";
-
     $scope.city = "";
+    $scope.loadingVisible = false;
+
+
 
     $scope.$on("$routeChangeSuccess", function (scope, next, current) {
         $scope.transitionState = "active"
     });
 
-    document.addEventListener("backbutton", $scope.backButtonPressed, false);
-
-    $scope.backButtonPressed = function(){
-         alert("back!");
-    }
 
     $scope.citySelect = function(pVal){
         $scope.city = pVal.name;
@@ -55,8 +52,10 @@ function CRTCtrl($scope,$location, getRunPaths) {
 
 
         if(pVal === 'Individual'){
+            $scope.loadingVisible = true;
             var therun = runs['indy'];
             window.location = therun;
+            $location.path('cityView');
         }else{
             $scope.runs = runs;
             $location.path('groupRun');
@@ -69,8 +68,10 @@ function CRTCtrl($scope,$location, getRunPaths) {
     }
 
     $scope.groupRunSelected = function(pRun, pIndex){
+        $scope.loadingVisible = true;
         $scope.selectedIndex = pIndex;
         window.location = pRun.url;
+        $location.path('cityView');
     }
 
     $scope.email ="Runners@CityRunningTours.com";
@@ -176,12 +177,6 @@ app.directive('animateMe', function() {
     }
 });
 
-app.value('$strap.config', {
-    datepicker: {
-        language: 'en',
-        format: 'MM dd, yyyy'
-    }
-});
 
 app.config(function ($compileProvider, $routeProvider ){ //, $locationProvider) {
 
@@ -189,6 +184,9 @@ app.config(function ($compileProvider, $routeProvider ){ //, $locationProvider) 
 
     $routeProvider
         .when('/',{
+            templateUrl:'cityView.html'
+        })
+        .when('/cityView',{
             templateUrl:'cityView.html'
         })
         .when('/runTypeView',{
