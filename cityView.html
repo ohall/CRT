@@ -1,27 +1,13 @@
 <!DOCTYPE html>
-<div class="fragment {{transitionState}}" id="cityList">
-    <div class="imgrow">
-        <div    class="flip-container cityImage"
-                ontouchstart="this.classList.toggle('hover');"
-                ng-repeat="city in cityList"
-                on-tap="citySelect(city)">
-            <div class="flipper">
-                <div class="front cityPanel">
-                    {{ city.name }}
-                    <img    ng-src="img/{{ city.image }}.jpg"
-                            value="{{ city.name }}" />
-                </div>
-                <div class="back">
-                    <strong>{{ city.name }}</strong>
-                </div>
-            </div>
-        </div>
+<div class="fragment {{transitionState}} span12"  id="cityList">
+
+    <div    class="cityCard"
+            ng-repeat="city in cityList"
+            on-tap="citySelect(city)">
+                <p >{{ city.name }}<p>
+                <img    ng-src="img/{{ city.image }}.jpg"
+                        value="{{ city.name }}" />
     </div>
-    <!--<div class="row listRow-{{ mouseDown }}"-->
-         <!--on-tap="getContacts(city)"-->
-         <!--onmousedown="mouseDown=true"-->
-         <!--onmouseup="mouseDown=false">-->
-        <!--CONTACT US-->
-    <!--</div>-->
+
 
 </div>
