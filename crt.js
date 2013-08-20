@@ -23,7 +23,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
 
 
     $scope.citySelect = function(pVal){
-        $scope.city = pVal.name;
+        $scope.city = pVal;
         $location.path('runTypeView');
 //        $("#cityList").hide(300).delay(900);
 //        $("#runList").show(300).delay(900);
@@ -44,7 +44,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
         var runs;
 
         for(var i=0;i<indy.cities.length;i++){
-            if(indy.cities[i].city.toLowerCase() == $scope.city.toLowerCase()){
+            if(indy.cities[i].city.toLowerCase() == $scope.city.name.toLowerCase()){
                 runs = indy.cities[i].runs;
                 break;
             }
@@ -78,78 +78,90 @@ function CRTCtrl($scope,$location, getRunPaths) {
     $scope.crtPhone ="877.415.0058";
 
     $scope.cityList = [
-            {
-                name:"New York",
-                manager:"Karl",
-                ext:"11",
-                image:"crtnyc00"
-            },
+
             {
                 name:"Austin",
                 manager:"Karl",
+                email: "Austin@CityRunningTours.com",
                 ext:"19",
                 image:"crtaus0"
 
             },
             {
+                name:"Boston",
+                manager:"Karl",
+                email: "Boston@CityRunningTours.com",
+                ext:"16",
+                image:"crtbos0"
+            },
+            {
                 name:"Chicago",
                 manager:"Karl",
+                email: "Chicago@CityRunningTours.com",
                 ext:"12",
                 image:"crtch0"
 
             },
             {
+                name:"Denver",
+                manager:"Karl",
+                email: "Denver@CityRunningTours.com",
+                ext:"21",
+                image:"crtden0"
+            },
+            {
                 name:"Minneapolis",
                 manager:"Karl",
+                email: "Minneapolis@CityRunningTours.com",
                 ext:"18",
                 image:"crtmsp0"
 
             },
             {
+                name:"New York",
+                manager:"Karl",
+                email: "NewYork@CityRunningTours.com",
+                ext:"11",
+                image:"crtnyc00"
+            },
+            {
                 name:"Philadelphia",
                 manager:"Karl",
+                email: "Philadelphia@CityRunningTours.com",
                 ext:"14",
                 image:"crtph0"
 
             },
             {
-                name:"San Francisco",
-                manager:"Karl",
-                ext:"15",
-                image:"crtsf00"
-
-            },
-            {
-                name:"Washington DC",
-                manager:"Karl",
-                ext:"13",
-                image:"crtdc00"
-
-            },
-            {
                 name:"Portland",
                 manager:"Karl",
+                email: "Portland@CityRunningTours.com",
                 ext:"20",
                 image:"crtpor3"
 
             },
             {
-                name:"Boston",
+                name:"San Francisco",
                 manager:"Karl",
-                ext:"16",
-                image:"crtbos0"
+                email: "SanFran@CityRunningTours.com",
+                ext:"15",
+                image:"crtsf00"
+
             },
             {
                 name:"Seattle",
                 manager:"Karl",
+                email: "Seattle@CityRunningTours.com",
                 ext:"17",
                 image:"crtsea0"
             },
             {
-                name:"Denver",
+                name:"Washington DC",
                 manager:"Karl",
-                ext:"21",
-                image:"crtden0"
+                email: "DC@CityRunningTours.com",
+                ext:"13",
+                image:"crtdc00"
+
             }];
 }
 

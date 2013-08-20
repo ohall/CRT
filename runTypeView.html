@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <div class="fragment {{transitionState}} runList" id="runList">
-    <h1 class="cityLabel"><strong>{{ city }}</strong></h1>
+    <h1 class="cityLabel"><strong>{{ city.name }}</strong></h1>
+
     <div class="row listRow-{{ runType=='Individual' }}"
          on-tap="runSelect('Individual')">
         <h1 class="groupRunLabel">Personalized Run</h1>
@@ -9,6 +10,15 @@
     <div class="row listRow-{{ runType=='Group' }}"
          on-tap="runSelect('Group')">
         <h1 class="groupRunLabel">Group Run</h1>
+    </div>
+
+
+    <div class="row listRow-false"
+         on-tap="getContacts()">
+        <h1 class="groupRunLabel">Contact US</h1>
+        <h5>Manager: {{ city.manager }}</h5>
+        <h5>Email: {{ city.email }}</h5>
+        <h5>Phone: 877.415.0058 x{{ city.ext }}</h5>
     </div>
 
 </div>
