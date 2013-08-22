@@ -14,6 +14,8 @@ function CRTCtrl($scope,$location, getRunPaths) {
     $scope.runType = "";
     $scope.city = "";
     $scope.loadingVisible = false;
+    $scope.emailText = "";
+    $scope.crtPhone ="877.415.0058";
 
 
 
@@ -63,8 +65,16 @@ function CRTCtrl($scope,$location, getRunPaths) {
 
     }
 
-    $scope.getContacts = function(){
-        $location.path('contacts');
+    var contactEmailConsts = {
+        'SUBJECT'   :"City Running Tours Customer Inquiry for ",
+        'ROOTEMAIL' :"Runners@CityRunningTours.com"
+    };
+
+    $scope.emailManager = function(cityemail, cityName){
+        window.plugins.emailComposer.showEmailComposer( contactEmailConsts.SUBJECT+cityName,
+                                                        $scope.emailText, cityemail,
+                                                        contactEmailConsts.ROOTEMAIL,
+                                                        "",false);
     }
 
     $scope.groupRunSelected = function(pRun, pIndex){
@@ -73,9 +83,6 @@ function CRTCtrl($scope,$location, getRunPaths) {
         window.location = pRun.url;
         $location.path('cityView');
     }
-
-    $scope.email ="Runners@CityRunningTours.com";
-    $scope.crtPhone ="877.415.0058";
 
     $scope.cityList = [
 

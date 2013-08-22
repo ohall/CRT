@@ -185,6 +185,22 @@ div{
     color: #a55326;
 }
 
+.submitContact{
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.submitContact h5{
+    color: #ffffff;
+    margin-left:    10px;
+    margin-top:     2px;
+    margin-bottom:  2px;
+}
+
+.contactText{
+}
+
 .listRow-false{
     padding-left: 10px;
     color: #ffffff;
@@ -193,11 +209,6 @@ div{
     opacity: 0.3;
 }
 
-listRow h5{
-    margin-left:    10px;
-    margin-top:     2px;
-    margin-bottom:  2px;
-}
 
 .listRow-true{
     color: #FF8A36;
@@ -216,5 +227,4 @@ listRow h5{
 
 
 
-/
 
