@@ -20,7 +20,10 @@
         <div class="submitContact" ng-show="showTextInput">
             <h5>Manager: {{ city.manager }}</h5>
             <h5>Email: {{ city.email }}</h5>
+
             <h5>Phone: {{ crtPhone }} x{{ city.ext }}</h5>
+            <button class="btn btn-small" on-tap="phoneCall()">Call</button>
+
             <textarea rows="4" class="contactText span6" ng-model="emailText"/>
             <button class="btn btn-small" on-tap="emailManager(city.email,city.name)">Submit</button>
         </div>

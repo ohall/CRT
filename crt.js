@@ -77,6 +77,10 @@ function CRTCtrl($scope,$location, getRunPaths) {
                                                         "",false);
     }
 
+    $scope.phoneCall = function(){
+        window.plugins.phoneDialer.dial($scope.crtPhone);
+    }
+
     $scope.groupRunSelected = function(pRun, pIndex){
         $scope.loadingVisible = true;
         $scope.selectedIndex = pIndex;

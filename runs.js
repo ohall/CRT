@@ -188,15 +188,21 @@ function getRunPaths(){
                 runs:[
                     {
                         name:'East Village Run - 7 AM',
-                        url:'https://register.racevine.com/events/new-york-ny/east-village-running-tour'
+                        url:'https://register.racevine.com/events/new-york-ny/east-village-running-tour',
+                        description:"Trace the Rock N Roll roots of NYC through the East Village as we run by CBGBs, The Fillmore East and Tompkins Square Park. We'll also pass NYU and Cooper Union - two of Manhattan's oldest educational institutions - and McSorley's, the oldest ale house in the city."
+
+
                     },
                     {
                         name:'West Village Run - 7 AM',
-                        url:'https://register.racevine.com/events/new-york-ny/west-village-running-tour'
+                        url:'https://register.racevine.com/events/new-york-ny/west-village-running-tour',
+                        description:"What do Bob Dylan, Ernest Hemingway, The Cosby Show and Carrie Bradshaw all have in common? They all have ties to Manhattan's West Village. Run down quiet, tree-lined streets and see theaters, comedy clubs, fine dining and possibly a celebrity sighting."
+
                     },
                     {
                         name:'SOHO Run - 7 AM',
-                        url:'https://register.racevine.com/events/new-york-ny/soho-running-tour'
+                        url:'https://register.racevine.com/events/new-york-ny/soho-running-tour',
+                        description:"Go beyond the shopping of SOHO to learn more about how the cast iron historic district got its start. Little Italy, Chinatown and Tribeca are on display here, as are the original American Express warehouse, the Western Union Building and the Ghostbusters HQ Firehouse."
                     },
                     {
                         name:'Lower East Side Run - 7 AM',

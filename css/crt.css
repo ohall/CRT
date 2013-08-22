@@ -78,6 +78,7 @@ div{
     right: 0;
     left: 0;
     margin: 0;
+    top: 0;
 
     position: relative;
     -moz-transition-property: left;
@@ -167,7 +168,7 @@ div{
 }
 
 .cityLabel{
-    padding-top: 80px;
+    padding-top: 10px;
 }
 
 
@@ -198,11 +199,16 @@ div{
     margin-bottom:  2px;
 }
 
+.submitContact button{
+    float: left;
+
+}
+
 .contactText{
 }
 
 .listRow-false{
-    padding-left: 10px;
+    padding: 10px;
     color: #ffffff;
     margin-bottom: 10px;
     background-color: #000000;
@@ -211,6 +217,7 @@ div{
 
 
 .listRow-true{
+    padding: 10px;
     color: #FF8A36;
     margin-bottom: 10px;
     background-color: #000000;
