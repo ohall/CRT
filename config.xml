@@ -48,7 +48,6 @@
 
     <!-- Plugins can also be added here. -->
     <plugin name="EmailComposer" value="org.apache.cordova.plugin.EmailComposer"/>
-    <plugin name="iOSNavigationBar" value="org.apache.cordova.plugin.iOSNavigationBar"/>
 
 
     <!-- Define app icon for each platform. -->
