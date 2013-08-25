@@ -27,8 +27,6 @@ function CRTCtrl($scope,$location, getRunPaths) {
     $scope.citySelect = function(pVal){
         $scope.city = pVal;
         $location.path('runTypeView');
-//        $("#cityList").hide(300).delay(900);
-//        $("#runList").show(300).delay(900);
     }
 
     $scope.runSelect = function(pVal){
@@ -84,10 +82,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
     $scope.groupRunSelected = function(pRun, pIndex){
         $scope.loadingVisible = true;
         $scope.selectedIndex = pIndex;
-       // window.location = pRun.url;
-        //$("#fragmentView").load(pRun.url);
-        navigator.app
-        navigator.app.loadUrl(pRun.url, { openExternal:true });
+        window.location = pRun.url;
         $location.path('cityView');
     }
 

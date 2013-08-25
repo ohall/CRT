@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CDVNavigationBar.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CDVNavigationBarController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CDVNavigationBarController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NavigationBar.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NavigationBar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NavigationBar.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NavigationBar.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NavigationBar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NavigationBar.m" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crt.js" afterPath="$PROJECT_DIR$/crt.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
@@ -59,13 +56,13 @@
     <favorites_list name="CRT_App" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.40231362">
+    <splitter split-orientation="horizontal" split-proportion="0.42008844">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="50" column="73" selection-start="1733" selection-end="1749" vertical-scroll-proportion="0.36956522">
+                <state line="44" column="10" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.92474914">
                   <folding />
                 </state>
               </provider>
@@ -129,12 +126,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="51" column="0" selection-start="3794" selection-end="3794" vertical-scroll-proportion="0.37299034">
+                <state line="30" column="0" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0">
                   <folding>
-                    <marker date="1377459209000" expanded="true" signature="3621:3794" placeholder="..." />
+                    <marker date="1377460004000" expanded="true" signature="3623:3796" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -178,10 +175,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/crt.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="90" column="35" selection-start="2652" selection-end="2652" vertical-scroll-proportion="0.0">
+                <state line="19" column="0" selection-start="493" selection-end="493" vertical-scroll-proportion="-1.535433">
                   <folding />
                 </state>
               </provider>
@@ -220,9 +217,9 @@
         <option value="$PROJECT_DIR$/groupRunList.html" />
         <option value="$PROJECT_DIR$/cityView.html" />
         <option value="$PROJECT_DIR$/css/crt.css" />
+        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/crt.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -303,48 +300,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="CRT_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRT_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRT_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRT_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRT_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRT_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CRT_App" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -498,7 +453,7 @@
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1780243" sideWeight="0.70682305" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16376123" sideWeight="0.70682305" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29317698" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12793177" sideWeight="0.5002641" order="7" side_tool="true" content_ui="tabs" />
@@ -659,25 +614,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cityView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="64" selection-start="482" selection-end="482" vertical-scroll-proportion="-9.375">
-          <folding>
-            <marker date="1377205836000" expanded="true" signature="264:386" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/EmailComposer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="29" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="35" selection-start="2652" selection-end="2652" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -689,19 +628,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="73" selection-start="1733" selection-end="1749" vertical-scroll-proportion="0.36956522">
+        <state line="30" column="0" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1377460004000" expanded="true" signature="3623:3796" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cityView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="64" selection-start="482" selection-end="482" vertical-scroll-proportion="-9.375">
+          <folding>
+            <marker date="1377205836000" expanded="true" signature="264:386" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="493" selection-end="493" vertical-scroll-proportion="-1.535433">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="3794" selection-end="3794" vertical-scroll-proportion="0.37299034">
-          <folding>
-            <marker date="1377459209000" expanded="true" signature="3621:3794" placeholder="..." />
-          </folding>
+        <state line="44" column="10" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.92474914">
+          <folding />
         </state>
       </provider>
     </entry>
