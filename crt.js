@@ -86,6 +86,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
         $scope.selectedIndex = pIndex;
        // window.location = pRun.url;
         //$("#fragmentView").load(pRun.url);
+        navigator.app
         navigator.app.loadUrl(pRun.url, { openExternal:true });
         $location.path('cityView');
     }
