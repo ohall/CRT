@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/crt-logo_m.png" afterPath="$PROJECT_DIR$/img/crt-logo_m.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/crt.css" afterPath="$PROJECT_DIR$/css/crt.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crt.js" afterPath="$PROJECT_DIR$/crt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CRT_App.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1377450663180" ignored="false" />
-    <file path="/crt.css" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1377449588449" ignored="false" />
+    <file path="/crt.css" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1377451508780" ignored="false" />
     <file path="/crt.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1377199997214" ignored="false" />
     <file path="/Dummy.txt" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1377448879369" ignored="false" />
     <file path="/config.xml" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373167016998" ignored="false" />
@@ -54,13 +52,13 @@
     <favorites_list name="CRT_App" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5029308">
+    <splitter split-orientation="horizontal" split-proportion="0.2901524">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="53" selection-start="337" selection-end="337" vertical-scroll-proportion="0.16535433">
+                <state line="57" column="12" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.8277592">
                   <folding />
                 </state>
               </provider>
@@ -78,7 +76,7 @@
           <file leaf-file-name="crt.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/crt.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="51" column="9" selection-start="709" selection-end="709" vertical-scroll-proportion="-4.1764708">
+                <state line="41" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="-11.823529">
                   <folding />
                 </state>
               </provider>
@@ -153,10 +151,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cityView.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="cityView.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/cityView.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="72" selection-start="490" selection-end="490" vertical-scroll-proportion="0.35433072">
+                <state line="15" column="64" selection-start="482" selection-end="482" vertical-scroll-proportion="-9.375">
                   <folding>
                     <marker date="1377205836000" expanded="true" signature="264:386" placeholder="..." />
                   </folding>
@@ -164,10 +162,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="crt.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/crt.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="89" column="5" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.0">
+                <state line="93" column="0" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.70866144">
                   <folding />
                 </state>
               </provider>
@@ -206,9 +204,9 @@
         <option value="$PROJECT_DIR$/runs.js" />
         <option value="$PROJECT_DIR$/groupRunList.html" />
         <option value="$PROJECT_DIR$/cityView.html" />
-        <option value="$PROJECT_DIR$/crt.js" />
-        <option value="$PROJECT_DIR$/css/crt.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/crt.css" />
+        <option value="$PROJECT_DIR$/crt.js" />
       </list>
     </option>
   </component>
@@ -478,13 +476,13 @@
     <frame x="4" y="22" width="1916" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2675906" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2675906" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3304904" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.098785" sideWeight="0.73240936" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.293617" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.098785" sideWeight="0.70682305" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29317698" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12793177" sideWeight="0.5002641" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -651,10 +649,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crt.js">
+    <entry file="file://$PROJECT_DIR$/css/crt.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="5" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.0">
+        <state line="41" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="-11.823529">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cityView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="64" selection-start="482" selection-end="482" vertical-scroll-proportion="-9.375">
+          <folding>
+            <marker date="1377205836000" expanded="true" signature="264:386" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -665,25 +672,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/crt.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="9" selection-start="709" selection-end="709" vertical-scroll-proportion="-4.1764708">
+        <state line="57" column="12" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.8277592">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cityView.html">
+    <entry file="file://$PROJECT_DIR$/crt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="72" selection-start="490" selection-end="490" vertical-scroll-proportion="0.35433072">
-          <folding>
-            <marker date="1377205836000" expanded="true" signature="264:386" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="53" selection-start="337" selection-end="337" vertical-scroll-proportion="0.16535433">
+        <state line="93" column="0" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.70866144">
           <folding />
         </state>
       </provider>

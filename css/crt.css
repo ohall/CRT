@@ -31,11 +31,14 @@ div{
 }
 .loadingVisible{
     position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: #ffffff;
     height: 100%;
     width: 100%;
     text-align: center;
-    padding-top: 30%;
 }
 
 .banner{
