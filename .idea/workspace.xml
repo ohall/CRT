@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/crt.css" afterPath="$PROJECT_DIR$/css/crt.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crt.js" afterPath="$PROJECT_DIR$/crt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
     </list>
     <ignored path="CRT_App.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,13 +50,13 @@
     <favorites_list name="CRT_App" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.2901524">
+    <splitter split-orientation="horizontal" split-proportion="0.20920785">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="57" column="12" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.8277592">
+                <state line="43" column="34" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.47658864">
                   <folding />
                 </state>
               </provider>
@@ -122,12 +120,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="47" column="0" selection-start="3576" selection-end="3576" vertical-scroll-proportion="0.0">
+                <state line="49" column="82" selection-start="3704" selection-end="3704" vertical-scroll-proportion="0.46945336">
                   <folding>
-                    <marker date="1377175394000" expanded="true" signature="3621:3675" placeholder="..." />
+                    <marker date="1377458201000" expanded="true" signature="3621:3705" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -162,10 +160,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="crt.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/crt.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="93" column="0" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.70866144">
+                <state line="93" column="0" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -196,7 +194,6 @@
         <option value="$PROJECT_DIR$/views/runTypeView.html" />
         <option value="$PROJECT_DIR$/views/cityView.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/runTypeView.html" />
         <option value="$PROJECT_DIR$/PhoneDialer.h" />
         <option value="$PROJECT_DIR$/PhoneDialer.m" />
@@ -207,6 +204,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/crt.css" />
         <option value="$PROJECT_DIR$/crt.js" />
+        <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
@@ -481,8 +479,8 @@
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.098785" sideWeight="0.70682305" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29317698" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.219757" sideWeight="0.70682305" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29317698" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12793177" sideWeight="0.5002641" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -590,15 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="3576" selection-end="3576" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1377175394000" expanded="true" signature="3621:3675" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runTypeView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="76" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
@@ -674,15 +663,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="12" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.8277592">
+        <state line="43" column="34" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.47658864">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.70866144">
+        <state line="93" column="0" selection-start="2662" selection-end="2662" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="82" selection-start="3704" selection-end="3704" vertical-scroll-proportion="0.46945336">
+          <folding>
+            <marker date="1377458201000" expanded="true" signature="3621:3705" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
