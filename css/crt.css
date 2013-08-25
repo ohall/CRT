@@ -63,23 +63,19 @@ div{
 /*HTML fragment transition animation*/
 
 .fragmentWrapper {
-    padding: 0;
-
-    right: 0;
-    left: 0;
-    margin: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     padding-top: 80px;
     overflow: hidden;
 }
 
 .fragment {
-    padding: 0;
-    right: 0;
-    left: 0;
-    margin: 0;
-    top: 0;
-
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
     position: relative;
     -moz-transition-property: left;
     -o-transition-property: left;
@@ -109,19 +105,20 @@ div{
 
 }
 
+.cardNest{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .cityCard {
 
     text-align: center;
 
-    width: 32.5%;
-    height: 100%;
+    width: 106px;
+    height: 106px;
     float: left;
 
-    padding: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
 
     border: solid;
     border-width:thin;
