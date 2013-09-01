@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contacts.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/PhoneDialer.h" afterPath="$PROJECT_DIR$/js/PhoneDialer.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cityView.html" afterPath="$PROJECT_DIR$/views/cityView.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/groupRunList.html" afterPath="$PROJECT_DIR$/views/groupRunList.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/runTypeView.html" afterPath="$PROJECT_DIR$/views/runTypeView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/crt.css" afterPath="$PROJECT_DIR$/css/crt.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crt.js" afterPath="$PROJECT_DIR$/crt.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/EmailComposer.js" afterPath="$PROJECT_DIR$/EmailComposer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/PhoneDialer.h" afterPath="$PROJECT_DIR$/PhoneDialer.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/PhoneDialer.js" afterPath="$PROJECT_DIR$/PhoneDialer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmailComposer.h" afterPath="$PROJECT_DIR$/EmailComposer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EmailComposer.m" afterPath="$PROJECT_DIR$/EmailComposer.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CRT_App.iws" />
@@ -58,22 +57,49 @@
     <favorites_list name="CRT_App" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3778802">
+    <splitter split-orientation="horizontal" split-proportion="0.37656352">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="71" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.0">
+                <state line="34" column="64" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="crt.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="EmailComposer.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/EmailComposer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="58" column="0" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="EmailComposer.m" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/EmailComposer.m">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="EmailComposer.h" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/EmailComposer.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="crt.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/crt.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="168" column="15" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.26045015">
+                <state line="168" column="15" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -83,10 +109,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="crt.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/crt.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="213" column="10" selection-start="5784" selection-end="5784" vertical-scroll-proportion="-30.6">
+                <state line="78" column="0" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.6032787">
                   <folding>
                     <element signature="e#2274#4570#0" expanded="false" />
                   </folding>
@@ -94,10 +120,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="runTypeView.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="runTypeView.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/runTypeView.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="71" selection-start="513" selection-end="513" vertical-scroll-proportion="0.40996784">
+                <state line="27" column="57" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="61" column="77" selection-start="4620" selection-end="4620" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -306,9 +341,9 @@
       <recent name="$PROJECT_DIR$/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
@@ -412,7 +447,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1916" height="1058" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21641791" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3304904" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
@@ -420,7 +455,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19757" sideWeight="0.70682305" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19757" sideWeight="0.70682305" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29317698" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08029582" sideWeight="0.70682305" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12793177" sideWeight="0.5002641" order="7" side_tool="true" content_ui="tabs" />
@@ -516,25 +551,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CDVNavigationBar.xib">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="50" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/ajax-loader.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="3782" selection-end="3782" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1378049117000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -551,7 +567,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/PhoneDialer.js">
+    <entry file="file://$PROJECT_DIR$/PhoneDialer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
           <folding />
@@ -565,30 +581,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/EmailComposer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="15" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="89" column="92" selection-start="3697" selection-end="3697" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="71" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/PhoneDialer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -600,15 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="10" selection-start="5784" selection-end="5784" vertical-scroll-proportion="-30.6">
-          <folding>
-            <element signature="e#2274#4570#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="442" column="23" selection-start="9623" selection-end="9623" vertical-scroll-proportion="0.33228347">
@@ -616,17 +602,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/runTypeView.html">
+    <entry file="file://$PROJECT_DIR$/css/crt.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="71" selection-start="513" selection-end="513" vertical-scroll-proportion="0.40996784">
+        <state line="168" column="15" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/crt.css">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="15" selection-start="2398" selection-end="2398" vertical-scroll-proportion="0.26045015">
+        <state line="61" column="77" selection-start="4620" selection-end="4620" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/runTypeView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="57" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="64" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhoneDialer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="321" selection-end="321" vertical-scroll-proportion="0.33070865">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmailComposer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmailComposer.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmailComposer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.6032787">
+          <folding>
+            <element signature="e#2274#4570#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
