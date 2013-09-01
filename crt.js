@@ -55,7 +55,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
             $scope.loadingVisible = true;
             var therun = runs['indy'];
             //window.location = therun;
-            window.open(therun , '_blank', 'location=yes' )
+            var ref = window.open(therun, '_blank');
             //$location.path('cityView');
         }else{
             $scope.runs = runs;
@@ -84,7 +84,8 @@ function CRTCtrl($scope,$location, getRunPaths) {
         $scope.loadingVisible = true;
         $scope.selectedIndex = pIndex;
         //window.location = pRun.url;
-        window.open(pRun.url , '_blank', 'location=yes' )
+        //window.open(pRun.url , '_blank' )
+        var ref = window.open(pRun.url, '_blank');
         $location.path('cityView');
     }
 

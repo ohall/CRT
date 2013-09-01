@@ -180,12 +180,10 @@ div{
 }
 
 .groupRunLabel:active{
-    color: #FF8A36;
+    /*color: #FF8A36;*/
 }
 
-.groupRunLabel:hover{
-    color: #a55326;
-}
+
 
 .submitContact{
     color: #000000;
@@ -229,9 +227,6 @@ div{
     opacity: 1.0;
 }
 
-.listRow:hover{
-    opacity: .75;
-}
 
 
 
