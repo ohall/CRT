@@ -48,7 +48,7 @@
 
     <!-- Plugins can also be added here. -->
     <plugin name="EmailComposer" value="org.apache.cordova.plugin.EmailComposer"/>
-
+    <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
@@ -89,6 +89,7 @@
     -->
     <access origin="http://127.0.0.1*" subdomains="true" />
     <access origin="http://racevine.com" subdomains="true" /><!-- allow local pages -->
+    <access origin="https://register.racevine.com" subdomains="true"/>
     <access origin="http://active.com" subdomains="true" />
 
 

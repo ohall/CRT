@@ -54,8 +54,9 @@ function CRTCtrl($scope,$location, getRunPaths) {
         if(pVal === 'Individual'){
             $scope.loadingVisible = true;
             var therun = runs['indy'];
-            window.location = therun;
-            $location.path('cityView');
+            //window.location = therun;
+            window.open(therun , '_blank', 'enableViewportScale=yes', 'location=no' )
+            //$location.path('cityView');
         }else{
             $scope.runs = runs;
             $location.path('groupRun');
@@ -82,7 +83,8 @@ function CRTCtrl($scope,$location, getRunPaths) {
     $scope.groupRunSelected = function(pRun, pIndex){
         $scope.loadingVisible = true;
         $scope.selectedIndex = pIndex;
-        window.location = pRun.url;
+        //window.location = pRun.url;
+        window.open(pRun.url , '_blank', 'enableViewportScale=yes', 'location=no' )
         $location.path('cityView');
     }
 
