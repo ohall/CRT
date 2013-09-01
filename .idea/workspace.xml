@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cityView.html" afterPath="$PROJECT_DIR$/cityView.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/crt.css" afterPath="$PROJECT_DIR$/css/crt.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crt.js" afterPath="$PROJECT_DIR$/crt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CRT_App.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1377450663180" ignored="false" />
+    <file path="/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1378046865807" ignored="false" />
     <file path="/crt.css" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1377461662386" ignored="false" />
     <file path="/crt.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1377458560787" ignored="false" />
-    <file path="/Dummy.txt" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1377448879369" ignored="false" />
+    <file path="/Dummy.txt" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1378045421437" ignored="false" />
     <file path="/config.xml" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1373167016998" ignored="false" />
     <file path="$PROJECT_DIR$/../wedding_site/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1376008149526" ignored="false" />
     <file path="$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/js/student.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374095867367" ignored="false" />
     <file path="$PROJECT_DIR$/../slz-sri-international/lexileframework/src/main/webapp/views/student/tabViews/readingList.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374095046954" ignored="false" />
-    <file path="$PROJECT_DIR$/../slz-sri-international/atlassian-ide-plugin.xml" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1377447281004" ignored="false" />
+    <file path="$PROJECT_DIR$/../slz-sri-international/atlassian-ide-plugin.xml" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1378046370559" ignored="false" />
     <file path="/student.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374094865019" ignored="false" />
     <file path="/readingList.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374095005327" ignored="false" />
     <file path="/student.js" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1374095637750" ignored="false" />
@@ -52,13 +52,13 @@
     <favorites_list name="CRT_App" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.31901452">
+    <splitter split-orientation="horizontal" split-proportion="0.46999368">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="44" column="10" selection-start="1554" selection-end="1554" vertical-scroll-proportion="-23.041666">
+                <state line="36" column="0" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.41961414">
                   <folding />
                 </state>
               </provider>
@@ -73,10 +73,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="crt.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="crt.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/crt.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="22" selection-start="440" selection-end="440" vertical-scroll-proportion="0.38528895">
+                <state line="33" column="22" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -85,11 +85,8 @@
           <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/crt.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="36" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#2456#4752#0" expanded="true" />
-                    <element signature="e#3086#3276#0" expanded="true" />
-                  </folding>
+                <state line="87" column="23" selection-start="2538" selection-end="2538" vertical-scroll-proportion="-12.588235">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -110,7 +107,7 @@
           <file leaf-file-name="groupRunList.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/groupRunList.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="6" selection-start="366" selection-end="366" vertical-scroll-proportion="-6.25">
+                <state line="10" column="6" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -134,22 +131,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="50" column="0" selection-start="3707" selection-end="3707" vertical-scroll-proportion="0.0">
+                <state line="50" column="74" selection-start="3781" selection-end="3781" vertical-scroll-proportion="0.40836012">
                   <folding>
-                    <marker date="1377460285000" expanded="true" signature="3623:3707" placeholder="..." />
+                    <marker date="1378047184000" expanded="true" signature="3623:3781" placeholder="..." />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CDVNavigationBar.xib" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CDVNavigationBar.xib">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="50" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.0">
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -172,10 +160,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cityView.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="cityView.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/cityView.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="47" selection-start="465" selection-end="465" vertical-scroll-proportion="0.41133454">
+                <state line="24" column="6" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
                   <folding>
                     <marker date="1377461625000" expanded="true" signature="264:386" placeholder="..." />
                   </folding>
@@ -221,11 +209,11 @@
         <option value="$PROJECT_DIR$/js/PhoneDialer.js" />
         <option value="$PROJECT_DIR$/runs.js" />
         <option value="$PROJECT_DIR$/groupRunList.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/crt.js" />
         <option value="$PROJECT_DIR$/cityView.html" />
         <option value="$PROJECT_DIR$/css/crt.css" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/crt.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -290,7 +278,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -309,21 +296,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRT_App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CRT_App" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.14057143" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="CRT_App" serverId="50415a35-2cb5-4617-ad60-9b78ae00a805" autoUpload="true" autoUploadExternalChanges="true">
     <servers>
@@ -333,6 +335,9 @@
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
+      </server>
+      <server id="7c57d3e3-e69b-4442-9764-a2e95d69b405">
+        <serverdata />
       </server>
       <server id="880b6f0f-3c26-47ac-8b1c-f2096ce0151b">
         <serverdata />
@@ -454,7 +459,7 @@
     <frame x="4" y="22" width="1916" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2675906" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21641791" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3304904" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="6" side_tool="false" content_ui="tabs" />
@@ -592,39 +597,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/EmailComposer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="29" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CDVNavigationBar.xib">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="50" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="10" selection-start="1554" selection-end="1554" vertical-scroll-proportion="-23.041666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="3707" selection-end="3707" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1377460285000" expanded="true" signature="3623:3707" placeholder="..." />
-          </folding>
-        </state>
+        <state line="34" column="50" selection-start="1774" selection-end="1774" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/groupRunList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="366" selection-end="366" vertical-scroll-proportion="-6.25">
+        <state line="10" column="6" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -636,33 +616,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2456#4752#0" expanded="true" />
-            <element signature="e#3086#3276#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/ajax-loader.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/crt.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="22" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cityView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="47" selection-start="465" selection-end="465" vertical-scroll-proportion="0.41133454">
+        <state line="24" column="6" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1377461625000" expanded="true" signature="264:386" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/crt.css">
+    <entry file="file://$PROJECT_DIR$/js/EmailComposer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="22" selection-start="440" selection-end="440" vertical-scroll-proportion="0.38528895">
+        <state line="43" column="29" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="74" selection-start="3781" selection-end="3781" vertical-scroll-proportion="0.40836012">
+          <folding>
+            <marker date="1378047184000" expanded="true" signature="3623:3781" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="23" selection-start="2538" selection-end="2538" vertical-scroll-proportion="-12.588235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.41961414">
           <folding />
         </state>
       </provider>
