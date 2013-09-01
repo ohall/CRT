@@ -13,7 +13,6 @@ function CRTCtrl($scope,$location, getRunPaths) {
     $scope.selectedIndex = -1;
     $scope.runType = "";
     $scope.city = "";
-    $scope.loadingVisible = false;
     $scope.emailText = "";
     $scope.crtPhone ="877.415.0058";
 
@@ -52,11 +51,8 @@ function CRTCtrl($scope,$location, getRunPaths) {
 
 
         if(pVal === 'Individual'){
-            $scope.loadingVisible = true;
             var therun = runs['indy'];
-            //window.location = therun;
             var ref = window.open(therun, '_blank');
-            //$location.path('cityView');
         }else{
             $scope.runs = runs;
             $location.path('groupRun');
@@ -81,12 +77,8 @@ function CRTCtrl($scope,$location, getRunPaths) {
     }
 
     $scope.groupRunSelected = function(pRun, pIndex){
-        $scope.loadingVisible = true;
         $scope.selectedIndex = pIndex;
-        //window.location = pRun.url;
-        //window.open(pRun.url , '_blank' )
         var ref = window.open(pRun.url, '_blank');
-        $location.path('cityView');
     }
 
     $scope.cityList = [

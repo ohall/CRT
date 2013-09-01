@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cityView.html" afterPath="$PROJECT_DIR$/cityView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/crt.css" afterPath="$PROJECT_DIR$/css/crt.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crt.js" afterPath="$PROJECT_DIR$/crt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CRT_App.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +53,7 @@
     <favorites_list name="CRT_App" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5643275">
+    <splitter split-orientation="horizontal" split-proportion="0.40100792">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
@@ -71,15 +74,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="EmailComposer.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/EmailComposer.js">
               <provider selected="true" editor-type-id="text-editor">
@@ -92,7 +86,7 @@
           <file leaf-file-name="crt.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/crt.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="320" column="1" selection-start="6886" selection-end="6886" vertical-scroll-proportion="0.8492462">
+                <state line="24" column="26" selection-start="328" selection-end="328" vertical-scroll-proportion="0.15745394">
                   <folding />
                 </state>
               </provider>
@@ -101,7 +95,7 @@
           <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/crt.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="90" column="0" selection-start="2587" selection-end="2587" vertical-scroll-proportion="-4.9411764">
+                <state line="81" column="0" selection-start="2266" selection-end="2266" vertical-scroll-proportion="-19.68">
                   <folding />
                 </state>
               </provider>
@@ -147,10 +141,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="51" column="0" selection-start="3782" selection-end="3782" vertical-scroll-proportion="0.87942123">
+                <state line="51" column="0" selection-start="3782" selection-end="3782" vertical-scroll-proportion="0.0">
                   <folding>
                     <marker date="1378049117000" expanded="true" signature="3623:3707" placeholder="..." />
                   </folding>
@@ -176,12 +170,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cityView.html" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="cityView.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/cityView.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="6" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
+                <state line="14" column="6" selection-start="417" selection-end="417" vertical-scroll-proportion="0.33070865">
                   <folding>
-                    <marker date="1377461625000" expanded="true" signature="264:386" placeholder="..." />
+                    <marker date="1378053907000" expanded="true" signature="264:386" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -225,10 +219,10 @@
         <option value="$PROJECT_DIR$/js/PhoneDialer.js" />
         <option value="$PROJECT_DIR$/runs.js" />
         <option value="$PROJECT_DIR$/groupRunList.html" />
-        <option value="$PROJECT_DIR$/cityView.html" />
-        <option value="$PROJECT_DIR$/crt.js" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/cityView.html" />
+        <option value="$PROJECT_DIR$/crt.js" />
         <option value="$PROJECT_DIR$/css/crt.css" />
       </list>
     </option>
@@ -563,11 +557,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PhoneDialer.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="10" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/PhoneDialer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
@@ -609,15 +598,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cityView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1377461625000" expanded="true" signature="264:386" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/EmailComposer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="29" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0">
@@ -625,18 +605,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crt.js">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="0" selection-start="2587" selection-end="2587" vertical-scroll-proportion="-4.9411764">
+        <state line="51" column="0" selection-start="3782" selection-end="3782" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1378049117000" expanded="true" signature="3623:3707" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="27" selection-start="1732" selection-end="1732" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/runTypeView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="3782" selection-end="3782" vertical-scroll-proportion="0.87942123">
+        <state line="24" column="76" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cityView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="6" selection-start="417" selection-end="417" vertical-scroll-proportion="0.33070865">
           <folding>
-            <marker date="1378049117000" expanded="true" signature="3623:3707" placeholder="..." />
+            <marker date="1378053907000" expanded="true" signature="264:386" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -648,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="27" selection-start="1732" selection-end="1732" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="29" selection-start="1926" selection-end="1926" vertical-scroll-proportion="0.0">
@@ -662,9 +651,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/crt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="0" selection-start="2266" selection-end="2266" vertical-scroll-proportion="-19.68">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/crt.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="320" column="1" selection-start="6886" selection-end="6886" vertical-scroll-proportion="0.8492462">
+        <state line="24" column="26" selection-start="328" selection-end="328" vertical-scroll-proportion="0.15745394">
           <folding />
         </state>
       </provider>
