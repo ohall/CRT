@@ -10,11 +10,11 @@ var app = angular.module('CRTApp', ['ui.bootstrap','$strap.directives']);
 
 function CRTCtrl($scope,$location, getRunPaths) {
     $scope.mouseDown = false;
-    $scope.selectedIndex = -1;
     $scope.runType = "";
     $scope.city = "";
     $scope.emailText = "";
-    $scope.crtPhone ="877.415.0058";
+    //TODO: for testing
+    $scope.crtPhone="5085141745";        //="877.415.0058";
 
 
 
@@ -76,8 +76,9 @@ function CRTCtrl($scope,$location, getRunPaths) {
         window.plugins.phoneDialer.dial($scope.crtPhone);
     }
 
+
+
     $scope.groupRunSelected = function(pRun, pIndex){
-        $scope.selectedIndex = pIndex;
         var ref = window.open(pRun.url, '_blank');
     }
 
@@ -200,19 +201,16 @@ app.config(function ($compileProvider, $routeProvider ){ //, $locationProvider) 
 
     $routeProvider
         .when('/',{
-            templateUrl:'cityView.html'
+            templateUrl:'views/cityView.html'
         })
         .when('/cityView',{
-            templateUrl:'cityView.html'
+            templateUrl:'views/cityView.html'
         })
         .when('/runTypeView',{
-            templateUrl:'runTypeView.html'
+            templateUrl:'views/runTypeView.html'
         })
         .when('/groupRun',{
-            templateUrl:'groupRunList.html'
-        })
-        .when('/contacts',{
-            templateUrl:'contacts.html'
+            templateUrl:'views/groupRunList.html'
         })
         .otherwise({
             redirectTo: '/'
