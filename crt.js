@@ -12,9 +12,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
     $scope.mouseDown = false;
     $scope.runType = "";
     $scope.city = "";
-    $scope.emailText = "";
-    //TODO: for testing
-    $scope.crtPhone="5085141745";        //="877.415.0058";
+    $scope.crtPhone="877.415.0058";
 
 
 
@@ -66,14 +64,12 @@ function CRTCtrl($scope,$location, getRunPaths) {
     };
 
     $scope.emailManager = function(cityemail, cityName){
-        window.plugins.emailComposer.showEmailComposer( contactEmailConsts.SUBJECT+cityName,
-                                                        $scope.emailText, cityemail,
-                                                        contactEmailConsts.ROOTEMAIL,
-                                                        "",false);
+        window.open(    "mailto:"+cityemail+"&cc="+contactEmailConsts.ROOTEMAIL+
+                        "?subject=Customer Inquiry "+cityName, '_top' );
     }
 
     $scope.phoneCall = function(){
-        window.plugins.phoneDialer.dial($scope.crtPhone);
+        window.open( "tel:"+$scope.crtPhone, '_blank' );
     }
 
 

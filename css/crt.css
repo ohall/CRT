@@ -127,6 +127,10 @@ div{
     user-select: none;
 }
 
+.cityCard:active{
+    background-color: darkgray;
+}
+
 .cityCard p{
     white-space: nowrap;
     overflow: hidden;
@@ -169,6 +173,7 @@ div{
 .contactButton{
     margin: 0;
     color: #000000;
+    float: right;
 }
 
 .contactSpan{
@@ -178,6 +183,8 @@ div{
 }
 
 .submitContact{
+    display: inline-block;
+    background-color: lightgrey;
     text-align: left;
     padding-left: 10px;
     padding-right: 10px;
@@ -217,6 +224,13 @@ div{
     color: #FF8A36;
     margin-bottom: 10px;
     background-color: darkgray;
+}
+
+.contactRow{
+    padding: 10px;
+    color: #000000;
+    margin-bottom: 10px;
+    background-color: lightgrey;
 }
 
 /*.listRow-false{*/

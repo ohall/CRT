@@ -13,7 +13,7 @@
     </div>
 
 
-    <div class="listRow" >
+    <div class="contactRow">
 
         <h1 class="groupRunLabel" on-tap="showTextInput=!showTextInput">Contact US</h1>
 
@@ -21,20 +21,14 @@
             <h5><strong>Manager: </strong>{{ city.manager }}</h5>
 
 
-            <span class="contactSpan">
-                <h5><strong>Phone: </strong>{{ crtPhone }} x{{ city.ext }}</h5>
-                <button type="button"
-                       class="btn btn-large contactButton"
-                       on-tap="phoneCall()">Call</button>
-            </span>
-            <span class="contactSpan">
-                <h6><strong>Email us at: </strong>{{ city.email }}</h6>
-                <textarea placeholder="Compose your message here..." rows="4"
-                          class="contactText span6" ng-model="emailText"/>
-                <button type="button"
-                        class="btn btn-large contactButton"
-                        on-tap="emailManager(city.email,city.name)">Submit</button>
-            </span>
+            <h5><strong>Phone: </strong>{{ crtPhone }} x{{ city.ext }}</h5>
+            <button type="button"
+                   class="btn btn-large"
+                   on-tap="phoneCall()">Call Us</button>
+            <h5><strong>Email: </strong>{{ city.email }}</h5>
+            <button type="button"
+                    class="btn btn-large"
+                    on-tap="emailManager(city.email,city.name)">Email Us</button>
 
         </div>
 
