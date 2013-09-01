@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crt.js" afterPath="$PROJECT_DIR$/crt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CRT_App.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,9 +97,9 @@
           <file leaf-file-name="crt.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/crt.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="67" column="59" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.4503937">
+                <state line="74" column="62" selection-start="1936" selection-end="1936" vertical-scroll-proportion="0.61574805">
                   <folding>
-                    <element signature="e#2081#4377#0" expanded="false" />
+                    <element signature="e#2083#4379#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -593,9 +592,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="59" selection-start="1737" selection-end="1737" vertical-scroll-proportion="0.4503937">
+        <state line="74" column="62" selection-start="1936" selection-end="1936" vertical-scroll-proportion="0.61574805">
           <folding>
-            <element signature="e#2081#4377#0" expanded="false" />
+            <element signature="e#2083#4379#0" expanded="false" />
           </folding>
         </state>
       </provider>

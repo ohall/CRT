@@ -66,13 +66,13 @@ function CRTCtrl($scope,$location, getRunPaths) {
     $scope.emailManager = function(cityemail, cityName){
         var ref = window.open ( "mailto:"+cityemail+
                                 "?subject=Customer Inquiry "+cityName+
-                                "&cc="+contactEmailConsts.ROOTEMAIL, '_blank');
+                                "&cc="+contactEmailConsts.ROOTEMAIL, '_system');
 
 
     }
 
     $scope.phoneCall = function(){
-        var ref = window.open("tel:"+$scope.crtPhone, '_blank');
+        var ref = window.open("tel:"+$scope.crtPhone, '_system');
     }
 
 
