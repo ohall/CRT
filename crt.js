@@ -64,12 +64,15 @@ function CRTCtrl($scope,$location, getRunPaths) {
     };
 
     $scope.emailManager = function(cityemail, cityName){
-        window.open(    "mailto:"+cityemail+"&cc="+contactEmailConsts.ROOTEMAIL+
-                        "?subject=Customer Inquiry "+cityName, '_top' );
+        var ref = window.open ( "mailto:"+cityemail+
+                                "?subject=Customer Inquiry "+cityName+
+                                "&cc="+contactEmailConsts.ROOTEMAIL, '_blank');
+
+
     }
 
     $scope.phoneCall = function(){
-        window.open( "tel:"+$scope.crtPhone, '_blank' );
+        var ref = window.open("tel:"+$scope.crtPhone, '_blank');
     }
 
 
