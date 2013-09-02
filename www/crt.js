@@ -64,11 +64,12 @@ function CRTCtrl($scope,$location, getRunPaths) {
     };
 
     $scope.emailManager = function(cityemail, cityName){
-        var ref = window.open ( "mailto:"+cityemail+
-                                "?subject=Customer Inquiry "+cityName+
-                                "&cc="+contactEmailConsts.ROOTEMAIL, '_system');
-
-
+        EmailComposer.prototype.showEmailComposer(  "Customer Inquiry "+cityName,
+                                                    "",
+                                                    cityemail,
+                                                    contactEmailConsts.ROOTEMAIL,
+                                                    "",
+                                                    false );
     }
 
     $scope.phoneCall = function(){

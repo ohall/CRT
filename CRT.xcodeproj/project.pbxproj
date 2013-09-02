@@ -50,6 +50,7 @@
 		D36AD6A017D4396C0012DA6D /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = D36AD69F17D4396C0012DA6D /* icon-57.png */; };
 		D36AD6A217D439E20012DA6D /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = D36AD6A117D439E20012DA6D /* icon-114.png */; };
 		D36AD6A417D43A4C0012DA6D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36AD6A317D43A4C0012DA6D /* MessageUI.framework */; };
+		D36AD6A817D44F3F0012DA6D /* EmailComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = D36AD6A717D44F3F0012DA6D /* EmailComposer.m */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
 /* End PBXBuildFile section */
@@ -122,6 +123,8 @@
 		D36AD69F17D4396C0012DA6D /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
 		D36AD6A117D439E20012DA6D /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
 		D36AD6A317D43A4C0012DA6D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D36AD6A617D44F3F0012DA6D /* EmailComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailComposer.h; sourceTree = "<group>"; };
+		D36AD6A717D44F3F0012DA6D /* EmailComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailComposer.m; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = CRT/config.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,7 +199,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				D36AD6A317D43A4C0012DA6D /* MessageUI.framework */,
 				D36AD6A117D439E20012DA6D /* icon-114.png */,
 				D36AD69F17D4396C0012DA6D /* icon-57.png */,
 				D36AD69D17D439390012DA6D /* Default-568h@2x.png */,
@@ -244,6 +246,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D36AD6A317D43A4C0012DA6D /* MessageUI.framework */,
 				5AEE5B34173C68D80009041E /* CoreLocation.framework */,
 				5AA0E66E1729F460000DC89A /* ImageIO.framework */,
 				5AA0E66C1729F45B000DC89A /* OpenAL.framework */,
@@ -277,6 +280,8 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				D36AD6A617D44F3F0012DA6D /* EmailComposer.h */,
+				D36AD6A717D44F3F0012DA6D /* EmailComposer.m */,
 			);
 			name = Plugins;
 			path = CRT/Plugins;
@@ -450,6 +455,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				D36AD6A817D44F3F0012DA6D /* EmailComposer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -116,7 +116,10 @@
     <feature name="LocalStorage">
         <param name="ios-package" value="CDVLocalStorage"/>
     </feature>
-    <!-- Deprecated plugins element. REmove in 3.0 -->
-    <plugins>
-    </plugins>
+    <feature name="EmailComposer">
+        <param name="ios-package" value="EmailComposer"/>
+    </feature>
+    <feature name="EmailComposer">
+        <param name="ios-package" value="EmailComposer" />
+    </feature>
 </widget>
