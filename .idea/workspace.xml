@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRT/Plugins/PhoneDialer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CRT/Plugins/PhoneDialer.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CRT.xcodeproj/project.xcworkspace/xcuserdata/oakley.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/CRT.xcodeproj/project.xcworkspace/xcuserdata/oakley.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CRT.xcodeproj/xcuserdata/oakley.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist" afterPath="$PROJECT_DIR$/CRT.xcodeproj/xcuserdata/oakley.xcuserdatad/xcdebugger/Breakpoints.xcbkptlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CRT/config.xml" afterPath="$PROJECT_DIR$/CRT/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/crt.js" afterPath="$PROJECT_DIR$/www/crt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CRT.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/CRT.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="" />
     <ignored path="CRT_App.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" time="1378098275277" ignored="false" />
@@ -107,10 +97,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PhoneDialer.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="PhoneDialer.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/PhoneDialer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="1" selection-start="286" selection-end="286" vertical-scroll-proportion="0.30708662">
+                <state line="14" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.33070865">
                   <folding />
                 </state>
               </provider>
@@ -120,7 +110,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="crt.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/www/crt.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="28" column="38" selection-start="677" selection-end="677" vertical-scroll-proportion="0.6614173">
@@ -582,16 +572,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/PhoneDialer.js">
+    <entry file="file://$PROJECT_DIR$/www/crt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="286" selection-end="286" vertical-scroll-proportion="0.30708662">
+        <state line="66" column="49" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/crt.js">
+    <entry file="file://$PROJECT_DIR$/www/PhoneDialer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="38" selection-start="677" selection-end="677" vertical-scroll-proportion="0.6614173">
+        <state line="14" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.33070865">
           <folding />
         </state>
       </provider>
