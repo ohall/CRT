@@ -71,35 +71,44 @@ function getRunPaths(){
                 runs:[
                     {
                         name:'Downtown Austin 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx-tx/downtown-austin-k'
+                        url:'https://register.racevine.com/events/austin-tx-tx/downtown-austin-k',
+                        description:""
+
                     },
                     {
                         name:'Austin Music 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx/austin-music-k'
+                        url:'https://register.racevine.com/events/austin-tx/austin-music-k',
+                        description:""
                     },
                     {
                         name:'UT 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx/ut--k'
+                        url:'https://register.racevine.com/events/austin-tx/ut--k',
+                        description:""
                     },
                     {
                         name:'Texas Beer 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx-tx/texas-beer-k'
+                        url:'https://register.racevine.com/events/austin-tx-tx/texas-beer-k',
+                        description:""
                     },
                     {
                         name:'Downtown Austin 5K Run',
-                        url:'https://www.active.com/running-membership/austin-tx/city-running-tours---austin-personalized-running-tours-2017'
+                        url:'https://www.active.com/running-membership/austin-tx/city-running-tours---austin-personalized-running-tours-2017',
+                        description:""
                     },
                     {
                         name:'Black Star 10K Beer Run',
-                        url:'https://register.racevine.com/events/austin-tx/black-star-k'
+                        url:'https://register.racevine.com/events/austin-tx/black-star-k',
+                        description:""
                     },
                     {
                         name:'Scenic Parks 10K Run',
-                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k'
+                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k',
+                        description:""
                     },
                     {
                         name:'City Running Tours/PubCrawler Duathalon',
-                        url:'https://register.racevine.com/events/austin-tx/austin-s-drinking-duathlon-tour-'
+                        url:'https://register.racevine.com/events/austin-tx/austin-s-drinking-duathlon-tour-',
+                        description:""
                     }
                 ]
             },
@@ -107,36 +116,44 @@ function getRunPaths(){
                 city:'Boston',
                 runs:[
                     {
-                        name:'Cambridge/MIT 5K Run - 6 PM',
-                        url:'https://register.racevine.com/events/boston-ma/city-running-tours---cambridge-mit-k-running-tour'
+                        name:'Cambridge/MIT 5K Run',
+                        url:'https://register.racevine.com/events/boston-ma/city-running-tours---cambridge-mit-k-running-tour',
+                        description:""
                     },
                     {
-                        name:'Beacon Hill/Back Bay 5K Run - 6 PM',
-                        url:'https://register.racevine.com/events/boston--ma/city-running-tours---beacon-hill-back-bay-k-running-tour'
+                        name:'Beacon Hill/Back Bay 5K Run',
+                        url:'https://register.racevine.com/events/boston--ma/city-running-tours---beacon-hill-back-bay-k-running-tour',
+                        description:""
                     },
                     {
-                        name:'Seaport Beer Run - 10 AM',
-                        url:'https://register.racevine.com/events/boston-ma/city-running-tours---boston-seaport-beer-running-tour'
+                        name:'Seaport Beer Run',
+                        url:'https://register.racevine.com/events/boston-ma/city-running-tours---boston-seaport-beer-running-tour',
+                        description:""
                     },
                     {
-                        name:'North End 10K Run - 10 AM',
-                        url:'https://register.racevine.com/events/boston-ma/city-running-tours---north-end-group-run'
+                        name:'North End 10K Run',
+                        url:'https://register.racevine.com/events/boston-ma/city-running-tours---north-end-group-run',
+                        description:""
                     },
                     {
-                        name:'Fenway to Copley 10K Run - 10 AM',
-                        url:'https://register.racevine.com/events/boston--ma/city-running-tours---fenway-to-copley-running-tour'
+                        name:'Fenway to Copley 10K Run',
+                        url:'https://register.racevine.com/events/boston--ma/city-running-tours---fenway-to-copley-running-tour',
+                        description:""
                     },
                     {
-                        name:'Back Bay/Beacon Hill 10K Run - 10 AM',
-                        url:'https://register.racevine.com/events/boston-ma/city-running-tours---back-bay-beacon-hill-running-tour'
+                        name:'Back Bay/Beacon Hill 10K Run',
+                        url:'https://register.racevine.com/events/boston-ma/city-running-tours---back-bay-beacon-hill-running-tour',
+                        description:""
                     },
                     {
                         name:'Scenic Parks 10K Run',
-                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k'
+                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k',
+                        description:""
                     },
                     {
-                        name:'Cambridge 10K Run - 10 AM',
-                        url:'https://register.racevine.com/events/boston-ma/city-running-tours---cambridge-running-tour'
+                        name:'Cambridge 10K Run',
+                        url:'https://register.racevine.com/events/boston-ma/city-running-tours---cambridge-running-tour',
+                        description:""
                     }
                 ]
             },
@@ -144,12 +161,14 @@ function getRunPaths(){
                 city:'Chicago',
                 runs:[
                     {
-                        name:'Chicago River Navy Pier 5k - $25',
-                        url:'https://register.racevine.com/events/chicago-il/chicago-river-navy-pier-k'
+                        name:'Chicago River Navy Pier 5k',
+                        url:'https://register.racevine.com/events/chicago-il/chicago-river-navy-pier-k',
+                        description:""
                     },
                     {
-                        name:'Chicago Tragic Events 5k - $30',
-                        url:'https://register.racevine.com/events/chicago-il/chicago-tragic-events'
+                        name:'Chicago Tragic Events 5k',
+                        url:'https://register.racevine.com/events/chicago-il/chicago-tragic-events',
+                        description:""
                     }
                 ]
             },
@@ -157,12 +176,14 @@ function getRunPaths(){
                 city:'Denver',
                 runs:[
                     {
-                        name:'Downtown Denver Highlights Run - $30',
-                        url:'https://register.racevine.com/events/denver-co/city-running-tours---downtown-denver-highlights'
+                        name:'Downtown Denver Highlights Run',
+                        url:'https://register.racevine.com/events/denver-co/city-running-tours---downtown-denver-highlights',
+                        description:""
                     },
                     {
-                        name:'Downtown Sports Stadium Run - $40',
-                        url:'https://register.racevine.com/events/denver-co/city-running-tours---denver-sports-stadiums'
+                        name:'Downtown Sports Stadium Run',
+                        url:'https://register.racevine.com/events/denver-co/city-running-tours---denver-sports-stadiums',
+                        description:""
                     }
                 ]
             },
@@ -170,16 +191,19 @@ function getRunPaths(){
                 city:'Minneapolis',
                 runs:[
                     {
-                        name:'5K Cherry & Spoon Run – 8 AM',
-                        url:'https://register.racevine.com/events/minneapolis-mn/city-running-tours-minneapolis-k-cherry-spoon'
+                        name:'5K Cherry & Spoon Run',
+                        url:'https://register.racevine.com/events/minneapolis-mn/city-running-tours-minneapolis-k-cherry-spoon',
+                        description:""
                     },
                     {
-                        name:'5K Uptown & Lakes Run - 11 AM',
-                        url:'https://register.racevine.com/events/minneapolis-mn/city-running-tours-minneapolis-k-uptown-run'
+                        name:'5K Uptown & Lakes Run',
+                        url:'https://register.racevine.com/events/minneapolis-mn/city-running-tours-minneapolis-k-uptown-run',
+                        description:""
                     },
                     {
-                        name:'5K Beer Run! – 2 PM',
-                        url:'https://register.racevine.com/events/minneapolis-mn/city-running-tours-minneapolis-k-beer-run-'
+                        name:'5K Beer Run!',
+                        url:'https://register.racevine.com/events/minneapolis-mn/city-running-tours-minneapolis-k-beer-run-',
+                        description:""
                     }
                 ]
             },
@@ -187,94 +211,112 @@ function getRunPaths(){
                 city:'New York',
                 runs:[
                     {
-                        name:'East Village Run - 7 AM',
+                        name:'East Village Run',
                         url:'https://register.racevine.com/events/new-york-ny/east-village-running-tour',
                         description:"Trace the Rock N Roll roots of NYC through the East Village as we run by CBGBs, The Fillmore East and Tompkins Square Park. We'll also pass NYU and Cooper Union - two of Manhattan's oldest educational institutions - and McSorley's, the oldest ale house in the city."
 
 
                     },
                     {
-                        name:'West Village Run - 7 AM',
+                        name:'West Village Run',
                         url:'https://register.racevine.com/events/new-york-ny/west-village-running-tour',
                         description:"What do Bob Dylan, Ernest Hemingway, The Cosby Show and Carrie Bradshaw all have in common? They all have ties to Manhattan's West Village. Run down quiet, tree-lined streets and see theaters, comedy clubs, fine dining and possibly a celebrity sighting."
 
                     },
                     {
-                        name:'SOHO Run - 7 AM',
+                        name:'SOHO Run',
                         url:'https://register.racevine.com/events/new-york-ny/soho-running-tour',
                         description:"Go beyond the shopping of SOHO to learn more about how the cast iron historic district got its start. Little Italy, Chinatown and Tribeca are on display here, as are the original American Express warehouse, the Western Union Building and the Ghostbusters HQ Firehouse."
                     },
                     {
-                        name:'Lower East Side Run - 7 AM',
-                        url:'https://register.racevine.com/events/new-york-ny/lower-east-side-running-tour'
+                        name:'Lower East Side Run',
+                        url:'https://register.racevine.com/events/new-york-ny/lower-east-side-running-tour',
+                        description:""
                     },
                     {
-                        name:'Upper Central Park Run - 7 AM',
-                        url:'https://register.racevine.com/events/new-york-ny/upper-central-park-running-tour'
+                        name:'Upper Central Park Run',
+                        url:'https://register.racevine.com/events/new-york-ny/upper-central-park-running-tour',
+                        description:""
                     },
                     {
-                        name:'Lower Central Park Run - 7 AM',
-                        url:'https://register.racevine.com/events/new-york-ny/lower-central-park-running-tour'
+                        name:'Lower Central Park Run',
+                        url:'https://register.racevine.com/events/new-york-ny/lower-central-park-running-tour',
+                        description:""
                     },
                     {
-                        name:'Bridge Run - 7 AM',
-                        url:'https://register.racevine.com/events/new-york-ny/bridge-running-tour'
+                        name:'Bridge Run',
+                        url:'https://register.racevine.com/events/new-york-ny/bridge-running-tour',
+                        description:""
                     },
                     {
-                        name:'Downtown Run - 7 AM',
-                        url:'https://register.racevine.com/events/new-york-ny/downtown-running-tour'
+                        name:'Downtown Run',
+                        url:'https://register.racevine.com/events/new-york-ny/downtown-running-tour',
+                        description:""
                     },
                     {
-                        name:'_',
-                        url:'_'
+                        name:'Morningside Heights Run',
+                        url:'https://register.racevine.com/events/new-york-ny/morningside-heights-mount-morris-park-running-tour',
+                        description:""
                     },
                     {
-                        name:'_',
-                        url:'_'
+                        name:'Park Slope Run',
+                        url:'https://register.racevine.com/events/brooklyn-ny/park-slope-running-tour',
+                        description:""
                     },
                     {
-                        name:'_',
-                        url:'_'
+                        name:'Brooklyn Brewery Run',
+                        url:'https://register.racevine.com/events/brooklyn-ny/brooklyn-brewery-running-tour',
+                        description:""
                     },
                     {
-                        name:'_',
-                        url:'_'
+                        name:'Hamilton Heights Run',
+                        url:'http://register.racevine.com/events/new-york-ny/hamilton-heights-running-tour',
+                        description:""
                     },
                     {
-                        name:'_',
-                        url:'_'
+                        name:'Upper East Side Run',
+                        url:'http://register.racevine.com/events/new-york-ny/upper-east-side-running-tour',
+                        description:""
                     },
                     {
-                        name:'_',
-                        url:'_'
+                        name:'Washington Heights Run',
+                        url:'http://register.racevine.com/events/new-york-ny/washington-heights-running-tour',
+                        description:""
                     },
                     {
-                        name:'_',
-                        url:'_'
+                        name:'Chelsea/Gramercy Run',
+                        url:'http://register.racevine.com/events/new-york-ny/chelsea-gramercy-running-tour/',
+                        description:""
                     },
                     {
-                        name:'_',
-                        url:'_'
+                        name:'Bohemian Beer Hall Run',
+                        url:'http://register.racevine.com/events/astoria-ny/bohemian-beer-hall-running-tour',
+                        description:""
                     },
                     {
-                        name:'_',
-                        url:'_'
+                        name:'Cloisters Run',
+                        url:'https://register.racevine.com/events/new-york-city-ny/cloisters-running-tour',
+                        description:""
                     },
                     {
-                        name:'_',
-                        url:'_'
+                        name:'Upper West Side Run',
+                        url:'http://register.racevine.com/events/new-york-ny/upper-west-side-running-tour',
+                        description:""
                     },
                     {
-                        name:'_',
-                        url:'_'
+                        name:'Times Square Run',
+                        url:'http://register.racevine.com/events/new-york-ny/times-square-running-tour',
+                        description:""
                     },
                     {
-                        name:'_',
-                        url:'_'
+                        name:'Roosevelt Island Run',
+                        url:'http://register.racevine.com/events/new-york-ny/roosevelt-island-running-tour',
+                        description:""
                     },
                     {
-                        name:'_',
-                        url:'_'
+                        name:'Brooklyn Heights Run',
+                        url:'http://register.racevine.com/events/brooklyn-ny/brooklyn-heights-running-tour',
+                        description:""
                     }
                 ]
             },
@@ -283,35 +325,43 @@ function getRunPaths(){
                 runs:[
                     {
                         name:'Downtown Austin 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx-tx/downtown-austin-k'
+                        url:'https://register.racevine.com/events/austin-tx-tx/downtown-austin-k',
+                        description:""
                     },
                     {
                         name:'Austin Music 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx/austin-music-k'
+                        url:'https://register.racevine.com/events/austin-tx/austin-music-k',
+                        description:""
                     },
                     {
                         name:'UT 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx/ut--k'
+                        url:'https://register.racevine.com/events/austin-tx/ut--k',
+                        description:""
                     },
                     {
                         name:'Texas Beer 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx-tx/texas-beer-k'
+                        url:'https://register.racevine.com/events/austin-tx-tx/texas-beer-k',
+                        description:""
                     },
                     {
                         name:'Downtown Austin 5K Run',
-                        url:'https://www.active.com/running-membership/austin-tx/city-running-tours---austin-personalized-running-tours-2017'
+                        url:'https://www.active.com/running-membership/austin-tx/city-running-tours---austin-personalized-running-tours-2017',
+                        description:""
                     },
                     {
                         name:'Black Star 10K Beer Run',
-                        url:'https://register.racevine.com/events/austin-tx/black-star-k'
+                        url:'https://register.racevine.com/events/austin-tx/black-star-k',
+                        description:""
                     },
                     {
                         name:'Scenic Parks 10K Run',
-                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k'
+                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k',
+                        description:""
                     },
                     {
                         name:'City Running Tours/PubCrawler Duathalon',
-                        url:'https://register.racevine.com/events/austin-tx/austin-s-drinking-duathlon-tour-'
+                        url:'https://register.racevine.com/events/austin-tx/austin-s-drinking-duathlon-tour-',
+                        description:""
                     }
                 ]
             },
@@ -320,35 +370,43 @@ function getRunPaths(){
                 runs:[
                     {
                         name:'Downtown Austin 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx-tx/downtown-austin-k'
+                        url:'https://register.racevine.com/events/austin-tx-tx/downtown-austin-k',
+                        description:""
                     },
                     {
                         name:'Austin Music 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx/austin-music-k'
+                        url:'https://register.racevine.com/events/austin-tx/austin-music-k',
+                        description:""
                     },
                     {
                         name:'UT 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx/ut--k'
+                        url:'https://register.racevine.com/events/austin-tx/ut--k',
+                        description:""
                     },
                     {
                         name:'Texas Beer 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx-tx/texas-beer-k'
+                        url:'https://register.racevine.com/events/austin-tx-tx/texas-beer-k',
+                        description:""
                     },
                     {
                         name:'Downtown Austin 5K Run',
-                        url:'https://www.active.com/running-membership/austin-tx/city-running-tours---austin-personalized-running-tours-2017'
+                        url:'https://www.active.com/running-membership/austin-tx/city-running-tours---austin-personalized-running-tours-2017',
+                        description:""
                     },
                     {
                         name:'Black Star 10K Beer Run',
-                        url:'https://register.racevine.com/events/austin-tx/black-star-k'
+                        url:'https://register.racevine.com/events/austin-tx/black-star-k',
+                        description:""
                     },
                     {
                         name:'Scenic Parks 10K Run',
-                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k'
+                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k',
+                        description:""
                     },
                     {
                         name:'City Running Tours/PubCrawler Duathalon',
-                        url:'https://register.racevine.com/events/austin-tx/austin-s-drinking-duathlon-tour-'
+                        url:'https://register.racevine.com/events/austin-tx/austin-s-drinking-duathlon-tour-',
+                        description:""
                     }
                 ]
             },
@@ -358,35 +416,43 @@ function getRunPaths(){
                 runs:[
                     {
                         name:'Downtown Austin 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx-tx/downtown-austin-k'
+                        url:'https://register.racevine.com/events/austin-tx-tx/downtown-austin-k',
+                        description:""
                     },
                     {
                         name:'Austin Music 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx/austin-music-k'
+                        url:'https://register.racevine.com/events/austin-tx/austin-music-k',
+                        description:""
                     },
                     {
                         name:'UT 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx/ut--k'
+                        url:'https://register.racevine.com/events/austin-tx/ut--k',
+                        description:""
                     },
                     {
                         name:'Texas Beer 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx-tx/texas-beer-k'
+                        url:'https://register.racevine.com/events/austin-tx-tx/texas-beer-k',
+                        description:""
                     },
                     {
                         name:'Downtown Austin 5K Run',
-                        url:'https://www.active.com/running-membership/austin-tx/city-running-tours---austin-personalized-running-tours-2017'
+                        url:'https://www.active.com/running-membership/austin-tx/city-running-tours---austin-personalized-running-tours-2017',
+                        description:""
                     },
                     {
                         name:'Black Star 10K Beer Run',
-                        url:'https://register.racevine.com/events/austin-tx/black-star-k'
+                        url:'https://register.racevine.com/events/austin-tx/black-star-k',
+                        description:""
                     },
                     {
                         name:'Scenic Parks 10K Run',
-                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k'
+                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k',
+                        description:""
                     },
                     {
                         name:'City Running Tours/PubCrawler Duathalon',
-                        url:'https://register.racevine.com/events/austin-tx/austin-s-drinking-duathlon-tour-'
+                        url:'https://register.racevine.com/events/austin-tx/austin-s-drinking-duathlon-tour-',
+                        description:""
                     }
                 ]
             },
@@ -395,35 +461,43 @@ function getRunPaths(){
                 runs:[
                     {
                         name:'Downtown Austin 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx-tx/downtown-austin-k'
+                        url:'https://register.racevine.com/events/austin-tx-tx/downtown-austin-k',
+                        description:""
                     },
                     {
                         name:'Austin Music 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx/austin-music-k'
+                        url:'https://register.racevine.com/events/austin-tx/austin-music-k',
+                        description:""
                     },
                     {
                         name:'UT 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx/ut--k'
+                        url:'https://register.racevine.com/events/austin-tx/ut--k',
+                        description:""
                     },
                     {
                         name:'Texas Beer 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx-tx/texas-beer-k'
+                        url:'https://register.racevine.com/events/austin-tx-tx/texas-beer-k',
+                        description:""
                     },
                     {
                         name:'Downtown Austin 5K Run',
-                        url:'https://www.active.com/running-membership/austin-tx/city-running-tours---austin-personalized-running-tours-2017'
+                        url:'https://www.active.com/running-membership/austin-tx/city-running-tours---austin-personalized-running-tours-2017',
+                        description:""
                     },
                     {
                         name:'Black Star 10K Beer Run',
-                        url:'https://register.racevine.com/events/austin-tx/black-star-k'
+                        url:'https://register.racevine.com/events/austin-tx/black-star-k',
+                        description:""
                     },
                     {
                         name:'Scenic Parks 10K Run',
-                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k'
+                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k',
+                        description:""
                     },
                     {
                         name:'City Running Tours/PubCrawler Duathalon',
-                        url:'https://register.racevine.com/events/austin-tx/austin-s-drinking-duathlon-tour-'
+                        url:'https://register.racevine.com/events/austin-tx/austin-s-drinking-duathlon-tour-',
+                        description:""
                     }
                 ]
             },
@@ -432,35 +506,43 @@ function getRunPaths(){
                 runs:[
                     {
                         name:'Downtown Austin 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx-tx/downtown-austin-k'
+                        url:'https://register.racevine.com/events/austin-tx-tx/downtown-austin-k',
+                        description:""
                     },
                     {
                         name:'Austin Music 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx/austin-music-k'
+                        url:'https://register.racevine.com/events/austin-tx/austin-music-k',
+                        description:""
                     },
                     {
                         name:'UT 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx/ut--k'
+                        url:'https://register.racevine.com/events/austin-tx/ut--k',
+                        description:""
                     },
                     {
                         name:'Texas Beer 5K Run',
-                        url:'https://register.racevine.com/events/austin-tx-tx/texas-beer-k'
+                        url:'https://register.racevine.com/events/austin-tx-tx/texas-beer-k',
+                        description:""
                     },
                     {
                         name:'Downtown Austin 5K Run',
-                        url:'https://www.active.com/running-membership/austin-tx/city-running-tours---austin-personalized-running-tours-2017'
+                        url:'https://www.active.com/running-membership/austin-tx/city-running-tours---austin-personalized-running-tours-2017',
+                        description:""
                     },
                     {
                         name:'Black Star 10K Beer Run',
-                        url:'https://register.racevine.com/events/austin-tx/black-star-k'
+                        url:'https://register.racevine.com/events/austin-tx/black-star-k',
+                        description:""
                     },
                     {
                         name:'Scenic Parks 10K Run',
-                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k'
+                        url:'https://register.racevine.com/events/austin-k-tx/scenic-parks-k',
+                        description:""
                     },
                     {
                         name:'City Running Tours/PubCrawler Duathalon',
-                        url:'https://register.racevine.com/events/austin-tx/austin-s-drinking-duathlon-tour-'
+                        url:'https://register.racevine.com/events/austin-tx/austin-s-drinking-duathlon-tour-',
+                        description:""
                     }
                 ]
             }
