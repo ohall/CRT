@@ -12,7 +12,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
     $scope.mouseDown = false;
     $scope.runType = "";
     $scope.city = "";
-    $scope.crtPhone="877.415.0058";
+    $scope.crtPhone="877-415-0058";
 
 
 
@@ -64,7 +64,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
     };
 
     $scope.emailManager = function(cityemail, cityName){
-        EmailComposer.prototype.showEmailComposer(  "Customer Inquiry "+cityName,
+        EmailComposer.prototype.showEmailComposer(  contactEmailConsts.SUBJECT+cityName,
                                                     "",
                                                     cityemail,
                                                     contactEmailConsts.ROOTEMAIL,
@@ -73,7 +73,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
     }
 
     $scope.phoneCall = function(){
-        var ref = window.open("tel:"+$scope.crtPhone, '_system');
+        cordova.exec(null, null, "PhoneDialer", "dialPhone",[{"number":$scope.crtPhone}]);
     }
 
 

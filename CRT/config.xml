@@ -117,9 +117,9 @@
         <param name="ios-package" value="CDVLocalStorage"/>
     </feature>
     <feature name="EmailComposer">
-        <param name="ios-package" value="EmailComposer"/>
-    </feature>
-    <feature name="EmailComposer">
         <param name="ios-package" value="EmailComposer" />
+    </feature>
+    <feature name="PhoneDialer">
+        <param name="ios-package" value="PhoneDialer" />
     </feature>
 </widget>
