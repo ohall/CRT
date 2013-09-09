@@ -84,6 +84,7 @@ div{
 }
 
 .fragment.active {
+    width: 100%;
     left: 0;
 }
 
@@ -98,23 +99,18 @@ div{
 }
 
 .cardNest{
-    display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 
 .cityCard {
-
-    text-align: center;
-
-    width: 106px;
-    height: 106px;
+    font-weight: 900;
     float: left;
-
-
-    border: solid;
-    border-width:thin;
-    border-color: darkgrey;
+    text-align: center;
+    width: 32%;
+    height: 150px;
+    margin: 1px;
 
     background-color: lightgrey;
 
@@ -125,6 +121,9 @@ div{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+.cityCard img{
+    max-height: 70%;
 }
 
 .cityCard:active{
