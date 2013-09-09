@@ -18,6 +18,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
 
     $scope.$on("$routeChangeSuccess", function (scope, next, current) {
         $scope.transitionState = "active"
+        $scope.showBackButton = (next.$$route.templateUrl === "views/cityView.html")?false:true;
     });
 
 
