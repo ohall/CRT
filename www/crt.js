@@ -83,91 +83,91 @@ function CRTCtrl($scope,$location, getRunPaths) {
     }
 
     $scope.cityList = [
-
-            {
-                name:"Austin",
-                manager:"Karl",
-                email: "Austin@CityRunningTours.com",
-                ext:"19",
-                image:"crtaus0"
-
-            },
-            {
-                name:"Boston",
-                manager:"Karl",
-                email: "Boston@CityRunningTours.com",
-                ext:"16",
-                image:"crtbos0"
-            },
-            {
-                name:"Chicago",
-                manager:"Karl",
-                email: "Chicago@CityRunningTours.com",
-                ext:"12",
-                image:"crtch0"
-
-            },
-            {
-                name:"Denver",
-                manager:"Karl",
-                email: "Denver@CityRunningTours.com",
-                ext:"21",
-                image:"crtden0"
-            },
-            {
-                name:"Minneapolis",
-                manager:"Karl",
-                email: "Minneapolis@CityRunningTours.com",
-                ext:"18",
-                image:"crtmsp0"
-
-            },
-            {
-                name:"New York",
-                manager:"Karl",
-                email: "NewYork@CityRunningTours.com",
-                ext:"11",
-                image:"crtnyc00"
-            },
-            {
-                name:"Philadelphia",
-                manager:"Karl",
-                email: "Philadelphia@CityRunningTours.com",
-                ext:"14",
-                image:"crtph0"
-
-            },
-            {
-                name:"Portland",
-                manager:"Karl",
-                email: "Portland@CityRunningTours.com",
-                ext:"20",
-                image:"crtpor3"
-
-            },
-            {
-                name:"San Francisco",
-                manager:"Karl",
-                email: "SanFran@CityRunningTours.com",
-                ext:"15",
-                image:"crtsf00"
-
-            },
-            {
-                name:"Seattle",
-                manager:"Karl",
-                email: "Seattle@CityRunningTours.com",
-                ext:"17",
-                image:"crtsea0"
-            },
-            {
-                name:"Washington DC",
-                manager:"Karl",
-                email: "DC@CityRunningTours.com",
-                ext:"13",
-                image:"crtdc00"
-
-            }];
+                       
+                       {
+                       name:"Austin",
+                       manager:"Lee Ackerley",
+                       email: "Lee@CityRunningTours.com",
+                       ext:"19",
+                       image:"crtaus0"
+                       
+                       },
+                       {
+                       name:"Boston",
+                       manager:"Brian McCarthy",
+                       email: "Brian@CityRunningTours.com",
+                       ext:"16",
+                       image:"crtbos0"
+                       },
+                       {
+                       name:"Chicago",
+                       manager:"Marlin Keesler",
+                       email: "Marlin@CityRunningTours.com",
+                       ext:"12",
+                       image:"crtch0"
+                       
+                       },
+                       {
+                       name:"Denver",
+                       manager:"Lee Herndon",
+                       email: "Herndon@CityRunningTours.com",
+                       ext:"21",
+                       image:"crtden0"
+                       },
+                       {
+                       name:"Minneapolis",
+                       manager:"Nate Herrington",
+                       email: "Nate@CityRunningTours.com",
+                       ext:"18",
+                       image:"crtmsp0"
+                       
+                       },
+                       {
+                       name:"New York",
+                       manager:"Karl Pawlewicz",
+                       email: "Karl@CityRunningTours.com",
+                       ext:"11",
+                       image:"crtnyc00"
+                       },
+                       {
+                       name:"Philadelphia",
+                       manager:"Annie Gianola",
+                       email: "Annie@CityRunningTours.com",
+                       ext:"14",
+                       image:"crtph0"
+                       
+                       },
+                       {
+                       name:"Portland",
+                       manager:"Pete Johnson",
+                       email: "Pete@CityRunningTours.com",
+                       ext:"20",
+                       image:"crtpor3"
+                       
+                       },
+                       {
+                       name:"San Francisco",
+                       manager:"John Kamola",
+                       email: "John@CityRunningTours.com",
+                       ext:"15",
+                       image:"crtsf00"
+                       
+                       },
+                       {
+                       name:"Seattle",
+                       manager:"Dennis Armstrong",
+                       email: "Dennis@CityRunningTours.com",
+                       ext:"17",
+                       image:"crtsea0"
+                       },
+                       {
+                       name:"Washington DC",
+                       manager:"Sara Murphy",
+                       email: "Sara@CityRunningTours.com",
+                       ext:"13",
+                       image:"crtdc00"
+                       
+                       }];
 }
 
 app.directive('onTap', function () {
