@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="org.oakley.CRT" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>City Running Tours</name>
+    <description>
+        The City Running Tours App allows runners to schedule guided runs on the go.
+    </description>
+    <author email="oakley349@gmail.com" href="http://oakley349.com">
+        Oakley Hall
+    </author>
+    <access origin="*" />
+    <access origin="http://127.0.0.1*" subdomains="true" />
+    <access origin="http://racevine.com" subdomains="true" />
+    <access origin="https://register.racevine.com" subdomains="true" />
+    <access origin="http://active.com" subdomains="true" />
+    <content src="index.html" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="false" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <feature name="Device">
+        <param name="ios-package" value="CDVDevice" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+    <feature name="EmailComposer">
+        <param name="ios-package" value="EmailComposer" />
+    </feature>
+    <feature name="PhoneDialer">
+        <param name="ios-package" value="PhoneDialer" />
+    </feature>
+</widget>
