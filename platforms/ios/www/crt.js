@@ -51,7 +51,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
 
         if(pVal === 'Individual'){
             var therun = runs['indy'];
-            var ref = window.open(therun, '_blank', 'location=yes');
+            var ref = window.open(therun, '_blank','location=no,enableViewportScale=yes');
         }else{
             $scope.runs = runs;
             $location.path('groupRun');
