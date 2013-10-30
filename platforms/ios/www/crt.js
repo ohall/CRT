@@ -147,7 +147,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
                        
                        },
                        {
-                       name:"San Francisco",
+                       name:"San Fran",
                        manager:"John Kamola",
                        email: "John@CityRunningTours.com",
                        ext:"15",
@@ -162,7 +162,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
                        image:"crtsea0"
                        },
                        {
-                       name:"Washington DC",
+                       name:"DC",
                        manager:"Sara Murphy",
                        email: "Sara@CityRunningTours.com",
                        ext:"13",
