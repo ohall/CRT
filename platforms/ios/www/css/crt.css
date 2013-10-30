@@ -38,6 +38,7 @@ div{
     display: inline-block;
     width: 100%;
     background-color: #FF8A36;
+    overflow: auto;
 }
 
 .banner-left{
@@ -102,13 +103,12 @@ div{
 }
 
 .cityCard {
-
+    display: inline-block;
     text-align: center;
-
+    overflow: hidden;
     width: 90px;
     height: 92px;
     float: left;
-
 
     border: solid;
     border-width:thin;
@@ -124,6 +124,7 @@ div{
     -ms-user-select: none;
     user-select: none;
 }
+
 
 .cityCard:active{
     background-color: darkgray;
