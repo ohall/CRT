@@ -4,7 +4,8 @@ CRT
 Mobile app for City Running Tours using Phonegap and AngularJS
 
 
-plugins:
+Plugins:
+===
 
 phonegap local plugin add https://github.com/katzer/cordova-plugin-email-composer.git
 
