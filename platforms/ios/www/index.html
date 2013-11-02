@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html ng-app="CRTApp" ng-controller="CRTCtrl">
-<!--<div class="splashDiv" ng-show="splashVis">-->
-    <!--<img class="splashLogo" src="img/crt-logo.png">-->
 
-<div class="banner" >
-    <a ng-show="showBackButton" href="#" style="margin-top: 15px" on-tap="history.back();"><span>Back</span></a>
-    <img class="banner-right" src="img/crt-logo_m.png"/>
-</div>
+
     
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
 </head>
 
+
+<div class="banner" >
+    </div class="banner-left">
+        <a  ng-show="showBackButton" href="#" class="back-button" 
+            on-tap="history.back();"><span>Back</span></a>
+    <div>
+    <div class="banner-right" >   
+        <img src="img/CRT_Web_Banner_v2.png">
+    </div> 
+
+</div>
 <body>
+
 
     <div class="fragmentWrapper" id="fragmentView" ng-view></div>
 
@@ -41,11 +48,11 @@
 
         // device APIs are available
         //
-        function onDeviceReady() {
-            if (parseFloat(window.device.version) === 7.0) {
-                document.body.style.marginTop = "20px";
-            }
-        }
+        // function onDeviceReady() {
+        //     if (parseFloat(window.device.version) === 7.0) {
+        //         document.body.style.marginTop = "20px";
+        //     }
+        // }
 
 
     </script>

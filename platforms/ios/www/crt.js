@@ -74,9 +74,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
         
      }
 
-    $scope.phoneCall = function(){
-        // cordova.exec(null, null, "PhoneDialer", "dialPhone",[{"number":$scope.crtPhone}]);
-        
+    $scope.phoneCall = function(){        
         phonedialer.dial($scope.crtPhone, function(err) {
             if (err == "feature")
                 alert("Your device doesn't support this feature.");
@@ -88,7 +86,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
 
 
     $scope.groupRunSelected = function(pRun, pIndex){
-        var ref = window.open(pRun.url, '_blank', 'location=yes');
+        var ref = window.open(pRun.url, '_blank', 'location=no,enableViewportScale=yes');
     }
 
     $scope.cityList = [

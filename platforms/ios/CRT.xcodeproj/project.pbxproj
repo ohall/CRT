@@ -5,7 +5,9 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
+		17E1D2BEB8E24214A0ADA214 /* PhoneDialer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7715B23F77E44D68D5C3B98 /* PhoneDialer.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F766FDC13BBADB100FB74C0 /* Localizable.strings */; };
@@ -53,7 +55,6 @@
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		DB0BC5F05E3C4BA28FAB4D6B /* APPEmailComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9408B8F2F24901BF23FAB2 /* APPEmailComposer.m */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
-		17E1D2BEB8E24214A0ADA214 /* PhoneDialer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7715B23F77E44D68D5C3B98 /* PhoneDialer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,8 @@
 		8903C41396AD45489B76B890 /* CDVDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = org.apache.cordova.device/CDVDevice.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CRT-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CRT-Info.plist"; path = "../CRT-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		ABF2F725B5A349C5977F8998 /* CDVDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = org.apache.cordova.device/CDVDevice.m; sourceTree = "<group>"; };
+		B7715B23F77E44D68D5C3B98 /* PhoneDialer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneDialer.m; path = com.phonegap.core.phonedialer/PhoneDialer.m; sourceTree = "<group>"; };
+		B9CA79F3501B4FE996F56946 /* PhoneDialer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneDialer.h; path = com.phonegap.core.phonedialer/PhoneDialer.h; sourceTree = "<group>"; };
 		C85143279EDA4E6C91A07585 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVInAppBrowser.m; path = org.apache.cordova.inappbrowser/CDVInAppBrowser.m; sourceTree = "<group>"; };
 		D306F2FF1814B9B500CBDDAB /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "CRT/Resources/icons/icon-76.png"; sourceTree = "<group>"; };
 		D306F3001814B9C800CBDDAB /* icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-152.png"; path = "CRT/Resources/icons/icon-152.png"; sourceTree = "<group>"; };
@@ -133,8 +136,6 @@
 		D3EAFCB41814963E00719F26 /* icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-58.png"; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = CRT/config.xml; sourceTree = "<group>"; };
-		B7715B23F77E44D68D5C3B98 /* PhoneDialer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PhoneDialer.m"; path = "com.phonegap.core.phonedialer/PhoneDialer.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		B9CA79F3501B4FE996F56946 /* PhoneDialer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PhoneDialer.h"; path = "com.phonegap.core.phonedialer/PhoneDialer.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -32,29 +32,48 @@ div{
 }
 
 .banner{
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin: 0;
-    display: inline-block;
+    position: fixed;
+    background-color: white;
     width: 100%;
-    background-color: #FF8A36;
-    overflow: auto;
+    height: 70px;
+    z-index:1;
 }
 
 .banner-left{
-    height: 75px;
-    float: right;
-    margin-right: 20px;
+    position: fixed;
+    float: left;
+    left: 0px;
+    height: 70px;
+    width: 90px;
+    background-color: red;
+    z-index:1;
+}
+
+.back-button{
+    margin-top: 22px;
+    position: fixed;
+    z-index:1;
+
 }
 
 .banner-right{
-    height: 75px;
+    background-color: white;
+    position: fixed;
+    right: 0px;
     float: right;
-    margin-right: 20px;
+    height: 70px;
+    width: 220px;
+    z-index:1;
 }
 
-/*HTML fragment transition animation*/
+.banner-right img{
+    margin-top: 20px;
+    float: right;
+    position: fixed;
+    width: 220px;
+    z-index:1;
+}
+
 
 .fragmentWrapper {
     text-align: center;
@@ -63,6 +82,7 @@ div{
     width: 100%;
     padding-top: 80px;
     overflow: auto;
+    z-index:-1;
 }
 
 .fragment {
