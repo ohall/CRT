@@ -147,7 +147,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
                        
                        },
                        {
-                       name:"San Fran",
+                       name:"San Francisco",
                        manager:"John Kamola",
                        email: "John@CityRunningTours.com",
                        ext:"15",

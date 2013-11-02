@@ -57,7 +57,7 @@ function getRunPaths(){
                              runs: {'indy': 'http://www.active.com/cycling-membership/seattle-wa/city-running-tours---seattle-personalized-running-tours-2017'}
                              },
                              {
-                             city: 'Washington DC',
+                             city: 'DC',
                              runs: {'indy': 'http://www.active.com/running-membership/washington-dc/city-running-tours---washington-dc-personalized-running-tours-2017'}
                              }
                              ]
@@ -431,7 +431,7 @@ function getRunPaths(){
                                     ]
                              },
                              {
-                             city: 'Washington DC',
+                             city: 'DC',
                              runs: [
                                     {
                                     name: 'Eastern Market/Capitol Hill',
