@@ -18,17 +18,17 @@
         <h1 class="groupRunLabel" on-tap="showTextInput=!showTextInput">Contact US</h1>
 
         <div class="submitContact" ng-show="showTextInput">
-            <h5><strong>Manager: </strong>{{ city.manager }}</h5>
-
-
-            <h5><strong>Phone: </strong>{{ crtPhone }} x{{ city.ext }}</h5>
-            <button type="button"
-                   class="btn btn-large"
-                   on-tap="phoneCall()">Call Us</button>
-            <h5><strong>Email: </strong>{{ city.email }}</h5>
-            <button type="button"
-                    class="btn btn-large"
-                    on-tap="emailManager(city.email,city.name)">Email Us</button>
+            <p>Manager:  {{ city.manager }}</p>
+            <p>Phone: {{ crtPhone }} x{{ city.ext }}</p>
+            <p>Email: {{ city.email }}</p>
+            <input type="button"
+                   class="btn btn-large contact-button"
+                   value="Call Us"
+                   on-tap="phoneCall()"></input>
+            <input type="button"
+                   class="btn btn-large "
+                   value="Email Us"
+                   on-tap="emailManager(city.email,city.name)"></input>
 
         </div>
 
