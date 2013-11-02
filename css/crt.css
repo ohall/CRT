@@ -31,13 +31,15 @@ div{
 }
 
 .banner{
-    position: absolute;
+    padding-top: 20px;
+    position: fixed;
     right: 0;
     left: 0;
     margin: 0;
     display: inline-block;
     width: 100%;
-    background-color: #FF8A36;
+    background-color: #ffffff;
+    z-index: 1;
 }
 
 .banner-left{
@@ -47,14 +49,17 @@ div{
 }
 
 .banner-right{
-    height: 75px;
     float: right;
-    margin-right: 20px;
+    margin-right: 0px;
+    /*width: 220px;*/
 }
+
+
 
 /*HTML fragment transition animation*/
 
 .fragmentWrapper {
+    z-index: -1;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
