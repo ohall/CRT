@@ -233,21 +233,9 @@ div{
     background-color: lightgrey;
 }
 
-/*.listRow-false{*/
-    /*padding: 10px;*/
-    /*margin-bottom: 10px;*/
-    /*background-color: lightgrey;*/
-/*}*/
-
-
-/*.listRow-true{*/
-    /*padding: 10px;*/
-    /*color: #FF8A36;*/
-    /*margin-bottom: 10px;*/
-    /*background-color: darkgray;*/
-/*}*/
-
-
+.contact-button{
+    margin: 0px;
+}
 
 
 a {

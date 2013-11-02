@@ -35,4 +35,7 @@
     <feature name="EmailComposer">
         <param name="ios-package" value="APPEmailComposer" />
     </feature>
+    <feature name="PhoneDialer">
+        <param name="ios-package" value="PhoneDialer" />
+    </feature>
 </widget>

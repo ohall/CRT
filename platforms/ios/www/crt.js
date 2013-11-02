@@ -75,7 +75,14 @@ function CRTCtrl($scope,$location, getRunPaths) {
      }
 
     $scope.phoneCall = function(){
-        cordova.exec(null, null, "PhoneDialer", "dialPhone",[{"number":$scope.crtPhone}]);
+        // cordova.exec(null, null, "PhoneDialer", "dialPhone",[{"number":$scope.crtPhone}]);
+        
+        phonedialer.dial($scope.crtPhone, function(err) {
+            if (err == "feature")
+                alert("Your device doesn't support this feature.");
+            if (err == "empty")
+                alert("Unknown phone number");
+        });
     }
 
 

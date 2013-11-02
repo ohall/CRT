@@ -20,6 +20,13 @@ module.exports = [
         "clobbers": [
             "plugin.email"
         ]
+    },
+    {
+        "file": "plugins/com.phonegap.core.phonedialer/www/dialer.js",
+        "id": "com.phonegap.core.phonedialer.phonedialer",
+        "merges": [
+            "phonedialer"
+        ]
     }
 ]
 });
