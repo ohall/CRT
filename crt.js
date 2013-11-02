@@ -161,7 +161,7 @@ function CRTCtrl($scope,$location, getRunPaths) {
             image:"crtsea0"
         },
         {
-            name:"Washington DC",
+            name:"DC",
             manager:"Sara Murphy",
             email: "Sara@CityRunningTours.com",
             ext:"13",
