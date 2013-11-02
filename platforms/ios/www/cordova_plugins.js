@@ -8,13 +8,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/org.apache.cordova.splashscreen/www/splashscreen.js",
-        "id": "org.apache.cordova.splashscreen.SplashScreen",
-        "clobbers": [
-            "navigator.splashscreen"
-        ]
-    },
-    {
         "file": "plugins/org.apache.cordova.inappbrowser/www/InAppBrowser.js",
         "id": "org.apache.cordova.inappbrowser.InAppBrowser",
         "clobbers": [
@@ -22,17 +15,10 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/org.apache.cordova.PhoneDialer/www/PhoneDialer.js",
-        "id": "org.apache.cordova.PhoneDialer.PhoneDialer",
+        "file": "plugins/de.appplant.cordova.plugin.email-composer/www/email_composer.js",
+        "id": "de.appplant.cordova.plugin.email-composer.EmailComposer",
         "clobbers": [
-            "navigator.PhoneDialer"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.EmailComposer/www/EmailComposer.js",
-        "id": "org.apache.cordova.EmailComposer.EmailComposer",
-        "clobbers": [
-            "navigator.EmailComposer"
+            "plugin.email"
         ]
     }
 ]

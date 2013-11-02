@@ -65,13 +65,14 @@ function CRTCtrl($scope,$location, getRunPaths) {
     };
 
     $scope.emailManager = function(cityemail, cityName){
-        EmailComposer.prototype.showEmailComposer(  contactEmailConsts.SUBJECT+cityName,
-                                                    "",
-                                                    cityemail,
-                                                    contactEmailConsts.ROOTEMAIL,
-                                                    "",
-                                                    false );
-    }
+       window.plugin.email.open({
+                                subject: contactEmailConsts.SUBJECT+cityName, // represents the subject of the email
+                                body: "I would like more information about a City Running Tour.",       // represents the email body (could be HTML code, in this case set isHtml to true)
+                                isHtml: false,       // indicats if the body is HTML or plain text
+                                recipients: [cityemail],     // contains all the email addresses for TO field
+                                ccRecipients: [contactEmailConsts.ROOTEMAIL]});
+        
+     }
 
     $scope.phoneCall = function(){
         cordova.exec(null, null, "PhoneDialer", "dialPhone",[{"number":$scope.crtPhone}]);
