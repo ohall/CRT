@@ -14,3 +14,8 @@ phonegap local plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin
 phonegap local plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-device.git
 
 phonegap local plugin add https://github.com/gaetansenn/PhoneGap-ios-PhoneDialer.git
+
+
+iTunes
+===
+https://itunes.apple.com/us/app/city-running-tours/id698030591
