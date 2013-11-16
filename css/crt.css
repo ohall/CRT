@@ -15,8 +15,10 @@ body{
 
     right: 0;
     left: 0;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 
+    overflow:scroll;
 
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -31,41 +33,56 @@ div{
 }
 
 .banner{
-    padding-top: 20px;
     position: fixed;
-    right: 0;
-    left: 0;
-    margin: 0;
-    display: inline-block;
+    background-color: white;
     width: 100%;
-    background-color: #ffffff;
-    z-index: 1;
+    height: 60px;
+    z-index:1;
 }
 
 .banner-left{
-    height: 75px;
-    float: right;
-    margin-right: 20px;
+    position: fixed;
+    float: left;
+    left: 0px;
+    height: 60px;
+    width: 90px;
+    z-index:1;
+}
+
+.back-button{
+    margin-top: 22px;
+    position: fixed;
+    z-index:1;
+
 }
 
 .banner-right{
+    background-color: white;
+    position: fixed;
+    right: 0px;
     float: right;
-    margin-right: 0px;
-    /*width: 220px;*/
+    height: 60px;
+    width: 220px;
+    z-index:1;
+}
+
+.banner-right img{
+    margin-top: 20px;
+    float: right;
+    position: fixed;
+    width: 220px;
+    z-index:1;
 }
 
 
-
-/*HTML fragment transition animation*/
-
 .fragmentWrapper {
-    z-index: -1;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    padding-top: 80px;
-    overflow: hidden;
+    padding-top: 65px;
+    overflow: auto;
+    z-index:-1;
 }
 
 .fragment {
@@ -89,12 +106,7 @@ div{
 }
 
 .fragment.active {
-    width: 100%;
     left: 0;
-}
-
-.cityList .btn{
-    width: 80%;
 }
 
 .runList .btn{
@@ -103,22 +115,17 @@ div{
 
 }
 
-.cardNest{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
-
 .cityCard {
-    font-weight: 900;
-    float: left;
+    display: inline-block;
     text-align: center;
+    overflow: hidden;
     width: 32%;
-    height: 150px;
-    margin: 1px;
-
+    /*height: 92px;*/
+    float: left;
+    border: solid;
+    border-width:thin;
+    border-color: darkgrey;
     background-color: lightgrey;
-
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -127,9 +134,7 @@ div{
     -ms-user-select: none;
     user-select: none;
 }
-.cityCard img{
-    max-height: 70%;
-}
+
 
 .cityCard:active{
     background-color: darkgray;
@@ -142,8 +147,6 @@ div{
     width: 100%;
 
 }
-
-
 
 .splashDiv{
     position: absolute;
@@ -161,17 +164,6 @@ div{
 
 .cityLabel{
     padding-top: 10px;
-}
-
-
-
-
-.groupRunLabel{
-
-}
-
-.groupRunLabel:active{
-    /*color: #FF8A36;*/
 }
 
 .contactButton{
@@ -199,9 +191,6 @@ div{
     margin-bottom: 0px;
     float: left;
     width: 75%;
-    /*margin-left:    10px;*/
-    /*margin-top:     2px;*/
-    /*margin-bottom:  2px;*/
 }
 
 .submitContact button{
@@ -215,18 +204,18 @@ div{
     float: left;
 }
 
-
 .listRow{
     padding: 10px;
     margin-bottom: 10px;
     background-color: lightgrey;
 }
 
+.listRow:hover{
+    background-color: lightgrey;
+}
 
 .listRow:active{
-    padding: 10px;
     color: #FF8A36;
-    margin-bottom: 10px;
     background-color: darkgray;
 }
 
@@ -237,21 +226,9 @@ div{
     background-color: lightgrey;
 }
 
-/*.listRow-false{*/
-    /*padding: 10px;*/
-    /*margin-bottom: 10px;*/
-    /*background-color: lightgrey;*/
-/*}*/
-
-
-/*.listRow-true{*/
-    /*padding: 10px;*/
-    /*color: #FF8A36;*/
-    /*margin-bottom: 10px;*/
-    /*background-color: darkgray;*/
-/*}*/
-
-
+.contact-button{
+    margin: 0px;
+}
 
 
 a {

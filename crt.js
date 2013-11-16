@@ -101,8 +101,8 @@ function CRTCtrl($scope,$location, getRunPaths) {
         },
         {
             name:"Chicago",
-            manager:"Marlin Keesler",
-            email: "Marlin@CityRunningTours.com",
+            manager:"",
+            email: "Runners@CityRunningTours.com",
             ext:"12",
             image:"crtch0"
 
