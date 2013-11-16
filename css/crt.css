@@ -33,56 +33,41 @@ div{
 }
 
 .banner{
+    padding-top: 20px;
     position: fixed;
-    background-color: white;
+    right: 0;
+    left: 0;
+    margin: 0;
+    display: inline-block;
     width: 100%;
-    height: 60px;
-    z-index:1;
+    background-color: #ffffff;
+    z-index: 1;
 }
 
 .banner-left{
-    position: fixed;
-    float: left;
-    left: 0px;
-    height: 60px;
-    width: 90px;
-    z-index:1;
-}
-
-.back-button{
-    margin-top: 22px;
-    position: fixed;
-    z-index:1;
-
+    height: 75px;
+    float: right;
+    margin-right: 20px;
 }
 
 .banner-right{
-    background-color: white;
-    position: fixed;
-    right: 0px;
     float: right;
-    height: 60px;
-    width: 220px;
-    z-index:1;
+    margin-right: 0px;
+    /*width: 220px;*/
 }
 
-.banner-right img{
-    margin-top: 20px;
-    float: right;
-    position: fixed;
-    width: 220px;
-    z-index:1;
-}
 
+
+/*HTML fragment transition animation*/
 
 .fragmentWrapper {
+    z-index: -1;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    padding-top: 65px;
-    overflow: auto;
-    z-index:-1;
+    padding-top: 80px;
+    overflow: hidden;
 }
 
 .fragment {

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/crt.css" afterPath="$PROJECT_DIR$/css/crt.css" />
     </list>
     <ignored path="CRT_App.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +27,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.49662784">
       <split-first>
         <leaf>
-          <file leaf-file-name="crt.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/crt.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="95" column="26" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.4250412" vertical-offset="1167" max-vertical-offset="3345">
@@ -128,10 +128,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="crt.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="crt.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/crt.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="1" selection-start="429" selection-end="429" vertical-scroll-proportion="0.6256078" vertical-offset="94" max-vertical-offset="4905">
+                <state line="13" column="20" selection-start="134" selection-end="134" vertical-scroll-proportion="0.1636953" vertical-offset="94" max-vertical-offset="4680">
                   <folding />
                 </state>
               </provider>
@@ -306,7 +306,7 @@
     <property name="options.splitter.main.proportions" value="0.14057143" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settings.deploy.options" />
+    <property name="options.lastSelected" value="web.server" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="FullScreen" value="true" />
@@ -585,7 +585,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="945">
+        <state line="27" column="0" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
@@ -618,13 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/crt.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="1" selection-start="429" selection-end="429" vertical-scroll-proportion="0.6256078" vertical-offset="94" max-vertical-offset="4905">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="438" column="16" selection-start="47093" selection-end="47093" vertical-scroll-proportion="0.0" vertical-offset="6415" max-vertical-offset="7410">
@@ -635,6 +628,13 @@
     <entry file="file://$PROJECT_DIR$/crt.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="26" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.4250412" vertical-offset="1167" max-vertical-offset="3345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/crt.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="134" selection-end="134" vertical-scroll-proportion="0.1636953" vertical-offset="94" max-vertical-offset="4965">
           <folding />
         </state>
       </provider>
