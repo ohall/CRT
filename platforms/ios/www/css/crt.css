@@ -15,7 +15,8 @@ body{
 
     right: 0;
     left: 0;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 
     overflow:scroll
 
@@ -35,7 +36,7 @@ div{
     position: fixed;
     background-color: white;
     width: 100%;
-    height: 70px;
+    height: 60px;
     z-index:1;
 }
 
@@ -43,9 +44,8 @@ div{
     position: fixed;
     float: left;
     left: 0px;
-    height: 70px;
+    height: 60px;
     width: 90px;
-    background-color: red;
     z-index:1;
 }
 
@@ -61,7 +61,7 @@ div{
     position: fixed;
     right: 0px;
     float: right;
-    height: 70px;
+    height: 60px;
     width: 220px;
     z-index:1;
 }
@@ -80,7 +80,7 @@ div{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    padding-top: 80px;
+    padding-top: 65px;
     overflow: auto;
     z-index:-1;
 }
@@ -109,34 +109,23 @@ div{
     left: 0;
 }
 
-
-
 .runList .btn{
     margin-top: 25px;
     margin-bottom: 25px;
 
 }
 
-.cardNest{
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .cityCard {
     display: inline-block;
     text-align: center;
     overflow: hidden;
-    width: 90px;
-    height: 92px;
+    width: 32%;
+    /*height: 92px;*/
     float: left;
-
     border: solid;
     border-width:thin;
     border-color: darkgrey;
-
     background-color: lightgrey;
-
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -159,8 +148,6 @@ div{
 
 }
 
-
-
 .splashDiv{
     position: absolute;
     left: 0;
@@ -177,17 +164,6 @@ div{
 
 .cityLabel{
     padding-top: 10px;
-}
-
-
-
-
-.groupRunLabel{
-
-}
-
-.groupRunLabel:active{
-    /*color: #FF8A36;*/
 }
 
 .contactButton{
@@ -215,9 +191,6 @@ div{
     margin-bottom: 0px;
     float: left;
     width: 75%;
-    /*margin-left:    10px;*/
-    /*margin-top:     2px;*/
-    /*margin-bottom:  2px;*/
 }
 
 .submitContact button{
@@ -231,18 +204,18 @@ div{
     float: left;
 }
 
-
 .listRow{
     padding: 10px;
     margin-bottom: 10px;
     background-color: lightgrey;
 }
 
+.listRow:hover{
+    background-color: lightgrey;
+}
 
 .listRow:active{
-    padding: 10px;
     color: #FF8A36;
-    margin-bottom: 10px;
     background-color: darkgray;
 }
 

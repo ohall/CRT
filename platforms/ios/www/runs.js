@@ -78,6 +78,21 @@ function getRunPaths(){
                                     name: 'Texas Beer',
                                     url: 'https://register.racevine.com/events/austin-tx-tx/texas-beer-k',
                                     description: "Join us on a 3-mile run and learn about some of Austin's best bars, restaurants, and historical markers! PLUS, sample Austin's finest brews at the end of the route. A great time for a casual group of runners that want to participate in a fun social run!"
+                                    },
+                                    {
+                                    name: 'UT Run',
+                                    url: 'https://register.racevine.com/events/austin-tx/ut--k',
+                                    description: "As one of the largest and most prestigious public universities in the nation, UT-Austin campus boasts an extensive and diverse history dating back to 1883. Come along on this 3 mile run as we explore the historical roots of the campus while also illuminating some if its newest developments and achievements, all located deep in the heart of Austin, Texas."
+                                    },
+                                    {
+                                    name: 'Austin Drinking Duathlon',
+                                    url: 'https://register.racevine.com/events/austin-tx/austin-s-drinking-duathlon-tour-',
+                                    description: "City Running Tours and PubCrawler have joined forces to provide Austin's first Drinking Duathlon! Explore Austin's downtown by taking a 3 mile tour through the heart of the downtown, and then jump on the famous PubCrawler to enjoy a refreshing full keg for your journey back."
+                                    },
+                                    {
+                                    name: 'Black Star Beer Run',
+                                    url: 'https://register.racevine.com/events/austin-tx/black-star-k',
+                                    description: "Join us on a 6 mile guided running tour through some of Austin's most historic and interesting neighborhoods.  We begin in the vibrant downtown area, make our way into the '40 Acres' of the UT campus, carouse through historic Hyde Park and, end at the Black Star Co-op for complimentary beers and appetizers"
                                     }
                                     ]
                              },
@@ -339,57 +354,52 @@ function getRunPaths(){
                                     {
                                     name: 'Sea Lions of Pier 39',
                                     url: 'https://register.racevine.com/events/san-francisco-ca/-k-everyday-sea-lions-of-pier-',
-                                    description: "7 AM  every Monday"
+                                    description: "Our 5K Everyday is a daily scheduled run lead the fun and knowledgeable guides of City Running Tours.  This running tour will be done at a casual pace to serve runners of all levels.  There will be stops along the way for photos and to take in the scenery and talk about the landscape.  This particular route goes north-west along the Embarcadero and around Pier 39 to visit the most famous residents of the area."
                                     },
                                     {
                                     name: 'Ballpark/Waterfront',
                                     url: 'https://register.racevine.com/events/san-francisco-ca/-k-everyday-ballpark-waterfront-',
-                                    description: "7 AM every Tuesday"
+                                    description: "Join us for our daily scheduled 5K run tour lead by the fun and knowledgeable guides of City Running Tours.  This tour will lead us south from the Ferry Building along the Embarcadero to AT&T Ballpark.  Along the way we will visit Rincon Park, South Beach Marina, McCovey Cove and the statues that surround the ballpark. "
                                     },
                                     {
                                     name: 'Union Square/Chinatown',
                                     url: 'https://register.racevine.com/events/san-francisco-ca/-k-everyday-union-square-and-chinatown-run',
-                                    description: "7 AM every Thursday"
+                                    description: "Join us for our 5K Everyday series when we run through the financial district and up to Union Square, and then through Chinatown.  This is a great way to start your morning, and a great chance to visit the shopping and theater districts, before the crowds show up.  Its also an opportunity to have the streets of Chinatown to ourselves before this part of our city is awake and active.  There are a few hills, and as always the hills make for great views.  "
                                     },
                                     {
                                     name: 'Sourdough Bakery and Fishermans Wharf',
                                     url: 'https://register.racevine.com/events/san-francisco-ca/lands-end-trail-run-tour',
-                                    description: "7 AM every Friday"
+                                    description: "Join us for our 5K Everyday series where we run along the Bay waterfront, and out to visit one of the oldest business' in San Francisco.  This 5K route is very flat as we make our way out to the Boudin Bakery, and then to Fishermans Wharf before we make our way back to the Ferry Building. "
                                     },
                                     {
                                     name: 'Lands End Trail ',
                                     url: 'https://register.racevine.com/events/san-francisco-ca/lands-end-trail-run-tour',
-                                    description: "Weekends Only 9 AM"
+                                    description: "Come out and run the Lands End Trail with us and see one of the more unique and well hidden areas within the San Francisco city limits.  This lovely but challenging 5K route includes spectacular vistas, historical landmarks and a few good hills.  The Lands End Trail snakes around the bluff and overlooks the Golden Gate and the Marin Headlands.  We visit the Lincoln Park Golf Course, the Legion of Honor Museum,  and Fort Miley along the way."
                                     },
                                     {
                                     name: 'Embarcadero',
                                     url: 'https://register.racevine.com/events/san-francisco-ca/san-francisco-embarcadero-run-tour',
-                                    description: "9 AM Weekends"
+                                    description: "Come out and sweat with us as we run along the San Francisco Bay waterfront.  We begin at the historic Ferry Building and we move  along the waterfront with stops at  Fisherman's Wharf and Aquatic Park, and no visit to Pier 39 is complete without a visit to the sea lions that reside at the end of the pier. "
                                     },
                                     {
                                     name: 'Alamo Square/Haight/Castro',
                                     url: 'https://register.racevine.com/events/san-francisco-ca/alamo-square-haight-castro-k-running-tour',
-                                    description: "9 AM Weekends"
+                                    description: "Come out and join us for this running tour through the heart of San Francisco.  We meet in the north-west corner of the park near the intersection of Scott St. and Fulton Ave.  We begin in front of the famous Painted Ladies in Alamo Square, and we make our way west toward the panhandle section of Golden Gate Park.  Before we enter the park we reverse course and run east down Haight St. and we make our way to Dubose Park on our way to the Castro.  After we visit such historical sites as the Harvey Milk Camera store and the Castro theater, we run east again toward Dolores Park for great views of downtown.  From here we make a brief stop at the Mission Dolores before we make our way back to our starting point in Alamo Square."
                                     },
                                     {
                                     name: 'Golden Gate Park',
                                     url: 'https://register.racevine.com/events/san-francisco-ca/golden-gate-park-k-run-tour',
-                                    description: "9 AM Weekends"
+                                    description: "Join us for a 10K Run tour and see what makes Golden Gate Park, such an extraordinary part of the San Francisco landscape.  We begin our run at the Conservatory of Flowers near the eastern end of the park.  We run down John F Kennedy Dr. and we make our way west as we pass Prayerbook Cross,  the Bison Enclosure and the Dutch Windmill.  From Ocean Beach we reverse course and make our way east as we traverse the southern boundry of the park and we visit Murphy's Windmill, the Botanical Gardens and the Japanese Tea Gardens."
                                     },
                                     {
                                     name: 'Golden Gate Bridge',
                                     url: 'https://register.racevine.com/events/san-francisco-ca/golden-gate-park-k-run-tour',
-                                    description: "9 AM Weekends"
+                                    description: "Come out and run up on one of the most recognizable landmarks on the west coast.  We begin our run near Crissy Field, and gain altitude as we climb up to the toll plaza of the bridge.  We make our way out on the bridge to experience some great views of San Francisco bay, and on our way back we run down the Fort Point Trail to get back down to sea level. "
                                     },
                                     {
                                     name: 'Presidio',
                                     url: 'https://register.racevine.com/events/san-francisco-ca/presidio-of-san-francisco-run-tour',
-                                    description: "9 AM Weekends"
-                                    },
-                                    {
-                                    name: 'Beer Run to Speakeasy 4 Mile',
-                                    url: 'https://register.racevine.com/events/san-francisco-ca/city-running-tours-san-francisco-beer-run-to-speakeasy',
-                                    description: "12 PM Weekends"
+                                    description: "Join us for a 10K run and experience first hand the beauty and geographical diversity that is the Presidio.  The run begins and ends at sea level, and we will have some hills along the way, however the intensity of the hills will be matched by the spectacular views along the way.  We run by the Parade Grounds, Letterman Hospital, Immigrant Point Overlook and the Golden Gate Bridge Pavilion.  This tour is a great look at a proud military history in San Francisco, and a celebration of the beautiful geography. "
                                     }
                                     
                                     ]

@@ -48,6 +48,7 @@
 		D306F31C1814BAD700CBDDAB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D306F30E1814BAD700CBDDAB /* icon.png */; };
 		D306F31D1814BAD700CBDDAB /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D306F30F1814BAD700CBDDAB /* icon@2x.png */; };
 		D306F31F1814BBA900CBDDAB /* crt-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D306F31E1814BBA900CBDDAB /* crt-logo.png */; };
+		D3CDF27318381F2D00C2E6F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CDF27218381F2D00C2E6F6 /* Images.xcassets */; };
 		D3EAFCA1181377A000719F26 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EAFCA0181377A000719F26 /* MessageUI.framework */; };
 		D3EAFCB01814954B00719F26 /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = D3EAFCAF1814954B00719F26 /* icon-120.png */; };
 		D3EAFCB2181495AD00719F26 /* icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = D3EAFCB1181495AD00719F26 /* icon-29.png */; };
@@ -130,6 +131,13 @@
 		D306F30E1814BAD700CBDDAB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		D306F30F1814BAD700CBDDAB /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		D306F31E1814BBA900CBDDAB /* crt-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "crt-logo.png"; path = "www/img/crt-logo.png"; sourceTree = SOURCE_ROOT; };
+		D3CDF26C1837F9D200C2E6F6 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "CRT/Resources/icons/Icon-Small.png"; sourceTree = "<group>"; };
+		D3CDF26D1837FD2100C2E6F6 /* icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-80.png"; path = "CRT/Resources/icons/icon-80.png"; sourceTree = "<group>"; };
+		D3CDF26E18381B8200C2E6F6 /* icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-50.png"; path = "CRT/Resources/icons/icon-50.png"; sourceTree = "<group>"; };
+		D3CDF26F18381BC600C2E6F6 /* icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-100.png"; path = "CRT/Resources/icons/icon-100.png"; sourceTree = "<group>"; };
+		D3CDF27018381BE700C2E6F6 /* icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-80.png"; path = "CRT/Resources/icons/icon-80.png"; sourceTree = "<group>"; };
+		D3CDF27118381E5B00C2E6F6 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-57.png"; path = "CRT/Resources/icons/icon-57.png"; sourceTree = "<group>"; };
+		D3CDF27218381F2D00C2E6F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CRT/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		D3EAFCA0181377A000719F26 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		D3EAFCAF1814954B00719F26 /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120.png"; sourceTree = "<group>"; };
 		D3EAFCB1181495AD00719F26 /* icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29.png"; sourceTree = "<group>"; };
@@ -195,6 +203,12 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D3CDF27118381E5B00C2E6F6 /* icon-57.png */,
+				D3CDF27018381BE700C2E6F6 /* icon-80.png */,
+				D3CDF26F18381BC600C2E6F6 /* icon-100.png */,
+				D3CDF26E18381B8200C2E6F6 /* icon-50.png */,
+				D3CDF26D1837FD2100C2E6F6 /* icon-80.png */,
+				D3CDF26C1837F9D200C2E6F6 /* Icon-Small.png */,
 				D306F3011814B9DB00CBDDAB /* icon-40.png */,
 				D306F3001814B9C800CBDDAB /* icon-152.png */,
 				D306F2FF1814B9B500CBDDAB /* icon-76.png */,
@@ -224,6 +238,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D3CDF27218381F2D00C2E6F6 /* Images.xcassets */,
 				30A0434214DC770100060A13 /* de.lproj */,
 				30A0434514DC770100060A13 /* se.lproj */,
 				1F766FDB13BBADB100FB74C0 /* en.lproj */,
@@ -419,6 +434,7 @@
 				308D05391370CCF300D202BF /* icon@2x.png in Resources */,
 				1F766FE113BBADB100FB74C0 /* Localizable.strings in Resources */,
 				D306F31A1814BAD700CBDDAB /* icon-120.png in Resources */,
+				D3CDF27318381F2D00C2E6F6 /* Images.xcassets in Resources */,
 				D306F3151814BAD700CBDDAB /* icon-72.png in Resources */,
 				D306F3141814BAD700CBDDAB /* icon-72-2x.png in Resources */,
 				1F766FE213BBADB100FB74C0 /* Localizable.strings in Resources */,
@@ -532,6 +548,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
@@ -566,6 +584,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
@@ -620,7 +640,7 @@
 					"\"$(OBJROOT)/UninstalledProducts/include\"",
 					"\"$(BUILT_PRODUCTS_DIR)\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
@@ -669,7 +689,7 @@
 					"\"$(OBJROOT)/UninstalledProducts/include\"",
 					"\"$(BUILT_PRODUCTS_DIR)\"",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					CoreFoundation,
