@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="" />
+    <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="CRT_App.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +30,7 @@
           <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/crt.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="163" column="22" selection-start="4084" selection-end="4084" vertical-scroll-proportion="-97.8" vertical-offset="0" max-vertical-offset="3345">
+                <state line="163" column="22" selection-start="4084" selection-end="4084" vertical-scroll-proportion="0.0" vertical-offset="2445" max-vertical-offset="3345">
                   <folding />
                 </state>
               </provider>
@@ -43,10 +45,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/config.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="62" column="67" selection-start="4638" selection-end="4638" vertical-scroll-proportion="0.75961536" vertical-offset="456" max-vertical-offset="1395">
+                <state line="62" column="67" selection-start="4638" selection-end="4638" vertical-scroll-proportion="0.8043185" vertical-offset="334" max-vertical-offset="1395">
                   <folding />
                 </state>
               </provider>
@@ -64,7 +66,7 @@
           <file leaf-file-name="runs.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/runs.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="438" column="146" selection-start="37628" selection-end="37641" vertical-scroll-proportion="-4.2156863" vertical-offset="6355" max-vertical-offset="7260">
+                <state line="438" column="146" selection-start="37628" selection-end="37641" vertical-scroll-proportion="0.0" vertical-offset="6570" max-vertical-offset="7260">
                   <folding />
                 </state>
               </provider>
@@ -73,7 +75,7 @@
           <file leaf-file-name="cityView.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/cityView.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="47" selection-start="121" selection-end="121" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="300">
+                <state line="2" column="47" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="300">
                   <folding />
                 </state>
               </provider>
@@ -82,7 +84,7 @@
           <file leaf-file-name="runTypeView.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/runTypeView.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="40" selection-start="987" selection-end="987" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="645">
+                <state line="28" column="40" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="645">
                   <folding />
                 </state>
               </provider>
@@ -91,7 +93,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="945">
+                <state line="14" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="945">
                   <folding />
                 </state>
               </provider>
@@ -104,7 +106,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="0" selection-start="856" selection-end="856" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="945">
+                <state line="27" column="0" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="945">
                   <folding />
                 </state>
               </provider>
@@ -113,7 +115,7 @@
           <file leaf-file-name="cordova.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/cordova.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102630">
+                <state line="31" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="102630">
                   <folding />
                 </state>
               </provider>
@@ -126,10 +128,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="crt.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="crt.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/crt.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="26" selection-start="499" selection-end="499" vertical-scroll-proportion="0.3344426" vertical-offset="369" max-vertical-offset="5250">
+                <state line="38" column="26" selection-start="499" selection-end="499" vertical-scroll-proportion="0.2799443" vertical-offset="369" max-vertical-offset="5250">
                   <folding />
                 </state>
               </provider>
@@ -138,7 +140,7 @@
           <file leaf-file-name="groupRunList.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/groupRunList.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="4" selection-start="63" selection-end="119" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="240">
+                <state line="2" column="4" selection-start="63" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="240">
                   <folding />
                 </state>
               </provider>
@@ -184,10 +186,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="22" />
-    <option name="width" value="1914" />
-    <option name="height" value="1058" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -287,14 +287,14 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.14057143" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="reference.settings.deploy.options" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/atlassian-ide-plugin.xml" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../slz-sri-international" />
+    <property name="FullScreen" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="CRT_App" serverId="50415a35-2cb5-4617-ad60-9b78ae00a805" autoUpload="true" autoUploadExternalChanges="true">
     <servers>
@@ -347,6 +347,14 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.CRT_on_b2d2">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -355,14 +363,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -444,21 +444,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="1914" height="1058" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21428572" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3304904" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986793" sideWeight="0.78404254" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14066632" sideWeight="0.5607676" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29104477" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14066632" sideWeight="0.14818764" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1402214" sideWeight="0.5607985" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29038113" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1402214" sideWeight="0.14791289" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12793177" sideWeight="0.5002641" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21428572" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -550,14 +550,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/runs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="438" column="146" selection-start="37628" selection-end="37641" vertical-scroll-proportion="-4.2156863" vertical-offset="6355" max-vertical-offset="7260">
+        <state line="438" column="146" selection-start="37628" selection-end="37641" vertical-scroll-proportion="0.0" vertical-offset="6570" max-vertical-offset="7260">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="22" selection-start="4084" selection-end="4084" vertical-scroll-proportion="-97.8" vertical-offset="0" max-vertical-offset="3345">
+        <state line="163" column="22" selection-start="4084" selection-end="4084" vertical-scroll-proportion="0.0" vertical-offset="2445" max-vertical-offset="3345">
           <folding />
         </state>
       </provider>
@@ -569,42 +569,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="945">
+        <state line="27" column="0" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="945">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/groupRunList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="63" selection-end="119" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="240">
+        <state line="2" column="4" selection-start="63" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/cityView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="47" selection-start="121" selection-end="121" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/crt.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="26" selection-start="499" selection-end="499" vertical-scroll-proportion="0.3344426" vertical-offset="369" max-vertical-offset="5250">
+        <state line="2" column="47" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/runTypeView.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="40" selection-start="987" selection-end="987" vertical-scroll-proportion="-17.5" vertical-offset="0" max-vertical-offset="645">
+        <state line="28" column="40" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="67" selection-start="4638" selection-end="4638" vertical-scroll-proportion="0.75961536" vertical-offset="456" max-vertical-offset="1395">
+        <state line="62" column="67" selection-start="4638" selection-end="4638" vertical-scroll-proportion="0.8043185" vertical-offset="334" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/crt.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="26" selection-start="499" selection-end="499" vertical-scroll-proportion="0.2799443" vertical-offset="369" max-vertical-offset="5250">
           <folding />
         </state>
       </provider>
