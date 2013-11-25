@@ -302,32 +302,32 @@ function getRunPaths(){
                              runs: [
                                     {
                                     name: 'Liberty Bell',
-                                    url: 'https://register.racevine.com/events/philadelphia-pa/city-running-tours---liberty-bell-k-',
+                                    url: 'https://register.racevine.com/events/philadelphia-pa/city-running-tours---liberty-bell-running-tour',
                                     description: "A fantastic 3 mile tour for runners looking for Philly's historic highlights. Visit the Liberty Bell, Washington Square, cobblestone streets and America's oldest residential street. You can't go wrong with this tour!"
                                     },
                                     {
                                     name: 'Historic Philadelphia',
-                                    url: 'http://register.racevine.com/events/philadelphia-pa/city-running-tours---historic-philadelphia-k',
+                                    url: 'https://register.racevine.com/events/philadelphia-pa/city-running-tours---historic-philadelphia-running-tour',
                                     description: "See 6 miles of the streets of Philadelphia through our Founders' eyes. Visit America's oldest residential street, follow Ben Franklin's footsteps and pause at several war memorials honoring Philadelphia's many veterans."
                                     },
                                     {
                                     name: 'Run the Yards Beer',
-                                    url: 'http://register.racevine.com/events/philadelphia-pa/city-running-tours---running-the-yards-k',
+                                    url: 'https://register.racevine.com/events/philadelphia-pa/city-running-tours---running-the-yards-',
                                     description: "Beer? A running tour? Yes, please! See Philly's founder's home site, a Continental Congress hangout and stand under the towering Franklin bridge. Oh, and finish the tour with a fresh-brewed beer and tour at the famed Yards Brewery."
                                     },
                                     {
                                     name: 'Rocky Steps/Art Museum',
-                                    url: 'http://register.racevine.com/events/philadelphia-pa/city-running-tours---rocky-steps-art-museum-k',
+                                    url: 'https://register.racevine.com/events/philadelphia-pa/city-running-tours---rocky-steps-art-museum-running-tour',
                                     description: "Run the famed Rocky Steps, catch one of the most spectacular views of downtown Philly, and get a taste of our rich museum culture. This 6 mile tour includes a popular running trail, riverfront views and window shopping in a premier shopping neighborhood."
                                     },
                                     {
                                     name: 'River to River',
-                                    url: 'http://register.racevine.com/events/philadelphia-pa/city-running-tours---philadelphia-river-to-river-k',
+                                    url: 'https://register.racevine.com/events/philadelphia-pa/city-running-tours---philadelphia-s-river-to-river-running-tour',
                                     description: "Run 6 miles from the Schuylkill to Delaware River and see everything in between. Chinatown, Love Park and Center City and a some serious Philly culture along the way. A great route to see the main sites in one run."
                                     },
                                     {
                                     name: 'South Philly/Italian Market',
-                                    url: 'http://register.racevine.com/events/philadelphia-pa/city-running-tours---south-philly-italian-market-k-',
+                                    url: 'https://register.racevine.com/events/philadelphia-pa/city-running-tours---south-philly-italian-market-running-tour',
                                     description: "Run in Rocky's footsteps, see the famed Italian Market and stop by South Street for some mirrored gardens. Hear more about the cheese steak rivalry and see where it all happens.  A cool 6 mile tour to see Philly's 'off the beaten' path."
                                     }
                                     ]
@@ -478,7 +478,7 @@ function getRunPaths(){
                              ]
                     }
                     ];
-
+    
     
     return{
     paths: function() {
