@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a9656211-9c0b-4c14-9a3c-a266bbbeaaa5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/crt.css" afterPath="$PROJECT_DIR$/css/crt.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runs.js" afterPath="$PROJECT_DIR$/runs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CRT_App.iws" />
@@ -26,7 +26,7 @@
     <favorites_list name="CRT_App" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49662784">
+    <splitter split-orientation="horizontal" split-proportion="0.8011551">
       <split-first>
         <leaf>
           <file leaf-file-name="crt.js" pinned="false" current="false" current-in-tab="false">
@@ -47,15 +47,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/config.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="13" selection-start="544" selection-end="544" vertical-scroll-proportion="0.2988792" vertical-offset="0" max-vertical-offset="1395">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="atlassian-ide-plugin.xml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/atlassian-ide-plugin.xml">
               <provider selected="true" editor-type-id="text-editor">
@@ -68,7 +59,7 @@
           <file leaf-file-name="runs.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/runs.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="438" column="16" selection-start="47093" selection-end="47093" vertical-scroll-proportion="0.0" vertical-offset="6415" max-vertical-offset="7410">
+                <state line="314" column="134" selection-start="31417" selection-end="31417" vertical-scroll-proportion="0.0" vertical-offset="4440" max-vertical-offset="7410">
                   <folding />
                 </state>
               </provider>
@@ -95,7 +86,16 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="945">
+                <state line="14" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="945">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/config.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="6" column="26" selection-start="278" selection-end="278" vertical-scroll-proportion="0.18947369" vertical-offset="0" max-vertical-offset="1395">
                   <folding />
                 </state>
               </provider>
@@ -130,10 +130,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="crt.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="crt.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/crt.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="45" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.3220339" vertical-offset="409" max-vertical-offset="4680">
+                <state line="42" column="23" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="4680">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="paths.txt" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/Desktop/paths.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="0" selection-start="2" selection-end="3" vertical-scroll-proportion="0.10489511" vertical-offset="0" max-vertical-offset="429">
                   <folding />
                 </state>
               </provider>
@@ -168,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/cityView.html" />
         <option value="$PROJECT_DIR$/runTypeView.html" />
         <option value="$PROJECT_DIR$/views/contacts.html" />
         <option value="$PROJECT_DIR$/www/EmailComposer.js" />
@@ -176,20 +184,21 @@
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/crt.js" />
         <option value="$PROJECT_DIR$/cordova.js" />
-        <option value="$PROJECT_DIR$/runs.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/groupRunList.html" />
         <option value="$PROJECT_DIR$/views/cityView.html" />
         <option value="$PROJECT_DIR$/views/runTypeView.html" />
         <option value="$PROJECT_DIR$/crt.js" />
         <option value="$PROJECT_DIR$/css/crt.css" />
+        <option value="$USER_HOME$/Desktop/paths.txt" />
+        <option value="$PROJECT_DIR$/runs.js" />
         <option value="$PROJECT_DIR$/config.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1200" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -246,6 +255,10 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+        <subPane subId="All" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,10 +311,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
-        <subPane subId="All" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,7 +318,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="web.server" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/paths.txt" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="FullScreen" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
@@ -449,7 +458,11 @@
       <created>1384640601259</created>
       <updated>1384640601259</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="layout fixes&#10;">
+      <created>1384874522388</created>
+      <updated>1384874522388</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -473,17 +486,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21324864" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940108" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21268657" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3304904" sideWeight="0.49973586" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.49973586" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986793" sideWeight="0.78404254" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1402214" sideWeight="0.62250453" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22724065" sideWeight="0.5298507" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29038113" sideWeight="0.49973586" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1402214" sideWeight="0.16424683" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22724065" sideWeight="0.14054726" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12793177" sideWeight="0.5002641" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -492,7 +506,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299389" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -506,7 +519,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="new runs manager icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="new runs manager icons" />
+    <MESSAGE value="layout fixes&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="layout fixes&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,13 +547,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="62" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="3345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/cityView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
@@ -559,9 +566,9 @@
         <state line="442" column="23" selection-start="9623" selection-end="9623" vertical-scroll-proportion="0.33228347" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cordova.ios.js">
+    <entry file="file://$PROJECT_DIR$/crt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="96360">
+        <state line="95" column="26" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.0" vertical-offset="1167" max-vertical-offset="3345">
           <folding />
         </state>
       </provider>
@@ -569,27 +576,6 @@
     <entry file="file://$PROJECT_DIR$/atlassian-ide-plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="889">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cordova.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/groupRunList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="63" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
@@ -608,9 +594,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runs.js">
+    <entry file="file://$PROJECT_DIR$/cordova.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="438" column="16" selection-start="47093" selection-end="47093" vertical-scroll-proportion="0.0" vertical-offset="6415" max-vertical-offset="7410">
+        <state line="31" column="0" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102630">
           <folding />
         </state>
       </provider>
@@ -620,23 +606,51 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crt.js">
+    <entry file="file://$PROJECT_DIR$/views/groupRunList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="26" selection-start="2401" selection-end="2401" vertical-scroll-proportion="0.0" vertical-offset="1167" max-vertical-offset="3345">
+        <state line="2" column="4" selection-start="63" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/cordova.ios.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="544" selection-end="544" vertical-scroll-proportion="0.2988792" vertical-offset="0" max-vertical-offset="1395">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="96360">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/crt.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="619" selection-end="619" vertical-scroll-proportion="0.3220339" vertical-offset="409" max-vertical-offset="4680">
+        <state line="42" column="23" selection-start="593" selection-end="593" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="4680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/paths.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="2" selection-end="3" vertical-scroll-proportion="0.10489511" vertical-offset="0" max-vertical-offset="429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="314" column="134" selection-start="31417" selection-end="31417" vertical-scroll-proportion="0.0" vertical-offset="4440" max-vertical-offset="7410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="436" selection-end="436" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="278" selection-end="278" vertical-scroll-proportion="0.18947369" vertical-offset="0" max-vertical-offset="1395">
           <folding />
         </state>
       </provider>
